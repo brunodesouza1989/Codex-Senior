@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{42096355-2459-f111-bec6-0022482557cc}" Name="Lead Senior" Description="BPF Senior para qualificacao de Cliente Potencial: Entrada, Filtro 1, Filtro 2, Agendado e Qualificado." xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/LeadSenior-42096355-2459-F111-BEC6-0022482557CC.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>1</processorder>
+  <RunAs>1</RunAs>
+  <UniqueName>nexer_bpf_leadsenior440963552459f111bec60022482557cc</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <ModernFlowType>0</ModernFlowType>
+  <PrimaryEntity>Lead</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1046" description="Lead Senior" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1046" description="BPF Senior para qualificacao de Cliente Potencial: Entrada, Filtro 1, Filtro 2, Agendado e Qualificado." />
+  </Descriptions>
+  <labels>
+    <steplabels id="{bd519a98-3129-4556-85e4-82940ccae6f7}">
+      <label languagecode="1046" description="Entrada" />
+    </steplabels>
+    <steplabels id="{3f776ee8-1df1-42b7-9df8-a008cdd034b4}">
+      <label languagecode="1046" description="Origem" />
+    </steplabels>
+    <steplabels id="{a004e9d3-3fab-448b-a60d-d038e79b3fe5}">
+      <label languagecode="1046" description="Empresa" />
+    </steplabels>
+    <steplabels id="{6647554b-df6a-40fc-85a2-75d18df8958f}">
+      <label languagecode="1046" description="Nome" />
+    </steplabels>
+    <steplabels id="{de64a8a7-66af-4ff3-8949-2b1e9a452eff}">
+      <label languagecode="1046" description="Sobrenome" />
+    </steplabels>
+    <steplabels id="{7e58fad6-80cf-410b-896d-230924a5e794}">
+      <label languagecode="1046" description="Email" />
+    </steplabels>
+    <steplabels id="{caa1d289-5dd8-45bd-9677-6bdda25c7a6b}">
+      <label languagecode="1046" description="Telefone" />
+    </steplabels>
+    <steplabels id="{2d4c3adf-b12c-4a3d-907a-547a0992894a}">
+      <label languagecode="1046" description="Filtro 1" />
+    </steplabels>
+    <steplabels id="{e025f89e-1be0-4176-9333-52313f56cd0e}">
+      <label languagecode="1046" description="Segmento" />
+    </steplabels>
+    <steplabels id="{a7c51048-29f9-42a4-b194-658a37f38949}">
+      <label languagecode="1046" description="Linha Senior" />
+    </steplabels>
+    <steplabels id="{67e19b05-7dfd-4b80-b426-d7ac830b353b}">
+      <label languagecode="1046" description="Aderencia Senior" />
+    </steplabels>
+    <steplabels id="{fcc66f03-6600-4780-a38a-7e890d6f7dbd}">
+      <label languagecode="1046" description="Filtro 2" />
+    </steplabels>
+    <steplabels id="{ad7d186a-dfbf-47b8-8788-b63345906f39}">
+      <label languagecode="1046" description="Dor e Necessidade" />
+    </steplabels>
+    <steplabels id="{06a16463-252c-4a80-9298-6d7d63d3e573}">
+      <label languagecode="1046" description="Status Do Orcamento" />
+    </steplabels>
+    <steplabels id="{9ad5b4db-7d0d-444a-a58d-37950ea3b5ca}">
+      <label languagecode="1046" description="Orcamento" />
+    </steplabels>
+    <steplabels id="{8081b4ea-e7ab-4cfb-bcdf-a0a96f7cf154}">
+      <label languagecode="1046" description="Prazo" />
+    </steplabels>
+    <steplabels id="{e7a6e91a-3f66-4849-ba22-a047041daf80}">
+      <label languagecode="1046" description="Agendado" />
+    </steplabels>
+    <steplabels id="{915442ed-a64b-4973-97b5-a3524e67bbb9}">
+      <label languagecode="1046" description="Responsavel" />
+    </steplabels>
+    <steplabels id="{c6755696-184b-48c3-912c-119b0def88cd}">
+      <label languagecode="1046" description="Proxima Acao" />
+    </steplabels>
+    <steplabels id="{a56fec16-2461-4bd4-b32e-55f65c4a853a}">
+      <label languagecode="1046" description="Qualificado" />
+    </steplabels>
+    <steplabels id="{f8a147d9-3bd4-4521-8e52-981dd8f47053}">
+      <label languagecode="1046" description="Processo De Compra" />
+    </steplabels>
+    <steplabels id="{ff65d27e-42cf-4469-9573-c364846657c7}">
+      <label languagecode="1046" description="Potencial Financeiro" />
+    </steplabels>
+    <steplabels id="{52cb2709-b8d6-4c95-83ab-2a3e7a486eb9}">
+      <label languagecode="1046" description="Aderencia Final" />
+    </steplabels>
+  </labels>
+</Workflow>

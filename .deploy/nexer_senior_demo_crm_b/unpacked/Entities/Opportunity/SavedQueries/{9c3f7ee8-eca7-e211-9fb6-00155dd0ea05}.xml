@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{9c3f7ee8-eca7-e211-9fb6-00155dd0ea05}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" preview="1" icon="1">
+        <row name="result" id="opportunityid">
+          <cell name="name" width="150" />
+          <cell name="estimatedvalue" width="100" />
+          <cell name="estimatedclosedate" width="100" />
+          <cell name="actualvalue" width="100" />
+          <cell name="actualclosedate" width="100" />
+          <cell name="statecode" width="100" />
+          <cell name="parentcontactid" width="100" />
+          <cell name="parentaccountid" width="100" />
+          <cell name="new_melhordiadepagamento" width="184" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="opportunity">
+          <order attribute="statecode" descending="false" />
+          <order attribute="estimatedclosedate" descending="true" />
+          <filter type="and">
+            <filter type="or">
+              <condition attribute="statecode" operator="eq" value="0" />
+              <filter type="and">
+                <condition attribute="actualclosedate" operator="last-x-months" value="12" />
+                <condition attribute="statecode" operator="eq" value="1" />
+              </filter>
+            </filter>
+          </filter>
+          <attribute name="statecode" />
+          <attribute name="estimatedvalue" />
+          <attribute name="estimatedclosedate" />
+          <attribute name="actualvalue" />
+          <attribute name="actualclosedate" />
+          <attribute name="name" />
+          <attribute name="opportunityid" />
+          <attribute name="parentcontactid" />
+          <attribute name="parentaccountid" />
+          <attribute name="modifiedon" />
+          <order attribute="modifiedon" descending="true" />
+          <attribute name="new_melhordiadepagamento" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>6.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Recent Opportunities" languagecode="1033" />
+      <LocalizedName description="Oportunidades Recentes" languagecode="1046" />
+      <LocalizedName description="Oportunidades recientes" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Recent Opportunities" languagecode="1033" />
+      <Description description="Oportunidades Recentes" languagecode="1046" />
+      <Description description="Oportunidades recientes" languagecode="3082" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

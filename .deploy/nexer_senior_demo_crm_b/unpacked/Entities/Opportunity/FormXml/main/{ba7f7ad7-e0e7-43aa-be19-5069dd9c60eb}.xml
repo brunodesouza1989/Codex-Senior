@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{ba7f7ad7-e0e7-43aa-be19-5069dd9c60eb}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form showImage="true" headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab name="Summary" verticallayout="true" id="{b6a005fd-5964-4427-b39b-6750e1a5fa6f}" IsUserDefined="0" expanded="false" locklevel="0" showlabel="true" labelid="{1bb6be81-6d78-4fda-b40a-a6b48d67859f}" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="Summary_keydetails" showlabel="true" showbar="true" locklevel="0" id="{1aa53a20-ce44-d170-19b6-9e467d24cad0}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="215" labelid="{fb8bdc8b-ba82-4e9e-a2ff-0a45352c7619}" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{09599070-e416-9a3d-3811-9ba1c1094e6c}" showlabel="true" locklevel="0" labelid="{4ce75cab-cadf-4cd6-b0f5-98a34791a7cf}" ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0a8dda27-c019-be79-11e7-598e18666a61}" showlabel="true" locklevel="0" ordinalvalue="10001">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e86ba01d-d61c-3d25-40d7-92c48a1e5be6}" showlabel="true" locklevel="0" ordinalvalue="10002">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{76787606-85b2-90c2-57ae-307873b1ba62}" showlabel="true" locklevel="0" ordinalvalue="10003">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d70d1665-6247-ca77-5ebc-73a094d2dc6e}" showlabel="true" locklevel="0" ordinalvalue="10004">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{95019bd8-6362-03d4-0a2b-83acd92e1258}" showlabel="true" locklevel="1" labelid="{491080c1-ed01-436d-b7f2-a839cee8f8de}" ordinalvalue="10006" solutionaction="Modified">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c809a065-ce9a-476e-ab22-1dfecca17403}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10005" solutionaction="Added">
+                        <labels>
+                          <label description="Desconto" languagecode="1046" />
+                          <label description="Opportunity Discount (%)" languagecode="1033" />
+                          <label description="Descuento de oportunidad (%)" languagecode="3082" />
+                        </labels>
+                        <control id="discountpercentage" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="discountpercentage" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{eab82f53-f5ad-4333-8692-7528a164a355}" locklevel="0" rowspan="1" colspan="1" visible="false" availableforphone="false" ordinalvalue="10007" solutionaction="Added">
+                        <labels>
+                          <label description="Melhor dia de pagamento" languagecode="1046" />
+                        </labels>
+                        <control id="new_melhordiadepagamento" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="new_melhordiadepagamento" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Summary_contacts" showlabel="true" showbar="true" locklevel="0" id="{9bb29c30-e890-dcd6-d341-2a7601be0b2d}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="230" labelid="{ae184ff4-8a70-49d5-aaf1-b942bf58d678}" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{ca3d743a-5255-346e-087c-ce07c8ac6450}" showlabel="true" locklevel="0" labelid="{abb06620-3af7-4fd9-95df-74dece74c4a2}" ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Summary_collaboration" showlabel="true" showbar="true" locklevel="0" id="{0669ad27-7453-c9ad-2147-78852c4140a6}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="2">
+                  <rows>
+                    <row>
+                      <cell id="{01bec568-7663-1613-b916-dd7765cc167d}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
+                    </row>
+                  </rows>
+                </section>
+                <section name="Summary_notes" showlabel="true" showbar="true" locklevel="0" id="{7d07dc32-0bed-6d64-0000-7c152751b163}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="3">
+                  <rows>
+                    <row>
+                      <cell id="{4c28853e-aebe-a548-3da8-5ead3cea75e6}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
+                    </row>
+                  </rows>
+                </section>
+                <section name="Summary_tasks" showlabel="true" showbar="true" locklevel="0" id="{358900d9-861c-9e36-769a-3a160476dd3a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="4">
+                  <rows>
+                    <row>
+                      <cell id="{4b61bcc0-8269-c114-c835-d32281ae8656}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Activity" id="{3473da70-2e11-cb1a-b576-966e5054aa34}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" ordinalvalue="1">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="tab_3_section_1" showlabel="false" showbar="false" locklevel="0" id="{4138a1ab-59a1-5db0-98c1-7a4c79a38ca6}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{84d8742d-4742-c360-471c-0c2317da3b65}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Ignore" id="{8dc6730b-4e76-06a6-7820-228951837760}" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{840a24b3-b043-4495-857f-0eddf4876ebf}" expanded="false" ordinalvalue="2">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="tab_9_section_3" showlabel="false" showbar="true" locklevel="0" id="{c93a4139-687b-110c-e4e1-46a4db7e1d47}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{65ab004d-e90a-7537-079e-ca770ee18a67}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{17407db9-6ca9-3269-7a26-9044988c857a}" showlabel="true" locklevel="0" visible="false" ordinalvalue="10002">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{ee909091-5a89-403e-bf82-f34512080f08}" celllabelposition="Top" columns="1" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{86001a33-ad12-622d-ec5d-58762de8b699}" showlabel="true" locklevel="0" labelid="{ead7a538-588e-4b1d-b11d-c66d1a0b2597}" ordinalvalue="10000">
+              <labels />
+            </cell>
+          </row>
+          <row>
+            <cell id="{554bb792-6a84-188a-7e22-6b94d4cd6e71}" showlabel="true" locklevel="0" labelid="{e1e905c5-d84b-40e4-9a60-04419888e6f9}" ordinalvalue="10001">
+              <labels />
+            </cell>
+          </row>
+          <row>
+            <cell id="{d2977443-b129-b687-99a6-d585711bb2c2}" showlabel="true" locklevel="0" labelid="{93cf17ab-5a27-4d09-9d3d-3b3ec3122a04}" ordinalvalue="10002">
+              <labels />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <controlDescriptions>
+        <controlDescription forControl="{3ff9a528-dd50-4aca-8f10-2e5ed73513ad}" solutionaction="Removed" />
+      </controlDescriptions>
+      <footer id="{09570ccb-7a6f-4ab4-b368-8549a9255822}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows />
+      </footer>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="In Context Form" languagecode="1033" />
+      <LocalizedName description="Formulário Contextual" languagecode="1046" />
+      <LocalizedName description="Formulario en contexto" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Updated default Account form." languagecode="1033" />
+      <Description description="Formulário Conta padrão atualizado." languagecode="1046" />
+      <Description description="Formulario predeterminado de cuenta actualizado." languagecode="3082" />
+    </Descriptions>
+  </systemform>
+</forms>

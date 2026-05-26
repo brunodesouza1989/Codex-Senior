@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{193b5ddd-2459-f111-bec7-6045bdd67d1e}</savedqueryid>
+    <querytype>8192</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical" output-format="xml-platform">
+        <entity name="nexer_bpf_leadsenior440963552459f111bec60022482557cc">
+          <attribute name="businessprocessflowinstanceid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Lead Senior" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Todos os Lead Senior ativos" languagecode="1046" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

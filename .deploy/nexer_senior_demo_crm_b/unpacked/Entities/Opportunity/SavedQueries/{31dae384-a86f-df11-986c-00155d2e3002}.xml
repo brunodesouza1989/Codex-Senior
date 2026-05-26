@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{31dae384-a86f-df11-986c-00155d2e3002}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" icon="1" preview="1">
+        <row name="result" id="opportunityid">
+          <cell name="name" width="300" />
+          <cell name="customerid" width="150" />
+          <cell name="statecode" width="50" />
+          <cell name="actualvalue" width="100" />
+          <cell name="actualclosedate" width="125" />
+          <cell name="new_melhordiadepagamento" width="184" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="opportunity">
+          <attribute name="name" />
+          <attribute name="statecode" />
+          <attribute name="actualvalue" />
+          <attribute name="actualclosedate" />
+          <attribute name="customerid" />
+          <order attribute="actualvalue" descending="true" />
+          <filter type="and">
+            <filter type="or">
+              <condition attribute="statecode" operator="eq" value="1" />
+              <condition attribute="statecode" operator="eq" value="2" />
+            </filter>
+            <condition attribute="actualclosedate" operator="this-fiscal-year" />
+            <condition attribute="ownerid" operator="eq-userid" />
+          </filter>
+          <attribute name="opportunityid" />
+          <attribute name="new_melhordiadepagamento" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="My Closed Opportunities in Current Fiscal Year" languagecode="1033" />
+      <LocalizedName description="Minhas Oportunidades Fechadas no Ano Fiscal Atual" languagecode="1046" />
+      <LocalizedName description="Mis oportunidades cerradas en el año fiscal actual" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Shows opportunities for the current user that are closed for the current fiscal year." languagecode="1033" />
+      <Description description="Mostra as oportunidades para o usuário atual que estão fechadas no ano fiscal atual." languagecode="1046" />
+      <Description description="Muestra las oportunidades para el usuario actual que están cerradas para el año fiscal actual." languagecode="3082" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

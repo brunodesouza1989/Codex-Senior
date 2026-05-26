@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{5ef064fd-32ad-470c-a975-e7a8ead05067}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{bd519a98-3129-4556-85e4-82940ccae6f7}" name="StageStep2" locklevel="0" expanded="true" visible="false" labelid="{89659353-d2d1-4821-9f0d-047854ccf7bc}">
+          <labels>
+            <label description="Entrada" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{c008a6d2-a972-0fe9-5bc1-06f18254b578}" name="StageStep2_section1" labelid="{133aae84-b49c-4ec6-bf8a-86a8d6ccd580}">
+                  <labels>
+                    <label description="Entrada" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3f776ee8-1df1-42b7-9df8-a008cdd034b4}" showlabel="true" visible="true" labelid="{abc872eb-be37-45e4-b133-defbcd6fa877}">
+                        <labels>
+                          <label description="Origem" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc:leadsourcecode" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="leadsourcecode" disabled="false" relationship="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc" isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a004e9d3-3fab-448b-a60d-d038e79b3fe5}" showlabel="true" visible="true" labelid="{ab263aa1-be5f-4efa-8cff-553b689c30bc}">
+                        <labels>
+                          <label description="Empresa" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc:companyname" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="companyname" disabled="false" relationship="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc" isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6647554b-df6a-40fc-85a2-75d18df8958f}" showlabel="true" visible="true" labelid="{2e38e556-07a5-48ee-b1ff-065ba560ca76}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc:firstname" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="firstname" disabled="false" relationship="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc" isrequired="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{de64a8a7-66af-4ff3-8949-2b1e9a452eff}" showlabel="true" visible="true" labelid="{4b443c0c-ef30-4a9f-beb6-5d2de2eae6af}">
+                        <labels>
+                          <label description="Sobrenome" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc:lastname" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="lastname" disabled="false" relationship="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc" isrequired="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7e58fad6-80cf-410b-896d-230924a5e794}" showlabel="true" visible="true" labelid="{e7c88c44-49ba-4991-85ed-8e20863c7660}">
+                        <labels>
+                          <label description="Email" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc:emailaddress1" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="emailaddress1" disabled="false" relationship="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc" isrequired="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{caa1d289-5dd8-45bd-9677-6bdda25c7a6b}" showlabel="true" visible="true" labelid="{345af306-c488-4c95-b945-7c8d2e973d5b}">
+                        <labels>
+                          <label description="Telefone" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc:telephone1" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="telephone1" disabled="false" relationship="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{2d4c3adf-b12c-4a3d-907a-547a0992894a}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{1df00f74-dbc3-4466-8f60-29eae8b82171}">
+          <labels>
+            <label description="Filtro 1" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{60216d2c-da5e-661f-c74f-66ca4af48d12}" name="StageStep3_section1" labelid="{e9117389-cc89-410c-b769-61f38f0d1c2f}">
+                  <labels>
+                    <label description="Filtro 1" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e025f89e-1be0-4176-9333-52313f56cd0e}" showlabel="true" visible="true" labelid="{bc8dce56-6c8a-4c68-963c-730056ed8f80}">
+                        <labels>
+                          <label description="Segmento" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc:industrycode" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="industrycode" disabled="false" relationship="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc" isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a7c51048-29f9-42a4-b194-658a37f38949}" showlabel="true" visible="true" labelid="{96d4f145-f0ae-4722-bff0-963c6ae90b80}">
+                        <labels>
+                          <label description="Linha Senior" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc:nexer_interessedocliente" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="nexer_interessedocliente" disabled="false" relationship="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc" isrequired="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{67e19b05-7dfd-4b80-b426-d7ac830b353b}" showlabel="true" visible="true" labelid="{52cf1689-8ab1-4335-9a13-b9d17347359e}">
+                        <labels>
+                          <label description="Aderencia Senior" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc:leadqualitycode" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="leadqualitycode" disabled="false" relationship="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{fcc66f03-6600-4780-a38a-7e890d6f7dbd}" name="StageStep4" locklevel="0" expanded="true" visible="false" labelid="{dbbce6a1-fcbd-4d69-81a6-849ad4680fee}">
+          <labels>
+            <label description="Filtro 2" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{f057e635-9ef1-2364-7f0f-9474aae89af0}" name="StageStep4_section1" labelid="{fe26a8ec-1821-47f4-b38c-7cecd369d241}">
+                  <labels>
+                    <label description="Filtro 2" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ad7d186a-dfbf-47b8-8788-b63345906f39}" showlabel="true" visible="true" labelid="{a2c9893d-e780-4f94-97d5-71af319c4e26}">
+                        <labels>
+                          <label description="Dor e Necessidade" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc:qualificationcomments" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="qualificationcomments" disabled="false" relationship="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc" isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{06a16463-252c-4a80-9298-6d7d63d3e573}" showlabel="true" visible="true" labelid="{267a9e89-5c1a-4f13-be26-5d5a6c9fdbe0}">
+                        <labels>
+                          <label description="Status Do Orcamento" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc:budgetstatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="budgetstatus" disabled="false" relationship="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc" isrequired="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9ad5b4db-7d0d-444a-a58d-37950ea3b5ca}" showlabel="true" visible="true" labelid="{e4a803dc-6788-4996-9f0d-2f54368c8c17}">
+                        <labels>
+                          <label description="Orcamento" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc:budgetamount" classid="{533b9e00-756b-4312-95a0-dc888637ac78}" datafieldname="budgetamount" disabled="false" relationship="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc" isrequired="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8081b4ea-e7ab-4cfb-bcdf-a0a96f7cf154}" showlabel="true" visible="true" labelid="{94e4b894-4244-4a81-a98a-8907316e428b}">
+                        <labels>
+                          <label description="Prazo" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc:purchasetimeframe" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="purchasetimeframe" disabled="false" relationship="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{e7a6e91a-3f66-4849-ba22-a047041daf80}" name="StageStep5" locklevel="0" expanded="true" visible="false" labelid="{f6c5c822-9c88-48db-a6bc-feee8fcdaa5d}">
+          <labels>
+            <label description="Agendado" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{563f23f4-dd78-14d0-55be-83507987f1b9}" name="StageStep5_section1" labelid="{0169912d-4b84-42d5-be78-491c0fab77c1}">
+                  <labels>
+                    <label description="Agendado" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{915442ed-a64b-4973-97b5-a3524e67bbb9}" showlabel="true" visible="true" labelid="{515b882a-e81d-4e84-9c41-2cead8c30e6f}">
+                        <labels>
+                          <label description="Responsavel" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc:ownerid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="ownerid" disabled="false" relationship="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc" isrequired="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c6755696-184b-48c3-912c-119b0def88cd}" showlabel="true" visible="true" labelid="{e22316a5-0009-4083-9d19-ee891ede6731}">
+                        <labels>
+                          <label description="Proxima Acao" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc:description" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="description" disabled="false" relationship="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{a56fec16-2461-4bd4-b32e-55f65c4a853a}" name="StageStep6" locklevel="0" expanded="true" visible="false" labelid="{7ed0e5b4-a799-4684-98f1-27c294df8a16}">
+          <labels>
+            <label description="Qualificado" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{b441dd85-084f-5ce4-a3a3-c44f4a44b46c}" name="StageStep6_section1" labelid="{6285634e-6207-47d8-bf2d-0e3ebee99a14}">
+                  <labels>
+                    <label description="Qualificado" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f8a147d9-3bd4-4521-8e52-981dd8f47053}" showlabel="true" visible="true" labelid="{b9ef5a94-3de2-4cb3-ac26-1a4e559bbe30}">
+                        <labels>
+                          <label description="Processo De Compra" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc:purchaseprocess" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="purchaseprocess" disabled="false" relationship="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc" isrequired="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ff65d27e-42cf-4469-9573-c364846657c7}" showlabel="true" visible="true" labelid="{6e6d1b9b-fb8e-43d7-b2f5-c845f8a57792}">
+                        <labels>
+                          <label description="Potencial Financeiro" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc:revenue" classid="{533b9e00-756b-4312-95a0-dc888637ac78}" datafieldname="revenue" disabled="false" relationship="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc" isrequired="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{52cb2709-b8d6-4c95-83ab-2a3e7a486eb9}" showlabel="true" visible="true" labelid="{34a8b0c3-6278-4a70-ac4d-df425557062f}">
+                        <labels>
+                          <label description="Aderencia Final" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc:leadqualitycode" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="leadqualitycode" disabled="false" relationship="bpf_lead_nexer_bpf_leadsenior440963552459f111bec60022482557cc" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Informações" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Um formulário para esta entidade." languagecode="1046" />
+    </Descriptions>
+  </systemform>
+</forms>

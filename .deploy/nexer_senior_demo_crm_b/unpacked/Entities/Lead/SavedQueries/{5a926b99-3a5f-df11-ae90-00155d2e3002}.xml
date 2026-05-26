@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{5a926b99-3a5f-df11-ae90-00155d2e3002}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="fullname" select="1" icon="1" preview="1">
+        <row name="result" id="leadid">
+          <cell name="fullname" width="300" />
+          <cell name="subject" width="200" />
+          <cell name="ownerid" width="100" />
+          <cell name="statuscode" width="100" />
+          <cell name="createdon" width="125" />
+          <cell name="companyname" ishidden="1" width="100" />
+          <cell name="modifiedon" width="113" />
+          <cell name="emailaddress1" width="100" />
+          <cell name="customerid" width="100" />
+          <cell name="description" width="106" />
+          <cell name="mobilephone" width="119" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="lead">
+          <attribute name="fullname" />
+          <attribute name="createdon" />
+          <attribute name="statuscode" />
+          <attribute name="subject" />
+          <order attribute="createdon" descending="true" />
+          <attribute name="ownerid" />
+          <attribute name="leadid" />
+          <attribute name="modifiedon" />
+          <attribute name="emailaddress1" />
+          <attribute name="customerid" />
+          <attribute name="description" />
+          <attribute name="mobilephone" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All Leads" languagecode="1033" />
+      <LocalizedName description="Todos os Clientes Potenciais" languagecode="1046" />
+      <LocalizedName description="Todos los clientes potenciales" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Shows all leads." languagecode="1033" />
+      <Description description="Mostra todos os clientes potenciais." languagecode="1046" />
+      <Description description="Muestra todos los clientes potenciales." languagecode="3082" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,621 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}</formid>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form showImage="true" headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab name="Summary" verticallayout="true" id="{f7109214-c3bd-4734-ad5b-4054499a43d6}" IsUserDefined="0" locklevel="0" expanded="true" showlabel="true" ordinalvalue="0">
+          <columns>
+            <column width="28%" id="0">
+              <sections>
+                <section name="Contact" showlabel="true" showbar="false" id="{5693ad37-350f-4f0e-b03a-4212e78c9b6e}" IsUserDefined="0" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell colspan="1" id="{26e6720b-6c8c-4848-a8c1-4b8c8abe59f2}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0a96e915-170b-b279-d2d7-b92802959cc8}" showlabel="true" locklevel="0" ordinalvalue="10001">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{deccc6b6-e5ce-6ca2-d683-16a58247e459}" showlabel="true" locklevel="0" ordinalvalue="10002">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b8afa97d-100e-4f46-8ee8-38081d8a4404}" ordinalvalue="10003">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4c5c04eb-beea-433f-994a-5b3ddde2b924}" ordinalvalue="10004">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4622149f-38d7-4ea6-b305-f2cb7be244d0}" ordinalvalue="10005">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cea71325-a540-b11b-35c9-dd956d61512a}" showlabel="true" locklevel="0" visible="false" ordinalvalue="10006">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8b7b5998-0878-1d4a-7ad4-165b71a76194}" showlabel="true" locklevel="0" visible="false" ordinalvalue="10007">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a4d6539c-ac0b-4006-a423-72e898ad65ad}" ordinalvalue="10008">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{66543470-2735-0244-a99c-8b64a0585e3d}" showlabel="true" locklevel="0" visible="false" ordinalvalue="10009">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="company" showlabel="true" showbar="false" id="{b10ae496-2d57-4158-b595-2d83a250c001}" IsUserDefined="0" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{cd70ad75-fa8d-491a-a9e6-9164c0274dd8}" ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{582ca22b-95e3-4d0e-9d81-e29bc8100e7a}" ordinalvalue="10001">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0e2daa31-4114-2108-6a4e-7256ae06b1a0}" showlabel="true" locklevel="0" ordinalvalue="10002">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="SUMMARY_TAB_ADDRESSINPUT_SECTION" id="4901e6b4-add1-4504-8985-bebe34c7a93c" IsUserDefined="0" locklevel="0" visible="false" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="2">
+                  <rows>
+                    <row>
+                      <cell id="{d75860a2-3d5d-4909-a310-c8a1f2a33f4b}" showlabel="false" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000">
+                        <labels>
+                          <label description="Rua 1" languagecode="1046" solutionaction="Added" />
+                          <label description="Street 1" languagecode="1033" solutionaction="Added" />
+                          <label description="Calle 1" languagecode="3082" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="28%" id="2">
+              <sections>
+                <section name="RELATED_TAB" showlabel="false" showbar="false" id="{18423214-41c8-14a6-e083-a1553623339b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Top" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{69f0ab0f-dba3-4973-bfc2-2fa1f7f207a4}" colspan="1" showlabel="true" rowspan="6" ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{37fbde00-50a4-45f1-ac65-34a89185746c}" showlabel="true" colspan="1" rowspan="6" ordinalvalue="10001">
+                        <labels>
+                          <label description="CONCORRENTES" languagecode="1046" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7b253cd6-3608-8b6b-0d6e-c6c6740aedbd}" showlabel="true" colspan="1" auto="false" rowspan="6" ordinalvalue="10002">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Lead scores" id="{bd1b14be-9167-a8ed-ae3b-1942578c8213}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" ordinalvalue="2">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="lead_scores_section" showlabel="false" showbar="false" locklevel="0" id="{d67c2b8d-27ea-96eb-1aeb-21d02842039b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{e5bc1396-5b9b-ac23-1acb-68044db971ac}" showlabel="true" colspan="1" auto="false" rowspan="7" ordinalvalue="10000">
+                        <labels>
+                          <label description="Conexões" languagecode="1046" solutionaction="Added" />
+                          <label description="Connections" languagecode="1033" solutionaction="Added" />
+                          <label description="Conexiones" languagecode="3082" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="accountInsights" id="{8A02CE9D-4AFD-44F0-8F92-71E777F0FDD3}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" visible="false" ordinalvalue="3">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="insights_section_2" showlabel="false" showbar="false" locklevel="0" id="{08E4F20C-D8DE-4FAB-ABA4-482859658A8B}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{B4879A32-634F-404A-8801-880232FA1B2F}" showlabel="false" locklevel="0" ordinalvalue="10000">
+                        <labels>
+                          <label description="Insights" languagecode="1046" solutionaction="Added" />
+                          <label description="Insights" languagecode="1033" solutionaction="Added" />
+                          <label description="Información detallada" languagecode="3082" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="contactInsights" id="{AC28F8C9-4498-47C7-8D9B-2FE028CFBDAC}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" visible="false" ordinalvalue="4">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="insights_section" showlabel="false" showbar="false" locklevel="0" id="{2328D81F-CA70-4A20-8B62-DA36756DA7D8}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{58B703D6-BBA5-4078-9499-1D5A1FB35932}" showlabel="false" locklevel="0" ordinalvalue="10000">
+                        <labels>
+                          <label description="Insights" languagecode="1046" solutionaction="Added" />
+                          <label description="Insights" languagecode="1033" solutionaction="Added" />
+                          <label description="Información detallada" languagecode="3082" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="LinkedIn Lead Info" id="{45a56e96-c0cd-7987-c9a3-6c70b2b561d6}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" ordinalvalue="5">
+          <columns>
+            <column width="34%" id="0">
+              <sections>
+                <section name="LinkedIn Contact" showlabel="true" showbar="false" locklevel="0" id="{97e5c17d-d54c-db9d-c160-7c397c4d373d}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{3815ad48-9409-e021-ed20-cd373504c15b}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{81d71188-7b2c-b1d5-70c9-d3d31be28629}" showlabel="true" locklevel="0" ordinalvalue="10001">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cd7c4ad3-4221-25b1-3a28-98e227275d69}" showlabel="true" locklevel="0" ordinalvalue="10002">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2a786e06-ecb4-818a-17e4-7701715e03bb}" showlabel="true" locklevel="0" ordinalvalue="10003">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9a499d97-c586-0e60-a6a2-a136863e8dd7}" showlabel="true" locklevel="0" ordinalvalue="10004">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{85541857-565e-71a6-e49c-3b182aad81e7}" showlabel="true" locklevel="0" ordinalvalue="10005">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{05125639-4630-ed9e-3d71-ba03dbbc6440}" showlabel="true" locklevel="0" ordinalvalue="10006">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{80b1c607-c6c1-03e2-25ca-8cc879eb62cd}" showlabel="true" locklevel="0" ordinalvalue="10007">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Company" showlabel="true" showbar="false" locklevel="0" id="{20017db4-694e-5721-e517-e6ac47822766}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{8d0dc5a3-93b5-36c9-a517-2e10b233d52a}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{aa9bea28-e89c-ba5a-23d2-b1473232ec16}" showlabel="true" locklevel="0" ordinalvalue="10001">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{76b6d5eb-cd85-c714-d430-8426a9e2558b}" showlabel="true" locklevel="0" ordinalvalue="10002">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9d9b2bcc-35db-7353-1c8a-1090dd6c4da1}" showlabel="true" locklevel="0" ordinalvalue="10003">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2e99b772-254e-9399-75e5-b459e379c448}" showlabel="true" locklevel="0" ordinalvalue="10004">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1875bb0d-55b7-2612-c483-87a03ce9eb6d}" showlabel="true" locklevel="0" ordinalvalue="10005">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Education" showlabel="true" showbar="false" locklevel="0" id="{76e696b7-c098-a60c-b3b4-d36321e96218}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="2">
+                  <rows>
+                    <row>
+                      <cell id="{24bcb7a1-2656-2569-1125-63e6c9143371}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cc1ba050-e039-da07-989a-5ba935e0748a}" showlabel="true" locklevel="0" ordinalvalue="10001">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d1629458-61b4-16ba-9b20-0bdd38c6b96e}" showlabel="true" locklevel="0" ordinalvalue="10002">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d2dca211-e019-0d11-5d40-ce22a65325ee}" showlabel="true" locklevel="0" ordinalvalue="10003">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5e422cc9-8791-81d8-e488-8c662cae8842}" showlabel="true" locklevel="0" ordinalvalue="10004">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%" id="1">
+              <sections>
+                <section name="Source Context" showlabel="true" showbar="false" locklevel="0" id="{3be4a5e8-b342-a9b4-2632-c4be9da0638b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{40d1d437-b7b9-3389-a3d4-09b691928452}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e11e7209-e1c3-623a-5388-c009e31c7198}" showlabel="true" locklevel="0" ordinalvalue="10001">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0312c180-710e-5909-665c-e3707094e006}" showlabel="true" locklevel="0" ordinalvalue="10002">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4502c897-a9ab-0072-c704-43b623ecbdbe}" showlabel="true" locklevel="0" ordinalvalue="10003">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="LINKEDIN FORM SUBMISSIONS" showlabel="false" showbar="false" locklevel="0" id="{adc1b575-2865-2982-aa53-2db5e03e3696}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{581609c9-064c-9a87-4518-24ba79d96368}" showlabel="true" colspan="1" auto="false" rowspan="6" ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="details_tab" id="{9008acae-4b08-4be6-a5d3-aef9155a7f16}" IsUserDefined="0" ordinalvalue="6">
+          <columns>
+            <column width="33%" id="0">
+              <sections>
+                <section name="lead_information" showlabel="false" showbar="false" id="{494c6aa2-26f3-413f-bcab-dc093d54b82f}" IsUserDefined="0" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" height="auto" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{10b75e6c-54f9-4c13-8850-5b90cad35c6f}" showlabel="true" locklevel="0" rowspan="2" ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{de42bd58-8191-0d68-a16a-23e2ba652c55}" showlabel="false" locklevel="0" visible="false" availableforphone="false" ordinalvalue="10001">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9769aa55-a1d0-43d7-9d89-9dfccb1efd0d}" showlabel="true" locklevel="0" ordinalvalue="10002">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3cc2bc3f-03a3-47f6-a011-e217dd56ff8d}" ordinalvalue="10003">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{05a0b7d9-b602-493b-a773-e0c34e44be3c}" ordinalvalue="10004">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{aee93c8c-a239-4a6d-bb9b-6962c20dc8a9}" ordinalvalue="10005">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8f704a5d-5f33-462d-b07b-3c29ddacea29}" ordinalvalue="10006">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0a96e915-170b-b279-d2d7-b92802959cc8}" showlabel="true" locklevel="0" ordinalvalue="10007">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{81a83210-8bb7-295d-d6b9-6e29c302d7a9}" showlabel="true" locklevel="0" ordinalvalue="10008">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%" id="1">
+              <sections>
+                <section name="marketing_information" showlabel="true" showbar="false" locklevel="0" id="{9ae60f89-6507-4cd3-8c5a-c26915a7e315}" IsUserDefined="0" layout="varheight" columns="1" labelwidth="115" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{09513d13-bb7d-43b6-ad5c-9598b82b099e}" ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{d3a5f17c-30bb-4d2b-bb7f-4ef968727df7}" ordinalvalue="10001">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{a5b3e9c6-2cc7-4273-bd86-12fca3a85e4a}" ordinalvalue="10002">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c3d39441-2a42-dcd9-5144-3717107ca429}" showlabel="true" locklevel="0" ordinalvalue="10003">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{45b05bb5-4c9b-6b7e-c5d3-29e1097e3ac2}" showlabel="true" locklevel="0" ordinalvalue="10004">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ec6842b9-277b-6b21-2750-8767265b2064}" showlabel="true" locklevel="0" ordinalvalue="10005">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b95280bb-2098-4671-96d3-704e4142ac78}" showlabel="true" locklevel="0" ordinalvalue="10006">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2171e860-8abd-4e24-94b9-acf72a5b98f3}" showlabel="true" locklevel="0" ordinalvalue="10007">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ec71d15f-3660-483e-84ce-32ba47f85de2}" showlabel="true" locklevel="0" ordinalvalue="10008">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ac4cd52f-4c82-4d14-b702-65f5c1ae301a}" showlabel="true" locklevel="0" ordinalvalue="10009">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d7b1971c-c6ec-c172-22a9-3252118a8eb4}" showlabel="true" locklevel="0" ordinalvalue="10010">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b4d619e4-52c7-c479-1387-8496e513171e}" showlabel="true" locklevel="0" ordinalvalue="10011">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0c0db73d-38d3-476d-b728-4c9624539659}" showlabel="true" locklevel="0" ordinalvalue="10012">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7890c50b-b105-6d7d-eb1b-72888d0ca916}" showlabel="true" locklevel="0" ordinalvalue="10013">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d78a222e-d786-0402-2362-b2c47a64355a}" showlabel="true" locklevel="0" ordinalvalue="10014">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="EventInformationSection" showlabel="true" showbar="false" locklevel="0" id="{d73da64d-bbdd-6214-99d6-3da554148cee}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{448065a1-0632-c403-0aa8-dcc730684555}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{171212e1-684e-ed25-b3b1-a4bcd0c21ba2}" showlabel="true" locklevel="0" ordinalvalue="10001">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{689c8799-2177-0a7e-84c5-012596cae552}" showlabel="true" locklevel="0" ordinalvalue="10002">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{11c8e795-9784-7779-92d4-2ae104d86b2b}" showlabel="true" locklevel="0" ordinalvalue="10003">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%" id="2">
+              <sections>
+                <section name="contact_methods" showlabel="true" showbar="false" id="{e1925535-689c-4536-9170-93c752121734}" IsUserDefined="0" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{238dc0d1-c7bb-48bf-bd46-81c9358c864b}" ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a5230208-77c9-427d-a961-c8dc9b94aa5a}" ordinalvalue="10001">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bbe784ab-23b6-40a5-8c83-142190b2af1d}" ordinalvalue="10002">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{86185452-683d-4ac1-9798-9fc5280bdae0}" ordinalvalue="10003">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{93bb851c-4a32-4bab-a4ef-ee0e97226ad9}" ordinalvalue="10004">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{af5017db-93b9-4316-8323-de1d83b41d58}" celllabelposition="Top" columns="1111">
+        <rows>
+          <row>
+            <cell id="{f026324b-8bf6-4273-8c3c-a54975ea8836}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Modified">
+              <labels />
+              <control id="header_leadsourcecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="leadsourcecode" uniqueid="{9d89700d-5286-aa70-eb65-a6d4ba060d15}" disabled="false" solutionaction="Modified" />
+            </cell>
+            <cell id="{278d1b6f-44fe-4478-b51b-cfc90eab2ed5}" ordinalvalue="30002" solutionaction="Modified">
+              <labels />
+            </cell>
+            <cell id="{a05a784c-4246-4827-0871-ccb006dcab07}" showlabel="true" locklevel="0" ordinalvalue="40003" solutionaction="Modified">
+              <labels />
+            </cell>
+            <cell id="{7da0c9b6-8289-4b50-ab33-b5f0568cadb9}" ordinalvalue="10004" solutionaction="Modified">
+              <labels />
+            </cell>
+          </row>
+          <row>
+            <cell id="{93a9e676-4119-4d35-b032-0c40c0b0d38f}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="20001" solutionaction="Added">
+              <labels>
+                <label description="Interesse" languagecode="1046" />
+              </labels>
+            </cell>
+          </row>
+          <row>
+            <cell id="{55dbc529-3f6b-4d7f-b78a-0805d01bc200}" ordinalvalue="20005" solutionaction="Added">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{01cd8997-27b6-4634-8a76-042914505669}" ordinalvalue="30006" solutionaction="Added">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{60952f60-a1b3-40ea-9200-5abb92da9712}" ordinalvalue="40007" solutionaction="Added">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navDocument" Area="Info" Id="navDocument" Sequence="9001" solutionaction="Removed" />
+        </NavBar>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{e5ade895-e7a3-6d31-d320-a46a084011d9}" solutionaction="Removed" />
+        <controlDescription forControl="{ec27ead4-0e38-18dd-86b7-ad1de590745b}" solutionaction="Removed" />
+        <controlDescription forControl="{957b3ec0-72a0-1b92-d528-e6e5ed211571}" solutionaction="Removed" />
+        <controlDescription forControl="{DA8CA1CC-D87E-4ABC-8063-406CFBED93A5}" solutionaction="Modified">
+          <customControl formFactor="0" name="Consent.ContactabilityGridControl.ContactabilityGridControl">
+            <parameters />
+          </customControl>
+          <customControl formFactor="1" name="Consent.ContactabilityGridControl.ContactabilityGridControl">
+            <parameters />
+          </customControl>
+          <customControl formFactor="2" name="Consent.ContactabilityGridControl.ContactabilityGridControl">
+            <parameters />
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <footer id="{0a329ada-693b-4022-922a-a876670f046d}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows></rows>
+      </footer>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Lead" languagecode="1033" />
+      <LocalizedName description="Cliente Potencial" languagecode="1046" />
+      <LocalizedName description="Cliente potencial" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Updated default Lead form" languagecode="1033" />
+      <Description description="Formulário padrão de Cliente potencial atualizado" languagecode="1046" />
+      <Description description="Formulario de cliente potencial predeterminado actualizado" languagecode="3082" />
+    </Descriptions>
+  </systemform>
+</forms>

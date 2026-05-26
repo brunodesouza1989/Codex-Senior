@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{1e95a0a4-90af-f011-bbd3-6045bdd79c89}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400">
+      <tabs>
+        <tab id="{fdfba930-e21c-4aeb-ba9d-61b33c550160}" name="tab_1" showlabel="false" labelid="{a35a42b8-eee7-4682-9832-f4a345a74384}">
+          <labels>
+            <label description="Guia" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{8ebd23ba-2fc4-4490-a437-c01232589ca7}" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{c450d52a-90d7-460f-a6b7-a6ce81a79cb8}">
+                  <labels>
+                    <label description="DETALHE DO CLIENTE" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b4368597-cf5d-4b63-afed-90b059999f46}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Tipo Conta" languagecode="1046" />
+                        </labels>
+                        <control id="nexer_tipo_conta" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="nexer_tipo_conta" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{64025684-305f-44a0-9826-d4773fc25615}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Nome da Conta" languagecode="1046" />
+                          <label description="Account Name" languagecode="1033" />
+                          <label description="Nombre de cuenta" languagecode="3082" />
+                        </labels>
+                        <control id="name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{860ebbfd-ae01-4506-a18a-a72956ada87a}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Pipeline Global" languagecode="1046" />
+                        </labels>
+                        <control id="nexer_pipeline_global" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="nexer_pipeline_global" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1e352221-312f-419f-ba53-0ef62faae20d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Receita Conquistada" languagecode="1046" />
+                        </labels>
+                        <control id="nexer_receita_conquistada" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="nexer_receita_conquistada" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bfb3604a-b3e4-47ed-ae53-9c799882c026}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Receita Perdida" languagecode="1046" />
+                        </labels>
+                        <control id="nexer_receita_perdida" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="nexer_receita_perdida" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{32744904-f649-428c-b2e1-3e784f9a5aa7}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="BU" languagecode="1046" />
+                          <label description="Owning Business Unit" languagecode="1033" />
+                          <label description="Unidad de negocio propietaria" languagecode="3082" />
+                        </labels>
+                        <control id="owningbusinessunit" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="owningbusinessunit" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ca40e389-88b7-4302-ba6a-cd56f79c591b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Proprietário" languagecode="1046" />
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Propietario" languagecode="3082" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="4">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+        <Role Id="{c732635a-0fb4-408a-9b0d-1059e9544c44}" />
+        <Role Id="{9c02f867-4769-42a5-b016-1406381032ed}" />
+        <Role Id="{10c16160-07e3-4bf7-b4df-14fd0fad742d}" />
+        <Role Id="{f2019e9f-e354-462e-a0c3-1bde98c73746}" />
+        <Role Id="{6124ad88-87f0-4223-8ed7-20d27f4cb2f2}" />
+        <Role Id="{c565694c-1b4c-454b-81f6-551137d73a24}" />
+        <Role Id="{0f380ee1-c572-443c-9dd2-a7449fb125d1}" />
+        <Role Id="{7c8410db-092f-47cf-823c-c2d651512c4e}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="gam_detail" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="GAM - Detail" languagecode="1046" />
+    </Descriptions>
+  </systemform>
+</forms>

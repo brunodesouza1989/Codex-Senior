@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{00000000-0000-0000-00aa-000010003001}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" icon="1" preview="1">
+        <row name="result" id="opportunityid">
+          <cell name="name" width="300" />
+          <cell name="customerid" width="150" />
+          <cell name="estimatedclosedate" width="125" />
+          <cell name="estimatedvalue" width="100" />
+          <cell name="parentcontactid" width="100" />
+          <cell name="parentaccountid" width="100" />
+          <cell name="closeprobability" width="100" />
+          <cell name="opportunityratingcode" width="100" />
+          <cell name="opportunitycustomeridcontactcontactid.emailaddress1" width="150" disableSorting="1" />
+          <cell name="new_melhordiadepagamento" width="184" />
+          <cell name="transactioncurrencyid" width="100" />
+          <cell name="discountpercentage" width="215" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="opportunity">
+          <attribute name="name" />
+          <attribute name="estimatedvalue" />
+          <attribute name="estimatedclosedate" />
+          <order attribute="estimatedclosedate" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="customerid" />
+          <attribute name="opportunityratingcode" />
+          <attribute name="closeprobability" />
+          <link-entity alias="opportunitycustomeridcontactcontactid" name="contact" from="contactid" to="customerid" link-type="outer" visible="false">
+            <attribute name="emailaddress1" />
+          </link-entity>
+          <attribute name="parentcontactid" />
+          <attribute name="parentaccountid" />
+          <attribute name="opportunityid" />
+          <attribute name="new_melhordiadepagamento" />
+          <attribute name="transactioncurrencyid" />
+          <attribute name="discountpercentage" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Open Opportunities" languagecode="1033" />
+      <LocalizedName description="Oportunidades Abertas" languagecode="1046" />
+      <LocalizedName description="Oportunidades abiertas" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

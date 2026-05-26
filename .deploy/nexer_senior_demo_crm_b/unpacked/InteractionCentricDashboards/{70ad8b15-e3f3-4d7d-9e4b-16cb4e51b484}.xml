@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InteractionCentricDashboard unmodified="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalizedNames>
+    <LocalizedName description="Contacts Dashboard" languagecode="1033" />
+    <LocalizedName description="Painel de Contatos" languagecode="1046" />
+    <LocalizedName description="Panel de contactos" languagecode="3082" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Shows an overview of data related to contacts." languagecode="1033" />
+    <Description description="Mostra uma visão geral dos dados relacionados aos contatos." languagecode="1046" />
+    <Description description="Muestra información general de datos relacionados con los contactos." languagecode="3082" />
+  </Descriptions>
+  <FormId>{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}</FormId>
+</InteractionCentricDashboard>

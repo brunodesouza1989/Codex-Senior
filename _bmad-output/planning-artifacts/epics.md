@@ -1,12 +1,13 @@
 ---
-stepsCompleted: [1, 2, 3]
+stepsCompleted: [1, 2, 3, 4]
 inputDocuments:
   - "C:/codex/senior/_bmad-output/planning-artifacts/prds/prd-senior-2026-05-25/prd.md"
   - "C:/codex/senior/_bmad-output/planning-artifacts/architecture.md"
   - "C:/codex/senior/_bmad-output/planning-artifacts/senior-demo-brainstorm.md"
   - "C:/codex/senior/_bmad-output/implementation-artifacts/deployment-log.md"
-status: "approved"
+status: "approved-updated"
 approved: "2026-05-25"
+updated: "2026-05-26"
 ---
 
 # Senior Demo CRM B - Epic Breakdown
@@ -160,6 +161,54 @@ FR30: Epic 6 - Dados ficticios criveis.
 FR31: Epic 5 - Jornada privada completa.
 FR32: Epic 5 - Caso de desconto.
 FR33: Epic 3 - Conta estrategica para Radar da Conta.
+
+## Implementation Status Snapshot
+
+Last updated: 2026-05-26
+
+| Epic | Status | Notes |
+|---|---|---|
+| Epic 1 - Fundacao Governada No Sales Hub | done | Solution, PAC flow, Sales Hub guardrails and native-field-first premise are established. |
+| Epic 2 - Qualificacao De Leads Senior | done | Lead mapping, `Cliente Potencial Senior`, `Lead Senior` BPF and stage views are deployed. |
+| Epic 3 - Conta 360 E Relacionamento | mostly done | Account/Contact mapping and forms are documented/deployed; demo data remains needed for full Radar narrative. |
+| Epic 4 - Oportunidade Senior E Pipeline Privado | partially done | Opportunity mapping/form/views and ETN/CPQ status fields are deployed; Opportunity BPF remains next build item. |
+| Epic 5 - Governanca De Desconto E Fechamento Demonstravel | partially done | Governance fields and form area are deployed; approval behavior and close journey need demo data/validation. |
+| Epic 6 - Dashboards, Dados De Demo E Validacao Do Roteiro | ready | Stories are specified; implementation remains to create demo records, dashboards and end-to-end validation. |
+
+## Story Status Matrix
+
+| Story | Status | Artifact |
+|---|---|---|
+| 1.1 Validar Solution E ALM Base | done | `deployment-log.md` |
+| 1.2 Inventariar Campos Nativos Antes De Customizar | done | `native-field-inventory.md` |
+| 1.3 Definir Guardrails De Customizacao No Sales Hub | done | PRD, architecture and this epic document |
+| 2.1 Mapear Campos Nativos De Lead | done | `story-2.1-lead-field-mapping.md` |
+| 2.2 Criar Formulario Cliente Potencial Senior | deployed | `story-2.2-lead-form-build.md` |
+| 2.3 Criar BPF Lead Senior | deployed | `story-2.3-lead-bpf-build.md` |
+| 2.4 Criar Views De Leads Por Etapa | deployed | `story-2.4-lead-stage-views.md` |
+| 3.1 Mapear Campos Nativos De Conta E Contato | documented | `story-3.1-account-contact-field-mapping.md` |
+| 3.2 Criar Formulario Conta Senior Com Radar Da Conta | deployed | `story-3.2-account-form-build.md` |
+| 3.3 Criar Formulario Contato Senior | deployed | `story-3.3-contact-form-build.md` |
+| 4.1 Mapear Campos Nativos De Oportunidade | done | `story-4.1-opportunity-field-mapping.md` |
+| 4.2 Criar Formulario Oportunidade Senior | deployed | `story-4.2-opportunity-form-build.md` |
+| 4.3 Criar BPF Oportunidade Senior Privado | ready-for-implementation | `story-4.3-opportunity-bpf-build.md` |
+| 4.4 Simular ETN E CPQ/GPS Na Oportunidade | partially-deployed | `story-4.4-opportunity-etn-cpq-simulation.md` |
+| 4.5 Criar Views De Oportunidades Senior | deployed | `story-4.5-opportunity-views.md` |
+| 5.1 Mapear Campos Nativos Para Desconto E Fechamento | deployed | `story-5.1-discount-close-field-mapping.md` |
+| 5.2 Criar Experiencia De Solicitacao De Desconto | partially-deployed | `story-5.2-discount-request-experience.md` |
+| 5.3 Demonstrar Fechamento Da Jornada Privada | ready-for-demo-data | `story-5.3-private-journey-close.md` |
+| 6.1 Criar Dados Demonstrativos Criveis | ready-for-implementation | `story-6.1-demo-data.md` |
+| 6.2 Criar Dashboard Operacional | ready-for-implementation | `story-6.2-operational-dashboard.md` |
+| 6.3 Criar Dashboard Executivo | ready-for-implementation | `story-6.3-executive-dashboard.md` |
+| 6.4 Validar Roteiro Ponta A Ponta | ready-for-validation | `story-6.4-end-to-end-route-validation.md` |
+
+## Recommended Execution Order
+
+1. Story 4.3 - create `Oportunidade Senior Privado` BPF using the proven Web API pattern from `Lead Senior`.
+2. Story 6.1 - create demo data for a credible end-to-end route.
+3. Stories 6.2 and 6.3 - create operational and executive dashboards using deployed views/charts.
+4. Stories 5.2 and 5.3 - validate discount request/approval and close narrative against the demo data.
+5. Story 6.4 - run the complete Sales Hub route and export/unpack the final package.
 
 ## Epic 1: Fundacao Governada No Sales Hub
 
@@ -416,6 +465,24 @@ So that eu mostre continuidade operacional sem sair da oportunidade.
 - **Given** o usuario simula CPQ/GPS
   **When** a acao for executada
   **Then** a oportunidade deve mostrar ID/status de proposta simulada.
+
+### Story 4.5: Criar Views De Oportunidades Senior
+
+As a gestor comercial,
+I want visualizar oportunidades por pipeline, carteira, proposta, desconto e fechamento,
+So that eu acompanhe gargalos do processo Senior dentro do Sales Hub.
+
+**Acceptance Criteria:**
+
+- **Given** a solution `nexer_senior_demo_crm_b` existe
+  **When** views de oportunidade forem criadas
+  **Then** elas devem estar adicionadas como savedqueries da solution.
+- **Given** o usuario abre views de oportunidade
+  **When** ele seleciona uma view Senior 360
+  **Then** deve conseguir ver pipeline aberto, minha carteira, proposta/CPQ/GPS, desconto/aprovacao, fechamento em 30 dias e oportunidades ganhas.
+- **Given** as views exibem contexto comercial
+  **When** configuradas
+  **Then** devem priorizar campos nativos de valor, cliente, owner, data prevista e status, usando campos `nexer_` apenas para status de simulacao/governanca.
 
 ## Epic 5: Governanca De Desconto E Fechamento Demonstravel
 

@@ -2,7 +2,7 @@
 
 Date: 2026-05-26
 
-Status: partially-ready
+Status: package-ready-pending-live-walkthrough
 
 ## User Story
 
@@ -41,10 +41,11 @@ Partially ready:
 - Account, Contact and Opportunity Senior forms are deployed.
 - Opportunity views and governance fields are deployed.
 - Demo data for the narrative is deployed.
+- Operational and executive dashboards are deployed.
 - Final export/unpack was generated:
-  - `C:\Users\Bruno Andrade\Documents\Senior\.deploy\nexer_senior_demo_crm_b\exports\nexer_senior_demo_crm_b_epics_progress_20260527.zip`
+  - `C:\Users\Bruno Andrade\Documents\Senior\.deploy\nexer_senior_demo_crm_b\exports\nexer_senior_demo_crm_b_epics_closed_20260527.zip`
 
 Remaining validation gaps:
 
 - Full visual replacement for `Oportunidade Senior Privado` BPF stages.
-- Operational and executive dashboards.
+- Live Sales Hub walkthrough in the browser with the presenter route.

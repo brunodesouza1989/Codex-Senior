@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{82c92c01-b7ac-4d98-b892-deb51bedb996}" Name="Aprovação de Desconto Senior" Description="BPF Senior para solicitação e aprovação de desconto por alçada." xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/AprovaodeDescontoSenior-82C92C01-B7AC-4D98-B892-DEB51BEDB996.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>10</processorder>
+  <RunAs>1</RunAs>
+  <UniqueName>nexer_bpf_aprovacaodesconto</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ModernFlowType>0</ModernFlowType>
+  <PrimaryEntity>nexer_AprovacaoDesconto</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1046" description="Aprovação de Desconto Senior" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1046" description="BPF Senior para solicitação e aprovação de desconto por alçada." />
+  </Descriptions>
+  <labels>
+    <steplabels id="{5652105d-f6c4-4ed8-9c76-3fa8e7f132a5}">
+      <label languagecode="1046" description="Solicitado" />
+    </steplabels>
+    <steplabels id="{c2b68eea-8d46-4e7c-9bee-63105cdf7c23}">
+      <label languagecode="1046" description="Nome" />
+    </steplabels>
+    <steplabels id="{7d91411e-1bd1-4a8d-a5e7-f6b4a98d9ee7}">
+      <label languagecode="1046" description="Em Coordenação" />
+    </steplabels>
+    <steplabels id="{647588c0-3a65-41fe-8752-2c904fcd43c0}">
+      <label languagecode="1046" description="Nome" />
+    </steplabels>
+    <steplabels id="{dcac0f88-e4f7-4221-bc38-b7755f96ffcd}">
+      <label languagecode="1046" description="Em Gerência" />
+    </steplabels>
+    <steplabels id="{4af78c86-8ae4-4506-afc2-632b91a8aaea}">
+      <label languagecode="1046" description="Nome" />
+    </steplabels>
+    <steplabels id="{185954a8-e119-402c-b275-efea023495cc}">
+      <label languagecode="1046" description="Em Diretoria de Vendas" />
+    </steplabels>
+    <steplabels id="{aebb6d1e-2ca1-48df-83da-c04918576d52}">
+      <label languagecode="1046" description="Nome" />
+    </steplabels>
+    <steplabels id="{7c6744ff-10e8-4871-a880-b45c34467fd0}">
+      <label languagecode="1046" description="Em Diretoria de Unidade" />
+    </steplabels>
+    <steplabels id="{aef336f2-12bb-4562-b4b1-755a3954a199}">
+      <label languagecode="1046" description="Nome" />
+    </steplabels>
+    <steplabels id="{f21d1565-9640-42bb-868b-009c296f8cab}">
+      <label languagecode="1046" description="Em Diretoria Comercial" />
+    </steplabels>
+    <steplabels id="{71fbe96c-dca8-4f4a-94aa-fc8758505df7}">
+      <label languagecode="1046" description="Nome" />
+    </steplabels>
+    <steplabels id="{810fbb8d-dc8f-4b71-8011-3b798a250043}">
+      <label languagecode="1046" description="Em Presidência" />
+    </steplabels>
+    <steplabels id="{da99ab25-6cc6-4637-a78e-2d4c040715ad}">
+      <label languagecode="1046" description="Nome" />
+    </steplabels>
+    <steplabels id="{ddded086-bfeb-4b33-ab72-542018e7bb56}">
+      <label languagecode="1046" description="Aprovado/Reprovado" />
+    </steplabels>
+    <steplabels id="{4f6ecdca-18cf-4142-a4fe-d0f94c73d58f}">
+      <label languagecode="1046" description="Nome" />
+    </steplabels>
+  </labels>
+</Workflow>

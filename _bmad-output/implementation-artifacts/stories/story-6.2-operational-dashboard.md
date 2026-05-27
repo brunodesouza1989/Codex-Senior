@@ -2,7 +2,7 @@
 
 Date: 2026-05-26
 
-Status: blocked-for-safe-dashboard-authoring
+Status: deployed
 
 ## User Story
 
@@ -38,12 +38,20 @@ So that eu acompanhe fluidez e gargalos.
 
 ## 2026-05-27 Status
 
-Not deployed automatically.
+Deployed automatically through Web API.
 
-Reason: exported dashboards in this environment use interaction-centric dashboard XML tightly coupled to chart ids, view ids and native dashboard structure. Creating a blank or cloned dashboard would be misleading for the demo. Recommended safe path is to create charts/dashboard once through Maker Portal or build a dedicated chart+dashboard generator that creates all referenced visualizations first.
+Created dashboard:
 
-Available inputs are ready:
+- `Senior 360 | Operacional Presales`
 
-- Lead stage views from Story 2.4.
-- Opportunity views from Story 4.5.
-- Demo records from Story 6.1.
+The dashboard uses deployed Opportunity views and existing Opportunity charts for:
+
+- Pipeline by stage.
+- Opportunity status.
+- Open pipeline grid.
+- Discount and approval grid.
+
+Validation evidence:
+
+- Dataverse systemform id: `acd788bc-b459-f111-bec7-7c1e526b609d`
+- Exported in solution folder: `C:\Users\Bruno Andrade\Documents\Senior\.deploy\nexer_senior_demo_crm_b\unpacked\Dashboards\{acd788bc-b459-f111-bec7-7c1e526b609d}.xml`

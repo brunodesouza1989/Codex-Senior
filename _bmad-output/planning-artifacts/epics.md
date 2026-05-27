@@ -164,16 +164,16 @@ FR33: Epic 3 - Conta estrategica para Radar da Conta.
 
 ## Implementation Status Snapshot
 
-Last updated: 2026-05-26
+Last updated: 2026-05-27
 
 | Epic | Status | Notes |
 |---|---|---|
 | Epic 1 - Fundacao Governada No Sales Hub | done | Solution, PAC flow, Sales Hub guardrails and native-field-first premise are established. |
 | Epic 2 - Qualificacao De Leads Senior | done | Lead mapping, `Cliente Potencial Senior`, `Lead Senior` BPF and stage views are deployed. |
-| Epic 3 - Conta 360 E Relacionamento | mostly done | Account/Contact mapping and forms are documented/deployed; demo data remains needed for full Radar narrative. |
+| Epic 3 - Conta 360 E Relacionamento | done | Account/Contact mapping and forms are deployed; demo account/contact data is available for the Radar narrative. |
 | Epic 4 - Oportunidade Senior E Pipeline Privado | partially done | Opportunity mapping/form/views and ETN/CPQ status fields are deployed; Opportunity BPF workflow exists but full XAML stage replacement is blocked by Dataverse validation. |
 | Epic 5 - Governanca De Desconto E Fechamento Demonstravel | mostly done | Governance fields, form area and demo data are deployed; close journey still needs live validation. |
-| Epic 6 - Dashboards, Dados De Demo E Validacao Do Roteiro | partially done | Demo data is deployed; dashboards are blocked for safe chart/dashboard authoring. |
+| Epic 6 - Dashboards, Dados De Demo E Validacao Do Roteiro | mostly done | Demo data and dashboards are deployed; final browser walkthrough remains pending. |
 
 ## Story Status Matrix
 
@@ -198,16 +198,15 @@ Last updated: 2026-05-26
 | 5.2 Criar Experiencia De Solicitacao De Desconto | partially-deployed | `story-5.2-discount-request-experience.md` |
 | 5.3 Demonstrar Fechamento Da Jornada Privada | ready-for-demo-data | `story-5.3-private-journey-close.md` |
 | 6.1 Criar Dados Demonstrativos Criveis | deployed | `story-6.1-demo-data.md` |
-| 6.2 Criar Dashboard Operacional | blocked-for-safe-dashboard-authoring | `story-6.2-operational-dashboard.md` |
-| 6.3 Criar Dashboard Executivo | blocked-for-safe-dashboard-authoring | `story-6.3-executive-dashboard.md` |
-| 6.4 Validar Roteiro Ponta A Ponta | partially-ready | `story-6.4-end-to-end-route-validation.md` |
+| 6.2 Criar Dashboard Operacional | deployed | `story-6.2-operational-dashboard.md` |
+| 6.3 Criar Dashboard Executivo | deployed | `story-6.3-executive-dashboard.md` |
+| 6.4 Validar Roteiro Ponta A Ponta | package-ready-pending-live-walkthrough | `story-6.4-end-to-end-route-validation.md` |
 
 ## Recommended Execution Order
 
 1. Resolve Story 4.3 full BPF stage rendering through Maker Portal designer or a stronger XAML generator.
-2. Create charts and dashboards for Stories 6.2 and 6.3 using the deployed views and demo data.
-3. Run Story 6.4 complete Sales Hub validation.
-4. Export/unpack the final package after dashboard and BPF validation.
+2. Run Story 6.4 complete Sales Hub validation.
+3. Export/unpack the final package after BPF visual validation if the Opportunity BPF is corrected.
 
 ## Epic 1: Fundacao Governada No Sales Hub
 

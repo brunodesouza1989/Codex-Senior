@@ -88,6 +88,9 @@
       <RootComponent type="1" schemaName="lead" behavior="0" />
       <RootComponent type="1" schemaName="nexer_alcadadesconto" behavior="0" />
       <RootComponent type="1" schemaName="nexer_aprovacaodesconto" behavior="0" />
+      <RootComponent type="1" schemaName="nexer_bpf_aprovacaodesconto" behavior="0" />
+      <RootComponent type="1" schemaName="nexer_bpf_credenciamento" behavior="0" />
+      <RootComponent type="1" schemaName="nexer_bpf_jornada_governo" behavior="0" />
       <RootComponent type="1" schemaName="nexer_bpf_leadsenior440963552459f111bec60022482557cc" behavior="0" />
       <RootComponent type="1" schemaName="nexer_canal" behavior="0" />
       <RootComponent type="1" schemaName="nexer_conflitoatuacao" behavior="0" />
@@ -98,11 +101,16 @@
       <RootComponent type="1" schemaName="opportunity" behavior="0" />
       <RootComponent type="1" schemaName="product" behavior="1" />
       <RootComponent type="1" schemaName="systemuser" behavior="1" />
+      <RootComponent type="29" id="{1f5f1671-a757-4b68-be15-2ed120accfa8}" behavior="0" />
       <RootComponent type="29" id="{42096355-2459-f111-bec6-0022482557cc}" behavior="0" />
       <RootComponent type="29" id="{7231fce8-9e59-f111-bec7-000d3a18ea46}" behavior="0" />
+      <RootComponent type="29" id="{82c92c01-b7ac-4d98-b892-deb51bedb996}" behavior="0" />
+      <RootComponent type="29" id="{99417aa9-6e37-4d89-b7d7-cd33330e4ffb}" behavior="0" />
       <RootComponent type="60" id="{15915835-b87c-49ec-9ffc-bfac3ac44ef1}" />
       <RootComponent type="60" id="{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}" />
       <RootComponent type="60" id="{9a14ebb4-143e-e711-80e1-00155d871bb4}" />
+      <RootComponent type="60" id="{acd788bc-b459-f111-bec7-7c1e526b609d}" behavior="0" />
+      <RootComponent type="60" id="{b5e352bb-b459-f111-bec7-6045bdd67b7b}" behavior="0" />
       <RootComponent type="60" id="{f7e6d29b-1e3e-e711-80e1-00155d871bb4}" />
     </RootComponents>
     <MissingDependencies>
@@ -6081,6 +6089,12 @@
         <Required type="2" schemaName="opportunityid" displayName="Oportunidade" parentSchemaName="opportunity" parentDisplayName="Oportunidade" solution="msdynce_Sales (9.0.4.0076)">
           <package appName="msdynce_Sales" version="9.0.26043.10005">msdynce_SalesAnchor (9.0.26043.10005)</package>
         </Required>
+        <Dependent type="26" schemaName="Jornada Governo Senior inativo em meu Oportunidades" displayName="Jornada Governo Senior inativo em meu Oportunidades" parentSchemaName="nexer_bpf_jornada_governo" parentDisplayName="Jornada Governo Senior" id="{8a5c9cfc-327a-43cf-8234-7835e5f63d8c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="opportunityid" displayName="Oportunidade" parentSchemaName="opportunity" parentDisplayName="Oportunidade" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.26043.10005">msdynce_SalesAnchor (9.0.26043.10005)</package>
+        </Required>
         <Dependent type="26" schemaName="Minhas Oportunidades Abertas Pontuadas" displayName="Minhas Oportunidades Abertas Pontuadas" parentSchemaName="opportunity" parentDisplayName="Oportunidade" id="{8d1ffff8-61b4-47c2-b647-390060129d91}" />
       </MissingDependency>
       <MissingDependency>
@@ -6117,6 +6131,12 @@
         <Required type="2" schemaName="opportunityid" displayName="Oportunidade" parentSchemaName="opportunity" parentDisplayName="Oportunidade" solution="msdynce_Sales (9.0.4.0076)">
           <package appName="msdynce_Sales" version="9.0.26043.10005">msdynce_SalesAnchor (9.0.26043.10005)</package>
         </Required>
+        <Dependent type="26" schemaName="Jornada Governo Senior ativo em meu Oportunidades" displayName="Jornada Governo Senior ativo em meu Oportunidades" parentSchemaName="nexer_bpf_jornada_governo" parentDisplayName="Jornada Governo Senior" id="{ba0686f3-98c3-4d72-8ae8-58e60ed36f74}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="opportunityid" displayName="Oportunidade" parentSchemaName="opportunity" parentDisplayName="Oportunidade" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.26043.10005">msdynce_SalesAnchor (9.0.26043.10005)</package>
+        </Required>
         <Dependent type="26" schemaName="Exibição de Previsão de Oportunidades" displayName="Exibição de Previsão de Oportunidades" parentSchemaName="opportunity" parentDisplayName="Oportunidade" id="{bf649add-6c30-ea11-a813-000d3a5475f7}" />
       </MissingDependency>
       <MissingDependency>
@@ -6142,6 +6162,12 @@
           <package appName="msdynce_Sales" version="9.0.26043.10005">msdynce_SalesAnchor (9.0.26043.10005)</package>
         </Required>
         <Dependent type="26" schemaName="Senior 360 | Oportunidades - Fechamento 30 dias" displayName="Senior 360 | Oportunidades - Fechamento 30 dias" parentSchemaName="opportunity" parentDisplayName="Oportunidade" id="{fb9fde83-2e59-f111-bec7-7c1e526b609d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="opportunityid" displayName="Oportunidade" parentSchemaName="opportunity" parentDisplayName="Oportunidade" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.26043.10005">msdynce_SalesAnchor (9.0.26043.10005)</package>
+        </Required>
+        <Dependent type="29" displayName="Jornada Governo Senior" id="{1f5f1671-a757-4b68-be15-2ed120accfa8}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="2" schemaName="opportunityid" displayName="Oportunidade" parentSchemaName="opportunity" parentDisplayName="Oportunidade" solution="msdynce_Sales (9.0.4.0076)">
@@ -6495,6 +6521,12 @@
         <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="opportunity" parentDisplayName="Oportunidade" solution="msdynce_Sales (9.0.4.0076)">
           <package appName="msdynce_Sales" version="9.0.26043.10005">msdynce_SalesAnchor (9.0.26043.10005)</package>
         </Required>
+        <Dependent type="26" schemaName="Jornada Governo Senior inativo em meu Oportunidades" displayName="Jornada Governo Senior inativo em meu Oportunidades" parentSchemaName="nexer_bpf_jornada_governo" parentDisplayName="Jornada Governo Senior" id="{8a5c9cfc-327a-43cf-8234-7835e5f63d8c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="opportunity" parentDisplayName="Oportunidade" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.26043.10005">msdynce_SalesAnchor (9.0.26043.10005)</package>
+        </Required>
         <Dependent type="26" schemaName="Minhas Oportunidades Abertas Pontuadas" displayName="Minhas Oportunidades Abertas Pontuadas" parentSchemaName="opportunity" parentDisplayName="Oportunidade" id="{8d1ffff8-61b4-47c2-b647-390060129d91}" />
       </MissingDependency>
       <MissingDependency>
@@ -6502,6 +6534,12 @@
           <package appName="msdynce_Sales" version="9.0.26043.10005">msdynce_SalesAnchor (9.0.26043.10005)</package>
         </Required>
         <Dependent type="26" schemaName="Oportunidades com Desconto Alto" displayName="Oportunidades com Desconto Alto" parentSchemaName="opportunity" parentDisplayName="Oportunidade" id="{a73948da-7259-f111-bec7-7c1e526b609d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="opportunity" parentDisplayName="Oportunidade" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.26043.10005">msdynce_SalesAnchor (9.0.26043.10005)</package>
+        </Required>
+        <Dependent type="26" schemaName="Jornada Governo Senior ativo em meu Oportunidades" displayName="Jornada Governo Senior ativo em meu Oportunidades" parentSchemaName="nexer_bpf_jornada_governo" parentDisplayName="Jornada Governo Senior" id="{ba0686f3-98c3-4d72-8ae8-58e60ed36f74}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="opportunity" parentDisplayName="Oportunidade" solution="msdynce_Sales (9.0.4.0076)">
@@ -8655,6 +8693,12 @@
         <Dependent type="60" displayName="Financial Form Nexer" parentDisplayName="Conta" id="{cb8aaf0b-4fff-4d9c-a505-d9ea0fe91e65}" />
       </MissingDependency>
       <MissingDependency>
+        <Required type="59" schemaName="Oportunidade por Status" displayName="Oportunidade por Status" parentSchemaName="opportunity" parentDisplayName="Oportunidade" solution="msdynce_Sales (9.0.4.0076)" id="{095dec16-1696-e211-be8f-00155d882404}">
+          <package appName="msdynce_Sales" version="9.0.26043.10005">msdynce_SalesAnchor (9.0.26043.10005)</package>
+        </Required>
+        <Dependent type="60" displayName="Senior 360 | Operacional Presales" id="{acd788bc-b459-f111-bec7-7c1e526b609d}" />
+      </MissingDependency>
+      <MissingDependency>
         <Required type="59" schemaName="Oportunidades por Classificação" displayName="Oportunidades por Classificação" parentSchemaName="opportunity" parentDisplayName="Oportunidade" solution="msdynce_Sales (9.0.4.0076)" id="{e91f96d7-1d3e-e711-80e1-00155d871bb4}">
           <package appName="msdynce_Sales" version="9.0.26043.10005">msdynce_SalesAnchor (9.0.26043.10005)</package>
         </Required>
@@ -8677,6 +8721,12 @@
           <package appName="msdynce_Sales" version="9.0.26043.10005">msdynce_SalesAnchor (9.0.26043.10005)</package>
         </Required>
         <Dependent type="60" displayName="Painel de Oportunidades" parentDisplayName="Oportunidade" id="{f7e6d29b-1e3e-e711-80e1-00155d871bb4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="59" schemaName="Oportunidades por Fase de Pipeline" displayName="Oportunidades por Fase de Pipeline" parentSchemaName="opportunity" parentDisplayName="Oportunidade" solution="msdynce_Sales (9.0.4.0076)" id="{166785b0-073a-e711-80e3-00155d42a416}">
+          <package appName="msdynce_Sales" version="9.0.26043.10005">msdynce_SalesAnchor (9.0.26043.10005)</package>
+        </Required>
+        <Dependent type="60" displayName="Senior 360 | Operacional Presales" id="{acd788bc-b459-f111-bec7-7c1e526b609d}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="59" schemaName="Oportunidades por Fase de Pipeline" displayName="Oportunidades por Fase de Pipeline" parentSchemaName="opportunity" parentDisplayName="Oportunidade" solution="msdynce_Sales (9.0.4.0076)" id="{166785b0-073a-e711-80e3-00155d42a416}">
@@ -8944,6 +8994,12 @@
         <Required type="61" schemaName="AppCommon/Account/Account_main_system_library.js" displayName="AppCommon/Account/Account_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)">
           <package appName="msdynce_AppCommon" version="9.0.26043.10001">msdynce_AppCommonAnchor (9.0.26043.10001)</package>
         </Required>
+        <Dependent type="60" displayName="Financial Form" parentDisplayName="Conta" id="{4bb7e885-5546-4196-b344-762eccb82fb9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="AppCommon/Account/Account_main_system_library.js" displayName="AppCommon/Account/Account_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package appName="msdynce_AppCommon" version="9.0.26043.10001">msdynce_AppCommonAnchor (9.0.26043.10001)</package>
+        </Required>
         <Dependent type="60" displayName="CTC" parentDisplayName="Conta" id="{4ceabddc-80bd-ef11-b8e9-7c1e5219cb36}" />
       </MissingDependency>
       <MissingDependency>
@@ -8951,12 +9007,6 @@
           <package appName="msdynce_AppCommon" version="9.0.26043.10001">msdynce_AppCommonAnchor (9.0.26043.10001)</package>
         </Required>
         <Dependent type="60" displayName="Account" parentDisplayName="Conta" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="61" schemaName="AppCommon/Account/Account_main_system_library.js" displayName="AppCommon/Account/Account_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)">
-          <package appName="msdynce_AppCommon" version="9.0.26043.10001">msdynce_AppCommonAnchor (9.0.26043.10001)</package>
-        </Required>
-        <Dependent type="60" displayName="Informações" parentDisplayName="Conta" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="61" schemaName="AppCommon/Account/Account_main_system_library.js" displayName="AppCommon/Account/Account_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)">
@@ -8980,13 +9030,13 @@
         <Required type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)">
           <package appName="msdynce_AppCommon" version="9.0.26043.10001">msdynce_AppCommonAnchor (9.0.26043.10001)</package>
         </Required>
-        <Dependent type="60" displayName="Contato Senior" parentDisplayName="Contato" id="{11d2e868-2a59-f111-bec7-000d3a10f9c5}" />
+        <Dependent type="60" displayName="Profile Web Form (Enhanced) - Japanese" parentDisplayName="Contato" id="{01124dd8-9bff-4cc0-bb33-ea9d943c3f9f}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)">
           <package appName="msdynce_AppCommon" version="9.0.26043.10001">msdynce_AppCommonAnchor (9.0.26043.10001)</package>
         </Required>
-        <Dependent type="60" displayName="Contact" parentDisplayName="Contato" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
+        <Dependent type="60" displayName="Contato Senior" parentDisplayName="Contato" id="{11d2e868-2a59-f111-bec7-000d3a10f9c5}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)">
@@ -9034,7 +9084,7 @@
         <Required type="61" schemaName="LinkedInExtensions/Account/LinkedInExtensions_Account.js" displayName="LinkedInExtensions/Account/LinkedInExtensions_Account.js" solution="msdyn_LinkedInExtensions (9.0.26034.10142)">
           <package appName="msdyn_SalesIntegrationsAndAddOns" version="9.0.26043.10001">msdyn_SalesIntegrationsAddOns (9.0.26043.10001)</package>
         </Required>
-        <Dependent type="60" displayName="Financial Form" parentDisplayName="Conta" id="{4bb7e885-5546-4196-b344-762eccb82fb9}" />
+        <Dependent type="60" displayName="CTC" parentDisplayName="Conta" id="{4ceabddc-80bd-ef11-b8e9-7c1e5219cb36}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="61" schemaName="LinkedInExtensions/Account/LinkedInExtensions_Account.js" displayName="LinkedInExtensions/Account/LinkedInExtensions_Account.js" solution="msdyn_LinkedInExtensions (9.0.26034.10142)">
@@ -9591,6 +9641,12 @@
         <Required type="61" schemaName="Sales/ClientCommon/Sales_ClientCommon.js" displayName="Sales/ClientCommon/Sales_ClientCommon.js" solution="msdynce_Sales (9.0.4.0076)">
           <package appName="msdynce_Sales" version="9.0.26043.10005">msdynce_SalesAnchor (9.0.26043.10005)</package>
         </Required>
+        <Dependent type="60" displayName="CTC" parentDisplayName="Conta" id="{4ceabddc-80bd-ef11-b8e9-7c1e5219cb36}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/ClientCommon/Sales_ClientCommon.js" displayName="Sales/ClientCommon/Sales_ClientCommon.js" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.26043.10005">msdynce_SalesAnchor (9.0.26043.10005)</package>
+        </Required>
         <Dependent type="60" displayName="Account" parentDisplayName="Conta" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
       </MissingDependency>
       <MissingDependency>
@@ -9606,12 +9662,6 @@
         <Dependent type="60" displayName="Financial Form Nexer" parentDisplayName="Conta" id="{cb8aaf0b-4fff-4d9c-a505-d9ea0fe91e65}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="61" schemaName="Sales/ClientCommon/Sales_ClientCommon.js" displayName="Sales/ClientCommon/Sales_ClientCommon.js" solution="msdynce_Sales (9.0.4.0076)">
-          <package appName="msdynce_Sales" version="9.0.26043.10005">msdynce_SalesAnchor (9.0.26043.10005)</package>
-        </Required>
-        <Dependent type="60" displayName="Cliente Potencial" parentDisplayName="Cliente Potencial" id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
-      </MissingDependency>
-      <MissingDependency>
         <Required type="61" schemaName="Sales/Opportunity/Opportunity_main_system_library.js" displayName="Sales/Opportunity/Opportunity_main_system_library.js" solution="msdynce_Sales (9.0.4.0076)">
           <package appName="msdynce_Sales" version="9.0.26043.10005">msdynce_SalesAnchor (9.0.26043.10005)</package>
         </Required>
@@ -9621,13 +9671,13 @@
         <Required type="61" schemaName="Sales/Opportunity/Opportunity_main_system_library.js" displayName="Sales/Opportunity/Opportunity_main_system_library.js" solution="msdynce_Sales (9.0.4.0076)">
           <package appName="msdynce_Sales" version="9.0.26043.10005">msdynce_SalesAnchor (9.0.26043.10005)</package>
         </Required>
-        <Dependent type="60" displayName="Informações do Field Service" parentDisplayName="Oportunidade" id="{8335a04b-dc80-44b0-83ab-11ed80f93d3e}" />
+        <Dependent type="60" displayName="Oportunidade Senior" parentDisplayName="Oportunidade" id="{810287da-2b59-f111-bec7-6045bdd67b7b}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="61" schemaName="Sales/Opportunity/Opportunity_main_system_library.js" displayName="Sales/Opportunity/Opportunity_main_system_library.js" solution="msdynce_Sales (9.0.4.0076)">
           <package appName="msdynce_Sales" version="9.0.26043.10005">msdynce_SalesAnchor (9.0.26043.10005)</package>
         </Required>
-        <Dependent type="60" displayName="Informações" parentDisplayName="Oportunidade" id="{a2a56263-ec37-4991-a3b0-e7b37a71d818}" />
+        <Dependent type="60" displayName="Informações do Field Service" parentDisplayName="Oportunidade" id="{8335a04b-dc80-44b0-83ab-11ed80f93d3e}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="61" schemaName="Sales/Opportunity/Opportunity_main_system_library.js" displayName="Sales/Opportunity/Opportunity_main_system_library.js" solution="msdynce_Sales (9.0.4.0076)">

@@ -2,7 +2,7 @@
 
 Date: 2026-05-26
 
-Status: blocked-for-safe-dashboard-authoring
+Status: deployed
 
 ## User Story
 
@@ -39,4 +39,20 @@ So that eu avalie previsibilidade e riscos.
 
 ## 2026-05-27 Status
 
-Not deployed automatically for the same reason as Story 6.2: dashboard XML requires valid visualization dependencies. The opportunity data, views and governance fields are deployed, so the remaining task is dashboard/chart composition rather than data model or form work.
+Deployed automatically through Web API.
+
+Created dashboard:
+
+- `Senior 360 | Executivo Pipeline`
+
+The dashboard uses deployed Opportunity views and existing Opportunity charts for:
+
+- Forecast by expected close month.
+- Pipeline by business unit.
+- Closing in 30 days.
+- Won opportunities.
+
+Validation evidence:
+
+- Dataverse systemform id: `b5e352bb-b459-f111-bec7-6045bdd67b7b`
+- Exported in solution folder: `C:\Users\Bruno Andrade\Documents\Senior\.deploy\nexer_senior_demo_crm_b\unpacked\Dashboards\{b5e352bb-b459-f111-bec7-6045bdd67b7b}.xml`

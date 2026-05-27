@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{1d2624d1-fb3a-46fa-bc54-595d81004d60}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{5652105d-f6c4-4ed8-9c76-3fa8e7f132a5}" name="StageStep1" locklevel="0" expanded="true" visible="false" labelid="{4b689eec-39ce-4e5e-8454-03308b10809e}">
+          <labels>
+            <label description="Solicitado" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{83ea639b-f7d5-00f7-4d87-e429bf2b7e27}" name="StageStep1_section1" labelid="{364a0b63-09a9-4c3a-98f5-911846cea1c6}">
+                  <labels>
+                    <label description="Solicitado" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c2b68eea-8d46-4e7c-9bee-63105cdf7c23}" showlabel="true" visible="true" labelid="{75264de7-86d4-49a1-aa4e-74a8d261a9da}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_nexer_aprovacaodesconto_nexer_bpf_aprovacaodesconto:nexer_nome" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nexer_nome" relationship="bpf_nexer_aprovacaodesconto_nexer_bpf_aprovacaodesconto" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{7d91411e-1bd1-4a8d-a5e7-f6b4a98d9ee7}" name="StageStep2" locklevel="0" expanded="true" visible="false" labelid="{3493b048-cc80-41ac-bfbc-b3d4f3db9387}">
+          <labels>
+            <label description="Em Coordenação" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{acce3797-cea6-b550-d4b0-fd8286d08917}" name="StageStep2_section1" labelid="{2c0f12d4-ab1e-4f51-8b48-aa13c230a082}">
+                  <labels>
+                    <label description="Em Coordenação" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{647588c0-3a65-41fe-8752-2c904fcd43c0}" showlabel="true" visible="true" labelid="{09275db6-c8d2-48f1-8188-aecdd76659fb}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_nexer_aprovacaodesconto_nexer_bpf_aprovacaodesconto:nexer_nome" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nexer_nome" relationship="bpf_nexer_aprovacaodesconto_nexer_bpf_aprovacaodesconto" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{dcac0f88-e4f7-4221-bc38-b7755f96ffcd}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{ae8b307a-776a-4054-9476-468cc1565b25}">
+          <labels>
+            <label description="Em Gerência" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{f1a971ed-54dc-19b9-14ab-07bb35dca61b}" name="StageStep3_section1" labelid="{0923893c-989c-4ec5-81fd-178805d00f63}">
+                  <labels>
+                    <label description="Em Gerência" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4af78c86-8ae4-4506-afc2-632b91a8aaea}" showlabel="true" visible="true" labelid="{6a94e420-24f5-4774-b960-9db5c283f9fe}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_nexer_aprovacaodesconto_nexer_bpf_aprovacaodesconto:nexer_nome" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nexer_nome" relationship="bpf_nexer_aprovacaodesconto_nexer_bpf_aprovacaodesconto" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{185954a8-e119-402c-b275-efea023495cc}" name="StageStep4" locklevel="0" expanded="true" visible="false" labelid="{7d6f6f34-2b9e-404f-af88-73ca710bf5f3}">
+          <labels>
+            <label description="Em Diretoria de Vendas" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{9919a2c7-417a-a694-7ab2-55362f21f9af}" name="StageStep4_section1" labelid="{9af68fd4-c751-4afc-b521-94f845957de6}">
+                  <labels>
+                    <label description="Em Diretoria de Vendas" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{aebb6d1e-2ca1-48df-83da-c04918576d52}" showlabel="true" visible="true" labelid="{14112d04-e282-4c80-a089-ae197fa5f368}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_nexer_aprovacaodesconto_nexer_bpf_aprovacaodesconto:nexer_nome" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nexer_nome" relationship="bpf_nexer_aprovacaodesconto_nexer_bpf_aprovacaodesconto" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{7c6744ff-10e8-4871-a880-b45c34467fd0}" name="StageStep5" locklevel="0" expanded="true" visible="false" labelid="{3f4ce0fc-a920-4adf-ae35-1fcfd95b6387}">
+          <labels>
+            <label description="Em Diretoria de Unidade" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{514e7380-576f-9f06-60a2-ea5d6d6f76a8}" name="StageStep5_section1" labelid="{d192986f-4182-47ae-a98d-69e47397c7dd}">
+                  <labels>
+                    <label description="Em Diretoria de Unidade" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{aef336f2-12bb-4562-b4b1-755a3954a199}" showlabel="true" visible="true" labelid="{fcf21b32-a037-4aea-be3e-394d8be7f7aa}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_nexer_aprovacaodesconto_nexer_bpf_aprovacaodesconto:nexer_nome" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nexer_nome" relationship="bpf_nexer_aprovacaodesconto_nexer_bpf_aprovacaodesconto" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{f21d1565-9640-42bb-868b-009c296f8cab}" name="StageStep6" locklevel="0" expanded="true" visible="false" labelid="{a264e545-1649-4d6c-8433-984862865f8d}">
+          <labels>
+            <label description="Em Diretoria Comercial" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{d9eb05cc-7811-f402-f018-915feb230116}" name="StageStep6_section1" labelid="{d7b2b7a2-75b5-41bc-9a99-5ce0fdb65906}">
+                  <labels>
+                    <label description="Em Diretoria Comercial" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{71fbe96c-dca8-4f4a-94aa-fc8758505df7}" showlabel="true" visible="true" labelid="{ed53975a-2fd4-4c9e-a4e5-b480f95c479e}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_nexer_aprovacaodesconto_nexer_bpf_aprovacaodesconto:nexer_nome" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nexer_nome" relationship="bpf_nexer_aprovacaodesconto_nexer_bpf_aprovacaodesconto" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{810fbb8d-dc8f-4b71-8011-3b798a250043}" name="StageStep7" locklevel="0" expanded="true" visible="false" labelid="{0102f305-647f-4644-9782-258235edc611}">
+          <labels>
+            <label description="Em Presidência" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{27df32a7-03af-2116-7499-b9e11015b8ca}" name="StageStep7_section1" labelid="{a34bda74-eb91-44c8-b5e8-06919a20cf42}">
+                  <labels>
+                    <label description="Em Presidência" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{da99ab25-6cc6-4637-a78e-2d4c040715ad}" showlabel="true" visible="true" labelid="{6fac963b-ccd4-4e0a-9fc3-85e19484fc38}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_nexer_aprovacaodesconto_nexer_bpf_aprovacaodesconto:nexer_nome" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nexer_nome" relationship="bpf_nexer_aprovacaodesconto_nexer_bpf_aprovacaodesconto" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{ddded086-bfeb-4b33-ab72-542018e7bb56}" name="StageStep8" locklevel="0" expanded="true" visible="false" labelid="{2d57d610-dabf-45fc-83e3-b98ed05e6801}">
+          <labels>
+            <label description="Aprovado/Reprovado" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{cc2d0bb9-b070-43a8-3cd2-7f351ad7666b}" name="StageStep8_section1" labelid="{984453e5-efe6-4b6b-9822-e7addbfb9062}">
+                  <labels>
+                    <label description="Aprovado/Reprovado" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4f6ecdca-18cf-4142-a4fe-d0f94c73d58f}" showlabel="true" visible="true" labelid="{140b32f2-f06a-4e12-8502-3ccf6f3c3d91}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_nexer_aprovacaodesconto_nexer_bpf_aprovacaodesconto:nexer_nome" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nexer_nome" relationship="bpf_nexer_aprovacaodesconto_nexer_bpf_aprovacaodesconto" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Informações" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Um formulário para esta entidade." languagecode="1046" />
+    </Descriptions>
+  </systemform>
+</forms>

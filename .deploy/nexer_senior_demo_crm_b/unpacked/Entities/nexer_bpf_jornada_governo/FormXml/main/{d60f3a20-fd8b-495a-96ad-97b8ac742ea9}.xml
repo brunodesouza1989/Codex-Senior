@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{d60f3a20-fd8b-495a-96ad-97b8ac742ea9}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{99053699-316c-4e5b-a764-a8b6b360ea30}" name="StageStep1" locklevel="0" expanded="true" visible="false" labelid="{ef983b86-89dd-4c51-b833-b99b2191e97c}">
+          <labels>
+            <label description="Entrada Edital" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{2c18de29-a1aa-d352-61e6-d0f469abacd5}" name="StageStep1_section1" labelid="{2c31d2b3-9ea7-46ce-b804-6176039687c5}">
+                  <labels>
+                    <label description="Entrada Edital" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{eb15833e-c893-4063-80ca-7eac720187db}" showlabel="true" visible="true" labelid="{ab61ab1b-efeb-489d-8687-b538d587617d}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_opportunity_nexer_bpf_jornada_governo:name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="name" relationship="bpf_opportunity_nexer_bpf_jornada_governo" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{fb05ee06-9c5e-4c7d-9b9c-d73847e0e032}" name="StageStep2" locklevel="0" expanded="true" visible="false" labelid="{b3daecbb-07a1-411a-a3e9-aa07767d4bad}">
+          <labels>
+            <label description="Análise Legal" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{08cc9b1e-0c8a-d9e4-1219-18984ee90e3c}" name="StageStep2_section1" labelid="{14eca1f4-6bc2-400e-9d1c-c02667e2a7b9}">
+                  <labels>
+                    <label description="Análise Legal" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e4f42500-caac-4f56-990c-0db0ee3325f4}" showlabel="true" visible="true" labelid="{c78abff7-5a77-41c8-938b-23a511770508}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_opportunity_nexer_bpf_jornada_governo:name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="name" relationship="bpf_opportunity_nexer_bpf_jornada_governo" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{215e4427-d8ff-404e-b0a7-b1df95703e3f}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{74bfa73d-f82f-409e-a78c-e694a65c0191}">
+          <labels>
+            <label description="Go/No-Go" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{b2c82c00-1f8e-4daf-4c04-8588131910e8}" name="StageStep3_section1" labelid="{83647fb1-dc9c-470d-bf8b-01a851ca06aa}">
+                  <labels>
+                    <label description="Go/No-Go" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d6bc679e-12ed-4648-beee-ed9c92d96588}" showlabel="true" visible="true" labelid="{d39babf8-dbf4-407e-9aa6-ea091484ecd9}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_opportunity_nexer_bpf_jornada_governo:name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="name" relationship="bpf_opportunity_nexer_bpf_jornada_governo" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{74352a9f-b2e6-4f5b-93a8-243ce97b65f3}" name="StageStep4" locklevel="0" expanded="true" visible="false" labelid="{1e487cba-aba7-4615-bcfd-a41583fcc1a5}">
+          <labels>
+            <label description="Habilitação" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{0932024a-7378-5922-40bb-c68eace164fd}" name="StageStep4_section1" labelid="{c028d649-2731-4e57-8635-28c6f8a59c9f}">
+                  <labels>
+                    <label description="Habilitação" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{72e4ebbc-6779-4121-a344-fcd718138472}" showlabel="true" visible="true" labelid="{0ede4ffe-76da-4038-8d18-59011bab85ea}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_opportunity_nexer_bpf_jornada_governo:name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="name" relationship="bpf_opportunity_nexer_bpf_jornada_governo" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{14c6a261-8785-4109-86a5-efcf87ada492}" name="StageStep5" locklevel="0" expanded="true" visible="false" labelid="{b02bf1fd-159a-4355-8ec4-ff263ef2eddc}">
+          <labels>
+            <label description="Proposta Técnica" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{f71f8559-7f22-4aa6-6926-bd153117982f}" name="StageStep5_section1" labelid="{d44893d1-1e1a-40c9-9344-7d089e18a0c6}">
+                  <labels>
+                    <label description="Proposta Técnica" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3a9b872a-b047-49c5-8c52-c68ee6ca22fb}" showlabel="true" visible="true" labelid="{8dcf7ae2-74d8-4502-9f86-c3104c809d0e}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_opportunity_nexer_bpf_jornada_governo:name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="name" relationship="bpf_opportunity_nexer_bpf_jornada_governo" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{1d027133-209c-4823-bf27-dbba86508ecd}" name="StageStep6" locklevel="0" expanded="true" visible="false" labelid="{78d25616-7e83-4ce4-ab32-a6d88ae315b0}">
+          <labels>
+            <label description="Proposta Comercial" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{4cdbfd49-bb27-1ec1-1973-8237f2683738}" name="StageStep6_section1" labelid="{52a35f3f-a3f3-414d-8fac-8464e9f75528}">
+                  <labels>
+                    <label description="Proposta Comercial" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f207646d-b8df-49bc-a088-4cb1289acf12}" showlabel="true" visible="true" labelid="{3acadb79-ddda-4f36-8174-45e9cb061e00}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_opportunity_nexer_bpf_jornada_governo:name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="name" relationship="bpf_opportunity_nexer_bpf_jornada_governo" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{00c13b1a-6a71-41bd-bd69-7a27d02aaf00}" name="StageStep7" locklevel="0" expanded="true" visible="false" labelid="{9ab08885-42b5-431b-a866-b7ee20d6d411}">
+          <labels>
+            <label description="Pregão/Lances" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{4de7f950-01cd-e2ba-62d9-77b8be882328}" name="StageStep7_section1" labelid="{9574c40a-4e7d-4704-89cc-bc55a7db0b30}">
+                  <labels>
+                    <label description="Pregão/Lances" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2cb59b4c-a108-453e-95af-1fed606a713d}" showlabel="true" visible="true" labelid="{2d296754-5bb3-4d34-ae8d-e1ad9e14cc01}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_opportunity_nexer_bpf_jornada_governo:name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="name" relationship="bpf_opportunity_nexer_bpf_jornada_governo" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{9edf74c0-c66f-4aef-804c-8883fedf6fc0}" name="StageStep8" locklevel="0" expanded="true" visible="false" labelid="{4ba5b5c8-c652-4264-a9c2-8616b847e864}">
+          <labels>
+            <label description="Adjudicação" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{cb5b2a1b-85a7-e059-a047-3efba657a1d5}" name="StageStep8_section1" labelid="{d7be542f-7fa1-4f5f-a3e6-5e69eb77d42d}">
+                  <labels>
+                    <label description="Adjudicação" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a14d96b0-49e2-4369-ab6b-048e0112a6f9}" showlabel="true" visible="true" labelid="{eaf790e2-9421-415a-8773-aaaa868e28da}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_opportunity_nexer_bpf_jornada_governo:name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="name" relationship="bpf_opportunity_nexer_bpf_jornada_governo" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{2caa3ffa-3625-4d98-a278-14a62d152278}" name="StageStep9" locklevel="0" expanded="true" visible="false" labelid="{624f6faf-9d59-4ec5-9faa-2ae575c2b3df}">
+          <labels>
+            <label description="Contrato" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{06a38582-cc08-4b74-484f-4dc37270227d}" name="StageStep9_section1" labelid="{935786fa-9572-4c7c-a9e2-5afdda06590d}">
+                  <labels>
+                    <label description="Contrato" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{34ca98c0-2246-43f1-bbde-687877512f49}" showlabel="true" visible="true" labelid="{ab963cb9-1176-4084-8284-d486d86fe5c3}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_opportunity_nexer_bpf_jornada_governo:name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="name" relationship="bpf_opportunity_nexer_bpf_jornada_governo" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Informações" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Um formulário para esta entidade." languagecode="1046" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -34,9 +34,9 @@
                       </Sequence>
                     </sco:Collection>
                     <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
-                      <mcwo:StepLabel Description="Origem" LabelId="3f776ee8-1df1-42b7-9df8-a008cdd034b4" LanguageCode="1046" />
+                      <mcwo:StepLabel Description="Origem" LabelId="cc632bf0-d03d-487f-9b5f-cb39bd0a46c0" LanguageCode="1046" />
                     </sco:Collection>
-                    <x:String x:Key="ProcessStepId">3f776ee8-1df1-42b7-9df8-a008cdd034b4</x:String>
+                    <x:String x:Key="ProcessStepId">cc632bf0-d03d-487f-9b5f-cb39bd0a46c0</x:String>
                     <x:Boolean x:Key="IsProcessRequired">True</x:Boolean>
                   </mxswa:ActivityReference.Properties>
                 </mxswa:ActivityReference>
@@ -55,9 +55,9 @@
                       </Sequence>
                     </sco:Collection>
                     <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
-                      <mcwo:StepLabel Description="Empresa" LabelId="a004e9d3-3fab-448b-a60d-d038e79b3fe5" LanguageCode="1046" />
+                      <mcwo:StepLabel Description="Empresa" LabelId="8e42629e-8987-4253-a6ae-0c659c6ae9a4" LanguageCode="1046" />
                     </sco:Collection>
-                    <x:String x:Key="ProcessStepId">a004e9d3-3fab-448b-a60d-d038e79b3fe5</x:String>
+                    <x:String x:Key="ProcessStepId">8e42629e-8987-4253-a6ae-0c659c6ae9a4</x:String>
                     <x:Boolean x:Key="IsProcessRequired">True</x:Boolean>
                   </mxswa:ActivityReference.Properties>
                 </mxswa:ActivityReference>
@@ -76,9 +76,9 @@
                       </Sequence>
                     </sco:Collection>
                     <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
-                      <mcwo:StepLabel Description="Nome" LabelId="6647554b-df6a-40fc-85a2-75d18df8958f" LanguageCode="1046" />
+                      <mcwo:StepLabel Description="Nome" LabelId="65034da2-f5c1-417b-a0c6-3f6aa53911e7" LanguageCode="1046" />
                     </sco:Collection>
-                    <x:String x:Key="ProcessStepId">6647554b-df6a-40fc-85a2-75d18df8958f</x:String>
+                    <x:String x:Key="ProcessStepId">65034da2-f5c1-417b-a0c6-3f6aa53911e7</x:String>
                     <x:Boolean x:Key="IsProcessRequired">False</x:Boolean>
                   </mxswa:ActivityReference.Properties>
                 </mxswa:ActivityReference>
@@ -97,9 +97,9 @@
                       </Sequence>
                     </sco:Collection>
                     <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
-                      <mcwo:StepLabel Description="Sobrenome" LabelId="de64a8a7-66af-4ff3-8949-2b1e9a452eff" LanguageCode="1046" />
+                      <mcwo:StepLabel Description="Sobrenome" LabelId="8b356fdc-b16f-4377-9f09-1519b9b70959" LanguageCode="1046" />
                     </sco:Collection>
-                    <x:String x:Key="ProcessStepId">de64a8a7-66af-4ff3-8949-2b1e9a452eff</x:String>
+                    <x:String x:Key="ProcessStepId">8b356fdc-b16f-4377-9f09-1519b9b70959</x:String>
                     <x:Boolean x:Key="IsProcessRequired">False</x:Boolean>
                   </mxswa:ActivityReference.Properties>
                 </mxswa:ActivityReference>
@@ -118,9 +118,9 @@
                       </Sequence>
                     </sco:Collection>
                     <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
-                      <mcwo:StepLabel Description="Email" LabelId="7e58fad6-80cf-410b-896d-230924a5e794" LanguageCode="1046" />
+                      <mcwo:StepLabel Description="Email" LabelId="663ee6eb-a4a7-4cd9-b6ca-40acf3ee1819" LanguageCode="1046" />
                     </sco:Collection>
-                    <x:String x:Key="ProcessStepId">7e58fad6-80cf-410b-896d-230924a5e794</x:String>
+                    <x:String x:Key="ProcessStepId">663ee6eb-a4a7-4cd9-b6ca-40acf3ee1819</x:String>
                     <x:Boolean x:Key="IsProcessRequired">False</x:Boolean>
                   </mxswa:ActivityReference.Properties>
                 </mxswa:ActivityReference>
@@ -139,9 +139,9 @@
                       </Sequence>
                     </sco:Collection>
                     <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
-                      <mcwo:StepLabel Description="Telefone" LabelId="caa1d289-5dd8-45bd-9677-6bdda25c7a6b" LanguageCode="1046" />
+                      <mcwo:StepLabel Description="Telefone" LabelId="f2a076e5-c853-4b6c-8a64-9dabd7fb1780" LanguageCode="1046" />
                     </sco:Collection>
-                    <x:String x:Key="ProcessStepId">caa1d289-5dd8-45bd-9677-6bdda25c7a6b</x:String>
+                    <x:String x:Key="ProcessStepId">f2a076e5-c853-4b6c-8a64-9dabd7fb1780</x:String>
                     <x:Boolean x:Key="IsProcessRequired">False</x:Boolean>
                   </mxswa:ActivityReference.Properties>
                 </mxswa:ActivityReference>
@@ -173,9 +173,9 @@
                       </Sequence>
                     </sco:Collection>
                     <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
-                      <mcwo:StepLabel Description="Segmento" LabelId="e025f89e-1be0-4176-9333-52313f56cd0e" LanguageCode="1046" />
+                      <mcwo:StepLabel Description="Segmento" LabelId="a13e6fc6-45c9-4659-b270-289f614f4d46" LanguageCode="1046" />
                     </sco:Collection>
-                    <x:String x:Key="ProcessStepId">e025f89e-1be0-4176-9333-52313f56cd0e</x:String>
+                    <x:String x:Key="ProcessStepId">a13e6fc6-45c9-4659-b270-289f614f4d46</x:String>
                     <x:Boolean x:Key="IsProcessRequired">True</x:Boolean>
                   </mxswa:ActivityReference.Properties>
                 </mxswa:ActivityReference>
@@ -194,9 +194,9 @@
                       </Sequence>
                     </sco:Collection>
                     <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
-                      <mcwo:StepLabel Description="Linha Senior" LabelId="a7c51048-29f9-42a4-b194-658a37f38949" LanguageCode="1046" />
+                      <mcwo:StepLabel Description="Linha Senior" LabelId="d0ebbbed-96d6-4b1c-966c-4868dae8f0b6" LanguageCode="1046" />
                     </sco:Collection>
-                    <x:String x:Key="ProcessStepId">a7c51048-29f9-42a4-b194-658a37f38949</x:String>
+                    <x:String x:Key="ProcessStepId">d0ebbbed-96d6-4b1c-966c-4868dae8f0b6</x:String>
                     <x:Boolean x:Key="IsProcessRequired">False</x:Boolean>
                   </mxswa:ActivityReference.Properties>
                 </mxswa:ActivityReference>
@@ -215,9 +215,9 @@
                       </Sequence>
                     </sco:Collection>
                     <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
-                      <mcwo:StepLabel Description="Aderencia Senior" LabelId="67e19b05-7dfd-4b80-b426-d7ac830b353b" LanguageCode="1046" />
+                      <mcwo:StepLabel Description="Aderencia Senior" LabelId="9ddaabc5-3155-4753-b347-9ebeb2bd1ecc" LanguageCode="1046" />
                     </sco:Collection>
-                    <x:String x:Key="ProcessStepId">67e19b05-7dfd-4b80-b426-d7ac830b353b</x:String>
+                    <x:String x:Key="ProcessStepId">9ddaabc5-3155-4753-b347-9ebeb2bd1ecc</x:String>
                     <x:Boolean x:Key="IsProcessRequired">False</x:Boolean>
                   </mxswa:ActivityReference.Properties>
                 </mxswa:ActivityReference>
@@ -249,9 +249,9 @@
                       </Sequence>
                     </sco:Collection>
                     <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
-                      <mcwo:StepLabel Description="Dor e Necessidade" LabelId="ad7d186a-dfbf-47b8-8788-b63345906f39" LanguageCode="1046" />
+                      <mcwo:StepLabel Description="Dor e Necessidade" LabelId="f601afd2-c82d-4359-b6cc-7a5cdaf9ac67" LanguageCode="1046" />
                     </sco:Collection>
-                    <x:String x:Key="ProcessStepId">ad7d186a-dfbf-47b8-8788-b63345906f39</x:String>
+                    <x:String x:Key="ProcessStepId">f601afd2-c82d-4359-b6cc-7a5cdaf9ac67</x:String>
                     <x:Boolean x:Key="IsProcessRequired">True</x:Boolean>
                   </mxswa:ActivityReference.Properties>
                 </mxswa:ActivityReference>
@@ -270,9 +270,9 @@
                       </Sequence>
                     </sco:Collection>
                     <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
-                      <mcwo:StepLabel Description="Status Do Orcamento" LabelId="06a16463-252c-4a80-9298-6d7d63d3e573" LanguageCode="1046" />
+                      <mcwo:StepLabel Description="Status Do Orçamento" LabelId="500667f4-9496-48ee-99e0-d76004247811" LanguageCode="1046" />
                     </sco:Collection>
-                    <x:String x:Key="ProcessStepId">06a16463-252c-4a80-9298-6d7d63d3e573</x:String>
+                    <x:String x:Key="ProcessStepId">500667f4-9496-48ee-99e0-d76004247811</x:String>
                     <x:Boolean x:Key="IsProcessRequired">False</x:Boolean>
                   </mxswa:ActivityReference.Properties>
                 </mxswa:ActivityReference>
@@ -291,9 +291,9 @@
                       </Sequence>
                     </sco:Collection>
                     <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
-                      <mcwo:StepLabel Description="Orcamento" LabelId="9ad5b4db-7d0d-444a-a58d-37950ea3b5ca" LanguageCode="1046" />
+                      <mcwo:StepLabel Description="Orçamento" LabelId="2a6ddac0-c496-4e04-afe2-f5533301aa02" LanguageCode="1046" />
                     </sco:Collection>
-                    <x:String x:Key="ProcessStepId">9ad5b4db-7d0d-444a-a58d-37950ea3b5ca</x:String>
+                    <x:String x:Key="ProcessStepId">2a6ddac0-c496-4e04-afe2-f5533301aa02</x:String>
                     <x:Boolean x:Key="IsProcessRequired">False</x:Boolean>
                   </mxswa:ActivityReference.Properties>
                 </mxswa:ActivityReference>
@@ -312,9 +312,9 @@
                       </Sequence>
                     </sco:Collection>
                     <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
-                      <mcwo:StepLabel Description="Prazo" LabelId="8081b4ea-e7ab-4cfb-bcdf-a0a96f7cf154" LanguageCode="1046" />
+                      <mcwo:StepLabel Description="Prazo" LabelId="ebb5e655-5b37-4fdd-a2af-1e7ea16c2e3d" LanguageCode="1046" />
                     </sco:Collection>
-                    <x:String x:Key="ProcessStepId">8081b4ea-e7ab-4cfb-bcdf-a0a96f7cf154</x:String>
+                    <x:String x:Key="ProcessStepId">ebb5e655-5b37-4fdd-a2af-1e7ea16c2e3d</x:String>
                     <x:Boolean x:Key="IsProcessRequired">False</x:Boolean>
                   </mxswa:ActivityReference.Properties>
                 </mxswa:ActivityReference>
@@ -346,9 +346,9 @@
                       </Sequence>
                     </sco:Collection>
                     <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
-                      <mcwo:StepLabel Description="Responsavel" LabelId="915442ed-a64b-4973-97b5-a3524e67bbb9" LanguageCode="1046" />
+                      <mcwo:StepLabel Description="Responsavel" LabelId="cb1760af-cb15-46ae-abfc-7475fedea3e1" LanguageCode="1046" />
                     </sco:Collection>
-                    <x:String x:Key="ProcessStepId">915442ed-a64b-4973-97b5-a3524e67bbb9</x:String>
+                    <x:String x:Key="ProcessStepId">cb1760af-cb15-46ae-abfc-7475fedea3e1</x:String>
                     <x:Boolean x:Key="IsProcessRequired">False</x:Boolean>
                   </mxswa:ActivityReference.Properties>
                 </mxswa:ActivityReference>
@@ -367,9 +367,9 @@
                       </Sequence>
                     </sco:Collection>
                     <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
-                      <mcwo:StepLabel Description="Proxima Acao" LabelId="c6755696-184b-48c3-912c-119b0def88cd" LanguageCode="1046" />
+                      <mcwo:StepLabel Description="Próxima Ação" LabelId="2b7bc39a-80e4-4536-ad84-7023a5b347b6" LanguageCode="1046" />
                     </sco:Collection>
-                    <x:String x:Key="ProcessStepId">c6755696-184b-48c3-912c-119b0def88cd</x:String>
+                    <x:String x:Key="ProcessStepId">2b7bc39a-80e4-4536-ad84-7023a5b347b6</x:String>
                     <x:Boolean x:Key="IsProcessRequired">False</x:Boolean>
                   </mxswa:ActivityReference.Properties>
                 </mxswa:ActivityReference>
@@ -401,9 +401,9 @@
                       </Sequence>
                     </sco:Collection>
                     <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
-                      <mcwo:StepLabel Description="Processo De Compra" LabelId="f8a147d9-3bd4-4521-8e52-981dd8f47053" LanguageCode="1046" />
+                      <mcwo:StepLabel Description="Processo De Compra" LabelId="ff3c729b-5694-43e7-9c36-059289be0413" LanguageCode="1046" />
                     </sco:Collection>
-                    <x:String x:Key="ProcessStepId">f8a147d9-3bd4-4521-8e52-981dd8f47053</x:String>
+                    <x:String x:Key="ProcessStepId">ff3c729b-5694-43e7-9c36-059289be0413</x:String>
                     <x:Boolean x:Key="IsProcessRequired">False</x:Boolean>
                   </mxswa:ActivityReference.Properties>
                 </mxswa:ActivityReference>
@@ -422,9 +422,9 @@
                       </Sequence>
                     </sco:Collection>
                     <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
-                      <mcwo:StepLabel Description="Potencial Financeiro" LabelId="ff65d27e-42cf-4469-9573-c364846657c7" LanguageCode="1046" />
+                      <mcwo:StepLabel Description="Potencial Financeiro" LabelId="a30122ea-9645-4318-8465-6156968ea655" LanguageCode="1046" />
                     </sco:Collection>
-                    <x:String x:Key="ProcessStepId">ff65d27e-42cf-4469-9573-c364846657c7</x:String>
+                    <x:String x:Key="ProcessStepId">a30122ea-9645-4318-8465-6156968ea655</x:String>
                     <x:Boolean x:Key="IsProcessRequired">False</x:Boolean>
                   </mxswa:ActivityReference.Properties>
                 </mxswa:ActivityReference>
@@ -443,9 +443,9 @@
                       </Sequence>
                     </sco:Collection>
                     <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
-                      <mcwo:StepLabel Description="Aderencia Final" LabelId="52cb2709-b8d6-4c95-83ab-2a3e7a486eb9" LanguageCode="1046" />
+                      <mcwo:StepLabel Description="Aderencia Final" LabelId="9d1d88d9-4c81-467f-91dc-e17c0d703b31" LanguageCode="1046" />
                     </sco:Collection>
-                    <x:String x:Key="ProcessStepId">52cb2709-b8d6-4c95-83ab-2a3e7a486eb9</x:String>
+                    <x:String x:Key="ProcessStepId">9d1d88d9-4c81-467f-91dc-e17c0d703b31</x:String>
                     <x:Boolean x:Key="IsProcessRequired">False</x:Boolean>
                   </mxswa:ActivityReference.Properties>
                 </mxswa:ActivityReference>

@@ -482,4 +482,42 @@ Result:
 - Labels are corrected for visible form/metadata usage.
 - Story 6.1 demo data is deployed.
 - Story 4.3 is partially deployed with workflow active but full visual stage replacement blocked.
-- Dashboards remain blocked for safe authoring because exported interaction-centric dashboard XML depends on chart/view components that should be generated together or authored once in Maker Portal.
+- Superseded later the same day: dashboards were subsequently created through Web API using existing chart/view dependencies.
+
+## 2026-05-27 - Dashboards And Export Closure
+
+Objective: finish Epic 6 by creating actual Sales Hub dashboards and producing a clean export/unpack package.
+
+Actions:
+
+- Created dashboard automation script:
+  - `C:\Users\Bruno Andrade\Documents\Senior\.deploy\nexer_senior_demo_crm_b\scripts\Upsert-SeniorDashboards-WebApi.ps1`
+- Created and added dashboards to solution `nexer_senior_demo_crm_b`:
+  - `Senior 360 | Operacional Presales`
+  - `Senior 360 | Executivo Pipeline`
+- Used existing Opportunity charts and deployed Opportunity views as dashboard dependencies.
+- Corrected remaining Lead BPF labels:
+  - `Status Do Orçamento`
+  - `Orçamento`
+  - `Próxima Ação`
+- Added missing BPF backing entities to the solution to unblock PAC export:
+  - `nexer_bpf_leadsenior440963552459f111bec60022482557cc`
+  - `nexer_bpf_credenciamento`
+  - `nexer_bpf_jornada_governo`
+  - `nexer_bpf_aprovacaodesconto`
+- Exported and unpacked solution:
+  - `C:\Users\Bruno Andrade\Documents\Senior\.deploy\nexer_senior_demo_crm_b\exports\nexer_senior_demo_crm_b_epics_closed_20260527.zip`
+
+Validation:
+
+- PAC export succeeded.
+- PAC unpack succeeded.
+- Unpack includes dashboard files:
+  - `Dashboards\{acd788bc-b459-f111-bec7-7c1e526b609d}.xml`
+  - `Dashboards\{b5e352bb-b459-f111-bec7-6045bdd67b7b}.xml`
+- Lead BPF unpack contains accented labels for `Status Do Orçamento` and `Próxima Ação`.
+
+Residual risk:
+
+- The local OptionSet display name for `nexer_statusaprovacaodesconto` still exports with mojibake inside the nested option set metadata, although the field display name and form label export correctly.
+- `Oportunidade Senior Privado` remains active but full visual stage replacement is still blocked by Dataverse XAML validation.

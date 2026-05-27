@@ -13,7 +13,7 @@
   <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
   <StateCode>1</StateCode>
   <StatusCode>2</StatusCode>
-  <processorder>1</processorder>
+  <processorder>2</processorder>
   <processroleassignment>&lt;DisplayConditions&gt;&lt;Everyone /&gt;&lt;/DisplayConditions&gt;</processroleassignment>
   <RunAs>1</RunAs>
   <UniqueName>OportunidadeSeniorPrivado7431fce89e59f111bec7000d3a18ea46</UniqueName>

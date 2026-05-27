@@ -1,4 +1,4 @@
-param(
+﻿param(
     [string]$Url = "https://nexereabrpresales.crm.dynamics.com",
     [string]$WorkflowName = "Lead Senior"
 )
@@ -306,15 +306,15 @@ $stages += New-StageObject -Index 3 -Name "Filtro 1" -StageId $stageIds[1] -Next
 
 $filtro2Steps = @(
     (New-ControlStepObject -Index ($stepIndex++) -Field "qualificationcomments" -Label "Dor e Necessidade" -Kind "memo" -Required $true),
-    (New-ControlStepObject -Index ($stepIndex++) -Field "budgetstatus" -Label "Status Do Orcamento" -Kind "picklist"),
-    (New-ControlStepObject -Index ($stepIndex++) -Field "budgetamount" -Label "Orcamento" -Kind "money"),
+    (New-ControlStepObject -Index ($stepIndex++) -Field "budgetstatus" -Label "Status Do Orçamento" -Kind "picklist"),
+    (New-ControlStepObject -Index ($stepIndex++) -Field "budgetamount" -Label "Orçamento" -Kind "money"),
     (New-ControlStepObject -Index ($stepIndex++) -Field "purchasetimeframe" -Label "Prazo" -Kind "picklist")
 )
 $stages += New-StageObject -Index 4 -Name "Filtro 2" -StageId $stageIds[2] -NextStageId $stageIds[3] -Steps $filtro2Steps
 
 $agendadoSteps = @(
     (New-ControlStepObject -Index ($stepIndex++) -Field "ownerid" -Label "Responsavel" -Kind "lookup"),
-    (New-ControlStepObject -Index ($stepIndex++) -Field "description" -Label "Proxima Acao" -Kind "memo")
+    (New-ControlStepObject -Index ($stepIndex++) -Field "description" -Label "Próxima Ação" -Kind "memo")
 )
 $stages += New-StageObject -Index 5 -Name "Agendado" -StageId $stageIds[3] -NextStageId $stageIds[4] -Steps $agendadoSteps
 

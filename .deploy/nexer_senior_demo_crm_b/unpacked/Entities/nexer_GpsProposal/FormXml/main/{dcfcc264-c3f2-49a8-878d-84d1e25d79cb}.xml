@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{dcfcc264-c3f2-49a8-878d-84d1e25d79cb}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form showImage="true" shownavigationbar="true" maxWidth="1920" headerdensity="HighWithControls">
+      <tabs>
+        <tab name="tab_main" verticallayout="true" id="{57f0b007-ad34-4270-a3fe-fc662ce226c7}" IsUserDefined="1" locklevel="0" expanded="true" showlabel="true" labelid="{d200d3fe-2387-492f-90dd-b0a4326804f4}">
+          <labels>
+            <label description="Proposta GPS" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="proposta" showlabel="true" showbar="false" id="{c3c56c75-8414-40c4-b42b-e5f8c140ad7c}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{b606c6c0-884c-4447-9a5e-1c17b61bc31c}">
+                  <labels>
+                    <label description="Proposta" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{96a829d5-16e4-4a8a-b5d9-367c150fbb79}" showlabel="true" locklevel="0" labelid="{cbd587df-3bea-4d30-abff-3dfc51f4b65f}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                          <label description="Nome" languagecode="1033" />
+                        </labels>
+                        <control id="nexer_nome" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nexer_nome" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4ce59dac-e90d-4ab5-b67f-0e10fd7d3476}" showlabel="true" locklevel="0" labelid="{43bc4fcf-2b00-4676-af49-383ec7ff70eb}">
+                        <labels>
+                          <label description="ID GPS" languagecode="1046" />
+                          <label description="ID GPS" languagecode="1033" />
+                        </labels>
+                        <control id="nexer_gpsid" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nexer_gpsid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2a111b0a-f305-41b3-8b92-80adaab8004b}" showlabel="true" locklevel="0" labelid="{bc03f988-8a55-46f1-bc7c-d158475803dd}">
+                        <labels>
+                          <label description="Oportunidade" languagecode="1046" />
+                          <label description="Oportunidade" languagecode="1033" />
+                        </labels>
+                        <control id="nexer_opportunity" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="nexer_opportunity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f19a23f4-2891-48cf-bcd4-1ae36fc1740c}" showlabel="true" locklevel="0" labelid="{a58adbb0-1f40-47b6-8d0d-f05b6d254df4}">
+                        <labels>
+                          <label description="Valor" languagecode="1046" />
+                          <label description="Valor" languagecode="1033" />
+                        </labels>
+                        <control id="nexer_valor" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="nexer_valor" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="documento" showlabel="true" showbar="false" id="{c1aacbdc-4744-48cd-a7a2-ac990084fe19}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{f1ef2f74-cefe-4d09-a0b8-b22acbd1d847}">
+                  <labels>
+                    <label description="Documento" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{474d2d71-9f34-4c3c-b7fb-73d42f6679d9}" showlabel="true" locklevel="0" labelid="{43f00f2f-2437-4ecd-9699-2a598afea0a1}">
+                        <labels>
+                          <label description="URL do PDF" languagecode="1046" />
+                          <label description="URL do PDF" languagecode="1033" />
+                        </labels>
+                        <control id="nexer_pdfurl" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nexer_pdfurl" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1ba3cfe8-59da-48bc-ba27-f9155d944d40}" showlabel="true" locklevel="0" labelid="{71a7cd0b-702c-4ff5-81ca-42bf742c4d45}">
+                        <labels>
+                          <label description="Proprietário" languagecode="1046" />
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Propietario" languagecode="3082" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="timeline" showlabel="true" showbar="false" id="{3fff722f-f7c3-4dba-90d0-dd04aa6029a5}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{03f20181-6318-4fa6-8fb6-a313293b45fc}">
+                  <labels>
+                    <label description="Timeline" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" rowspan="12" auto="false" id="{9df45b63-3589-4eb4-9d4c-908d9e4c1a9c}">
+                        <labels>
+                          <label description="Anotações" languagecode="1046" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}">
+                          <parameters>
+                            <DefaultTabId>NotesTab</DefaultTabId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="nexer_form_gpsproposal_main" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Um formulário para esta entidade." languagecode="1046" />
+    </Descriptions>
+  </systemform>
+</forms>

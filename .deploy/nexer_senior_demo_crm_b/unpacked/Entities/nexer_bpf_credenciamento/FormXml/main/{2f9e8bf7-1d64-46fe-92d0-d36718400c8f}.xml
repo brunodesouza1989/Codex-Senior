@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{2f9e8bf7-1d64-46fe-92d0-d36718400c8f}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{04143923-bc72-4ce3-acd1-da494fcdb5bd}" name="StageStep1" locklevel="0" expanded="true" visible="false" labelid="{2b16d443-55aa-4da4-95be-c1e4baaaa29b}">
+          <labels>
+            <label description="Solicitado" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{506bce43-ea9a-0da9-d7ea-9afb7ee664e3}" name="StageStep1_section1" labelid="{5bdeaa7a-beb4-4d3f-acb4-44b0bad3c298}">
+                  <labels>
+                    <label description="Solicitado" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{edd39053-d1ef-4540-81e7-daf527dffcb5}" showlabel="true" visible="true" labelid="{e773e14f-fbcb-42e5-99ed-390ad0ca72a0}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_nexer_credenciamento_nexer_bpf_credenciamento:nexer_nome" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nexer_nome" relationship="bpf_nexer_credenciamento_nexer_bpf_credenciamento" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{959e93e4-1cde-44af-bfcd-3f5be7832e27}" name="StageStep2" locklevel="0" expanded="true" visible="false" labelid="{2cabb923-23a9-4971-87f6-f3a8585fbb54}">
+          <labels>
+            <label description="Em Análise" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{77c0653a-3110-3a67-31a3-a29c921a0f0e}" name="StageStep2_section1" labelid="{d503b9dd-5e61-4e21-8bce-18704e782a5d}">
+                  <labels>
+                    <label description="Em Análise" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2259c0aa-199b-4f40-82e1-43e8e7334113}" showlabel="true" visible="true" labelid="{1fa4fbaf-1ca2-4fbd-adec-427d9fa0d70b}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_nexer_credenciamento_nexer_bpf_credenciamento:nexer_nome" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nexer_nome" relationship="bpf_nexer_credenciamento_nexer_bpf_credenciamento" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{949f46e7-0741-421e-a656-b04dbe8259ac}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{f785ca7d-3f31-4ec6-94a7-b90adf1a9639}">
+          <labels>
+            <label description="Treinamento" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{1f06c54e-f9b4-35f2-174e-f12b85d5ac7c}" name="StageStep3_section1" labelid="{64aa2f40-ad58-4654-845e-4c1c2d26e665}">
+                  <labels>
+                    <label description="Treinamento" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b76d868c-1c94-4a23-a8b9-4602e6996d81}" showlabel="true" visible="true" labelid="{5e58d727-02a0-4f40-946c-bc8d224e4c57}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_nexer_credenciamento_nexer_bpf_credenciamento:nexer_nome" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nexer_nome" relationship="bpf_nexer_credenciamento_nexer_bpf_credenciamento" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{1796c8b0-360a-41bd-8d5b-c66aca28eeed}" name="StageStep4" locklevel="0" expanded="true" visible="false" labelid="{f616f98f-cd34-4d6c-87bf-4a6fe99bd17e}">
+          <labels>
+            <label description="Certificação" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{b6036eea-eeed-cf0e-efee-4468ce6d1847}" name="StageStep4_section1" labelid="{6608a91b-81a5-49fe-9243-de2f5852e574}">
+                  <labels>
+                    <label description="Certificação" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ef087e76-ac4b-4dfc-8cd4-af295f6781d7}" showlabel="true" visible="true" labelid="{9bd1eae0-a43c-4118-819c-de5ae04c3e60}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_nexer_credenciamento_nexer_bpf_credenciamento:nexer_nome" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nexer_nome" relationship="bpf_nexer_credenciamento_nexer_bpf_credenciamento" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{2a7a46be-f749-4497-a718-68a32c6b0df6}" name="StageStep5" locklevel="0" expanded="true" visible="false" labelid="{5322555a-96ca-4776-96cd-b4842f301b03}">
+          <labels>
+            <label description="Ativo" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{0c476bf7-c244-3d19-41d6-fe321dfd69bf}" name="StageStep5_section1" labelid="{5135d5a9-d736-4716-bfa4-aa3534e0f3a8}">
+                  <labels>
+                    <label description="Ativo" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1a758dec-cfdf-467c-a6ff-296d5d5a1e45}" showlabel="true" visible="true" labelid="{726a813a-e5ac-4ef3-9d32-b9ef76259e0d}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="bpf_nexer_credenciamento_nexer_bpf_credenciamento:nexer_nome" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nexer_nome" relationship="bpf_nexer_credenciamento_nexer_bpf_credenciamento" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Informações" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Um formulário para esta entidade." languagecode="1046" />
+    </Descriptions>
+  </systemform>
+</forms>

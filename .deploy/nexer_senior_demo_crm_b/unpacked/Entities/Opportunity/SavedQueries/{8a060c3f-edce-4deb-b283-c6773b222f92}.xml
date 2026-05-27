@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{8a060c3f-edce-4deb-b283-c6773b222f92}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="fullname" select="1" icon="1" preview="1">
+        <row name="result" id="opportunityid">
+          <cell name="name" width="300" />
+          <cell name="estimatedclosedate" width="200" />
+          <cell name="estimatedvalue" width="200" />
+          <cell name="scoreEntity.msdyn_score" width="50" />
+          <cell name="scoreEntity.msdyn_scoretrend" width="100" imageproviderfunctionname="loadopportunityscoretrenddata" imageproviderwebresource="$webresource:msdyn_OpportunityScore.js" />
+          <cell name="scoreEntity.msdyn_grade" width="100" imageproviderfunctionname="loadscoringdata" imageproviderwebresource="$webresource:msdyn_OpportunityScore.js" />
+          <cell name="closeprobability" width="100" />
+          <cell name="opportunityratingcode" width="100" />
+          <cell name="new_melhordiadepagamento" width="184" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="opportunity">
+          <attribute name="name" />
+          <attribute name="estimatedclosedate" />
+          <attribute name="estimatedvalue" />
+          <attribute name="closeprobability" />
+          <attribute name="opportunityratingcode" />
+          <order attribute="name" descending="false" />
+          <filter type="and">
+            <condition attribute="ownerid" operator="eq-userid" />
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <link-entity name="msdyn_predictivescore" from="msdyn_predictivescoreid" to="msdyn_predictivescoreid" visible="false" link-type="outer" alias="scoreEntity">
+            <attribute name="msdyn_score" />
+            <attribute name="msdyn_scoretrend" />
+            <attribute name="msdyn_grade" />
+          </link-entity>
+          <attribute name="opportunityid" />
+          <attribute name="new_melhordiadepagamento" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="My Open Opportunities Scored" languagecode="1033" />
+      <LocalizedName description="Minhas Oportunidades Abertas Pontuadas" languagecode="1046" />
+      <LocalizedName description="Mis oportunidades abiertas puntuadas" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

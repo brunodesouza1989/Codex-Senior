@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalizedNames>
+    <LocalizedName description="Senior 360 | Executivo Pipeline" languagecode="1046" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Dashboard executivo Senior para forecast, pipeline e fechamento." languagecode="1046" />
+  </Descriptions>
+  <FormId>{b5e352bb-b459-f111-bec7-6045bdd67b7b}</FormId>
+  <IsCustomizable>1</IsCustomizable>
+  <IsDefault>0</IsDefault>
+  <FormXml>
+    <forms type="dashboard">
+      <form>
+        <tabs>
+          <tab showlabel="false" verticallayout="true" id="{53023780-afa1-45a1-9baf-9e872ed8f92f}">
+            <labels>
+              <label description="" languagecode="1046" />
+            </labels>
+            <columns>
+              <column width="100%">
+                <sections>
+                  <section showlabel="false" showbar="false" columns="1111" id="{319af161-ddf4-44ff-9a7e-98b848e70b0b}">
+                    <labels>
+                      <label description="" languagecode="1046" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell colspan="2" rowspan="12" showlabel="false" id="{7125eccf-fdf6-45b4-abaa-8e8a5f6be230}" auto="false">
+                          <labels>
+                            <label description="Forecast por mês" languagecode="1046" />
+                            <label description="Opportunities" languagecode="1033" />
+                            <label description="Oportunidades" languagecode="3082" />
+                          </labels>
+                          <control id="Componenteab54f3d" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                            <parameters>
+                              <TargetEntityType>opportunity</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>12</RecordsPerPage>
+                              <ViewId>{7efd867f-2e59-f111-bec7-6045bdd670dd}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds>{7efd867f-2e59-f111-bec7-6045bdd670dd}</ViewIds>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{e5e6edba-291a-f011-998a-7c1e52195691}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>true</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="2" rowspan="12" showlabel="false" id="{17a92eac-cecc-4864-9a8c-ad967e0fbb98}" auto="false">
+                          <labels>
+                            <label description="Pipeline por unidade de negócio" languagecode="1046" />
+                            <label description="Opportunities" languagecode="1033" />
+                            <label description="Oportunidades" languagecode="3082" />
+                          </labels>
+                          <control id="Component9a59c740" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                            <parameters>
+                              <TargetEntityType>opportunity</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>12</RecordsPerPage>
+                              <ViewId>{7efd867f-2e59-f111-bec7-6045bdd670dd}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds>{7efd867f-2e59-f111-bec7-6045bdd670dd}</ViewIds>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{c2144de8-a1ae-f011-bbd3-002248349bc3}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>true</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row>
+                        <cell colspan="2" rowspan="12" showlabel="false" id="{b76a0843-ce36-47d4-b5f5-a2d09254481f}" auto="false">
+                          <labels>
+                            <label description="Fechamento em 30 dias" languagecode="1046" />
+                            <label description="Opportunities" languagecode="1033" />
+                            <label description="Oportunidades" languagecode="3082" />
+                          </labels>
+                          <control id="Componentfdf096fa" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                            <parameters>
+                              <TargetEntityType>opportunity</TargetEntityType>
+                              <ChartGridMode>Grid</ChartGridMode>
+                              <EnableQuickFind>true</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>8</RecordsPerPage>
+                              <ViewId>{fb9fde83-2e59-f111-bec7-7c1e526b609d}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds>{fb9fde83-2e59-f111-bec7-7c1e526b609d}</ViewIds>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="2" rowspan="12" showlabel="false" id="{35e26f93-e2c9-42b4-85a2-c7ec67297081}" auto="false">
+                          <labels>
+                            <label description="Oportunidades ganhas" languagecode="1046" />
+                            <label description="Opportunities" languagecode="1033" />
+                            <label description="Oportunidades" languagecode="3082" />
+                          </labels>
+                          <control id="Componentf0d502cd" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                            <parameters>
+                              <TargetEntityType>opportunity</TargetEntityType>
+                              <ChartGridMode>Grid</ChartGridMode>
+                              <EnableQuickFind>true</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>8</RecordsPerPage>
+                              <ViewId>{1f48dd82-2e59-f111-bec7-000d3a10f9c5}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds>{1f48dd82-2e59-f111-bec7-000d3a10f9c5}</ViewIds>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+        </tabs>
+      </form>
+    </forms>
+  </FormXml>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsTabletEnabled>0</IsTabletEnabled>
+</Dashboard>

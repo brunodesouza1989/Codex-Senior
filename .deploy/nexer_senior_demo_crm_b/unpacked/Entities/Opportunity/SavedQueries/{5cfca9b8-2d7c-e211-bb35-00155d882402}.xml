@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{5cfca9b8-2d7c-e211-bb35-00155d882402}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" preview="1" icon="1">
+        <row name="result" id="opportunityid">
+          <cell name="name" width="100" />
+          <cell name="customerid" width="100" />
+          <cell name="statecode" width="100" />
+          <cell name="estimatedvalue" width="100" />
+          <cell name="estimatedclosedate" width="100" />
+          <cell name="actualvalue" width="100" />
+          <cell name="ownerid" width="100" />
+          <cell name="new_melhordiadepagamento" width="184" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="opportunity">
+          <attribute name="statecode" />
+          <attribute name="ownerid" />
+          <attribute name="estimatedvalue" />
+          <attribute name="customerid" />
+          <attribute name="actualvalue" />
+          <attribute name="name" />
+          <order attribute="actualvalue" descending="false" />
+          <order attribute="estimatedclosedate" descending="true" />
+          <filter type="and">
+            <filter type="or">
+              <filter type="and">
+                <condition attribute="actualclosedate" operator="this-fiscal-year" />
+                <condition attribute="statecode" operator="in">
+                  <value>2</value>
+                  <value>1</value>
+                </condition>
+              </filter>
+              <condition attribute="statecode" operator="eq" value="0" />
+            </filter>
+          </filter>
+          <attribute name="opportunityid" />
+          <attribute name="estimatedclosedate" />
+          <attribute name="new_melhordiadepagamento" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>6.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Opportunities in Current Fiscal Year" languagecode="1033" />
+      <LocalizedName description="Oportunidades do Ano Fiscal Atual" languagecode="1046" />
+      <LocalizedName description="Oportunidades del año fiscal actual" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="All the won, lost and open opportunities for the current fiscal year." languagecode="1033" />
+      <Description description="Todas as oportunidades ganhas, perdidas e abertas do ano fiscal atual." languagecode="1046" />
+      <Description description="Todas las oportunidades ganadas, perdidas y abiertas para el año fiscal actual." languagecode="3082" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

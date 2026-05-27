@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{c6179eaa-6f4e-e611-80be-0024e8469fb9}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" preview="1" icon="1">
+        <row name="result" id="opportunityid">
+          <cell name="name" width="150" />
+          <cell name="estimatedvalue" width="100" />
+          <cell name="msdyn_opportunitykpiitem.msdyn_relationshiphealthscorestate" width="260" disableSorting="1" imageproviderfunctionname="loadkpihealthscore" imageproviderwebresource="$webresource:msdyn_/HealthWidget/Scripts/HealthWidget.minified.js" />
+          <cell name="msdyn_opportunitykpiitem.msdyn_relationshiphealthtrend" width="160" disableSorting="1" imageproviderfunctionname="loadrelationshiphealthtrend" imageproviderwebresource="$webresource:msdyn_/HealthWidget/Scripts/HealthWidget.minified.js" />
+          <cell name="parentaccountid" width="100" disableSorting="1" />
+          <cell name="msdyn_opportunitykpiitem.msdyn_timespentbyteam_calculated" width="136" disableSorting="1" />
+          <cell name="msdyn_opportunitykpiitem.msdyn_timespentbycustomer_calculated" width="180" disableSorting="1" />
+          <cell name="msdyn_opportunitykpiitem.msdyn_acilastupdatetimestamp" width="175" disableSorting="1" />
+          <cell name="new_melhordiadepagamento" width="184" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="opportunity">
+          <attribute name="name" />
+          <attribute name="estimatedvalue" />
+          <attribute name="parentaccountid" />
+          <attribute name="estimatedclosedate" />
+          <order attribute="estimatedclosedate" descending="false" />
+          <filter type="and">
+            <condition attribute="ownerid" operator="eq-userid" />
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <link-entity alias="msdyn_opportunitykpiitem" name="msdyn_opportunitykpiitem" from="msdyn_opportunitykpiitemid" to="msdyn_opportunitykpiid" link-type="outer" visible="false">
+            <attribute name="msdyn_relationshiphealthscorestate" />
+            <attribute name="msdyn_relationshiphealthtrend" />
+            <attribute name="msdyn_timespentbyteam_calculated" />
+            <attribute name="msdyn_timespentbycustomer_calculated" />
+            <attribute name="msdyn_acilastupdatetimestamp" />
+          </link-entity>
+          <attribute name="opportunityid" />
+          <attribute name="new_melhordiadepagamento" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="My Open Opportunities by Relationship" languagecode="1033" />
+      <LocalizedName description="Minhas Oportunidades Abertas por Relacionamento" languagecode="1046" />
+      <LocalizedName description="Mis oportunidades abiertas por relación" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

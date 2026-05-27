@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{ce7245db-b358-f111-bec7-6045bdd67b7b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="subject" select="1" icon="1" preview="1">
+        <row name="result" id="leadid">
+          <cell name="subject" width="280" />
+          <cell name="fullname" width="150" />
+          <cell name="companyname" width="180" />
+          <cell name="jobtitle" width="160" />
+          <cell name="emailaddress1" width="220" />
+          <cell name="mobilephone" width="140" />
+          <cell name="nexer_interessedocliente" width="160" />
+          <cell name="estimatedamount" width="120" />
+          <cell name="numberofemployees" width="100" />
+          <cell name="budgetstatus" width="150" />
+          <cell name="purchasetimeframe" width="150" />
+          <cell name="statecode" width="120" />
+          <cell name="statuscode" width="140" />
+          <cell name="createdon" width="140" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="lead">
+          <attribute name="subject" />
+          <attribute name="fullname" />
+          <attribute name="companyname" />
+          <attribute name="jobtitle" />
+          <attribute name="emailaddress1" />
+          <attribute name="mobilephone" />
+          <attribute name="nexer_interessedocliente" />
+          <attribute name="estimatedamount" />
+          <attribute name="numberofemployees" />
+          <attribute name="budgetstatus" />
+          <attribute name="purchasetimeframe" />
+          <attribute name="statecode" />
+          <attribute name="statuscode" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="subject" operator="like" value="Senior Sales Insights Demo%" />
+          </filter>
+          <order attribute="createdon" descending="true" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Senior | Sales Insights Demo Leads" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

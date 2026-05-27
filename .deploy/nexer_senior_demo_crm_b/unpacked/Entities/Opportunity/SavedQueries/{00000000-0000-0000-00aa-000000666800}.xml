@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{00000000-0000-0000-00aa-000000666800}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" icon="1" preview="1">
+        <row name="result" id="opportunityid">
+          <cell name="name" width="300" />
+          <cell name="customerid" width="150" />
+          <cell name="estimatedvalue" width="100" />
+          <cell name="statuscode" width="100" />
+          <cell name="new_melhordiadepagamento" width="184" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="opportunity">
+          <attribute name="name" />
+          <attribute name="customerid" />
+          <attribute name="estimatedvalue" />
+          <attribute name="statuscode" />
+          <attribute name="opportunityid" />
+          <order attribute="name" descending="false" />
+          <attribute name="new_melhordiadepagamento" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Opportunity Advanced Find View" languagecode="1033" />
+      <LocalizedName description="Exibição de Localização Avançada de Oportunidades" languagecode="1046" />
+      <LocalizedName description="Vista de búsqueda avanzada de oportunidades" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

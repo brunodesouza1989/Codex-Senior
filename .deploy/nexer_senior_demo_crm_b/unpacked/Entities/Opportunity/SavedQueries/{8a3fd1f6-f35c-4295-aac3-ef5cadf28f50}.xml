@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{8a3fd1f6-f35c-4295-aac3-ef5cadf28f50}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" icon="1" preview="1">
+        <row name="result" id="opportunityid">
+          <cell name="name" width="300" />
+          <cell name="customerid" width="100" />
+          <cell name="estimatedclosedate" width="125" />
+          <cell name="estimatedvalue" width="110" />
+          <cell name="parentcontactid" width="100" />
+          <cell name="parentaccountid" width="100" />
+          <cell name="closeprobability" width="100" />
+          <cell name="opportunityratingcode" width="100" />
+          <cell name="opportunitycustomeridcontactcontactid.emailaddress1" width="150" disableSorting="1" />
+          <cell name="new_melhordiadepagamento" width="184" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="opportunity">
+          <attribute name="name" />
+          <attribute name="estimatedvalue" />
+          <attribute name="estimatedclosedate" />
+          <attribute name="customerid" />
+          <order attribute="estimatedclosedate" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="closeprobability" />
+          <attribute name="opportunityratingcode" />
+          <link-entity alias="opportunitycustomeridcontactcontactid" name="contact" from="contactid" to="customerid" link-type="outer" visible="false">
+            <attribute name="emailaddress1" />
+          </link-entity>
+          <attribute name="parentcontactid" />
+          <attribute name="parentaccountid" />
+          <attribute name="opportunityid" />
+          <link-entity name="connection" from="record1id" to="opportunityid" link-type="outer" alias="connection">
+            <attribute name="record1id" />
+            <filter type="and">
+              <condition attribute="statecode" operator="eq" value="0" />
+              <condition attribute="record2roleid" operator="eq" value="5466d61b-c4da-e911-a81f-000d3afdbbd4" />
+            </filter>
+          </link-entity>
+          <link-entity name="msdyn_sequencetarget" from="msdyn_target" to="opportunityid" alias="sequencetarget" link-type="outer">
+            <filter type="and">
+              <condition attribute="statecode" operator="eq" value="0" />
+            </filter>
+          </link-entity>
+          <filter type="and">
+            <condition entityname="connection" attribute="record1id" operator="null" />
+            <condition entityname="sequencetarget" attribute="msdyn_sequencetargetid" operator="null" />
+          </filter>
+          <attribute name="new_melhordiadepagamento" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Open opportunities without sequences" languagecode="1033" />
+      <LocalizedName description="Oportunidades abertas sem sequências" languagecode="1046" />
+      <LocalizedName description="Oportunidades abiertas sin secuencias" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Show open opportunities that aren't connected to a sequence." languagecode="1033" />
+      <Description description="Mostre as oportunidades abertas que não estão conectadas a uma sequência." languagecode="1046" />
+      <Description description="Mostrar las oportunidades abiertas que no están conectadas con una secuencia." languagecode="3082" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

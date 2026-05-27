@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{f065efd4-7259-f111-bec6-0022482557cc}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" icon="1" preview="1">
+        <row name="result" id="accountid">
+          <cell name="name" width="300" />
+          <cell name="accountnumber" width="160" />
+          <cell name="ownerid" width="180" />
+          <cell name="modifiedon" width="140" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="account">
+          <attribute name="name" />
+          <attribute name="accountnumber" />
+          <attribute name="ownerid" />
+          <attribute name="modifiedon" />
+          <link-entity name="nexer_conflitoatuacao" from="nexer_account" to="accountid" link-type="inner">
+            <filter>
+              <condition attribute="statecode" operator="eq" value="0" />
+            </filter>
+          </link-entity>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Contas em Conflito" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

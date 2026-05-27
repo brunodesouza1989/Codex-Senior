@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{a513d077-21aa-4c33-b068-85cf57d3b127}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form showImage="true" shownavigationbar="true" maxWidth="1920" headerdensity="HighWithControls">
+      <tabs>
+        <tab name="tab_main" verticallayout="true" id="{e4698de6-81d1-440f-b574-173a4ad9dc38}" IsUserDefined="1" locklevel="0" expanded="true" showlabel="true" labelid="{8d82ebf1-69bb-4f05-bb32-dfab32d5245a}">
+          <labels>
+            <label description="Aprovação de Desconto" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="solicitação" showlabel="true" showbar="false" id="{dbe0141d-0e5c-4c0e-8da0-7e7e6a379f10}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{3c1ad34c-02f8-42c1-a8c8-c2ac95a0a585}">
+                  <labels>
+                    <label description="Solicitação" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1b1d6f6b-727f-41d3-81e7-faf690b29214}" showlabel="true" locklevel="0" labelid="{68076757-e0f7-4503-9eb6-9ff66e2d66d9}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                          <label description="Nome" languagecode="1033" />
+                        </labels>
+                        <control id="nexer_nome" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nexer_nome" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4561a605-214b-46f6-b914-3725f4e38016}" showlabel="true" locklevel="0" labelid="{f576ea1d-53c0-4fee-9196-6afa1780cc7c}">
+                        <labels>
+                          <label description="Oportunidade" languagecode="1046" />
+                          <label description="Oportunidade" languagecode="1033" />
+                        </labels>
+                        <control id="nexer_opportunity" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="nexer_opportunity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{52fc1d52-5cb2-4f2b-9251-499b14e8e765}" showlabel="true" locklevel="0" labelid="{895f9e8e-18c7-4cd4-ad8f-fb46832f8565}">
+                        <labels>
+                          <label description="Percentual" languagecode="1046" />
+                          <label description="Percentual" languagecode="1033" />
+                        </labels>
+                        <control id="nexer_percentual" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="nexer_percentual" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6ce15ecd-86d0-4628-858a-ec3c042c895f}" showlabel="true" locklevel="0" labelid="{649f8bd8-7eb3-4019-8334-7a93dc147255}">
+                        <labels>
+                          <label description="Justificativa" languagecode="1046" />
+                          <label description="Justificativa" languagecode="1033" />
+                        </labels>
+                        <control id="nexer_justificativa" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="nexer_justificativa" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="histórico_de_aprovação" showlabel="true" showbar="false" id="{4fffc613-6559-4a28-a29b-6fe95aac4d95}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{4f75db46-b613-40cb-91b1-1be8d2c6c61e}">
+                  <labels>
+                    <label description="Histórico de Aprovação" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{fbef7f13-04df-40cb-a0f5-f08086b9dbe7}" showlabel="true" locklevel="0" labelid="{927c9cdb-9681-4536-8918-9ad0a3fe07c3}">
+                        <labels>
+                          <label description="Status" languagecode="1046" />
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="nexer_status" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="nexer_status" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f01d5ddc-9f99-4bce-9f79-9cc4f3a8fc87}" showlabel="true" locklevel="0" labelid="{3359fd82-e99e-4f42-9a15-6b278c53e485}">
+                        <labels>
+                          <label description="Solicitante" languagecode="1046" />
+                          <label description="Solicitante" languagecode="1033" />
+                        </labels>
+                        <control id="nexer_solicitante" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="nexer_solicitante" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{970f6c93-1bdf-41a8-8007-3d20fd35eace}" showlabel="true" locklevel="0" labelid="{ff9269b3-997e-45b3-b6ec-a741107736cf}">
+                        <labels>
+                          <label description="Alçada" languagecode="1046" />
+                          <label description="Alçada" languagecode="1033" />
+                        </labels>
+                        <control id="nexer_alcada" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="nexer_alcada" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{360528a8-05f6-4fd5-ae4d-e71182680dd7}" showlabel="true" locklevel="0" labelid="{1236bc79-b6af-421f-8ed1-f4059c068371}">
+                        <labels>
+                          <label description="Proprietário" languagecode="1046" />
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Propietario" languagecode="3082" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="timeline" showlabel="true" showbar="false" id="{3fa795a8-9666-4e72-b830-12a828b59848}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{14d5d75d-35ec-4f9f-8261-dcda8ab27c71}">
+                  <labels>
+                    <label description="Timeline" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" rowspan="12" auto="false" id="{0f36019e-76c1-4fac-8bd8-9750de6baf42}">
+                        <labels>
+                          <label description="Anotações" languagecode="1046" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}">
+                          <parameters>
+                            <DefaultTabId>NotesTab</DefaultTabId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="nexer_form_aprovacao_main" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Um formulário para esta entidade." languagecode="1046" />
+    </Descriptions>
+  </systemform>
+</forms>

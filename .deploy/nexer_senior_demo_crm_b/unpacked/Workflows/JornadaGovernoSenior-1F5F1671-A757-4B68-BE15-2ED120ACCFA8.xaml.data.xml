@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{1f5f1671-a757-4b68-be15-2ed120accfa8}" Name="Jornada Governo Senior" Description="BPF Senior para oportunidades de mercado público/governo." xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/JornadaGovernoSenior-1F5F1671-A757-4B68-BE15-2ED120ACCFA8.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>30</processorder>
+  <RunAs>1</RunAs>
+  <UniqueName>nexer_bpf_jornada_governo</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ModernFlowType>0</ModernFlowType>
+  <PrimaryEntity>Opportunity</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1046" description="Jornada Governo Senior" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1046" description="BPF Senior para oportunidades de mercado público/governo." />
+  </Descriptions>
+  <labels>
+    <steplabels id="{99053699-316c-4e5b-a764-a8b6b360ea30}">
+      <label languagecode="1046" description="Entrada Edital" />
+    </steplabels>
+    <steplabels id="{eb15833e-c893-4063-80ca-7eac720187db}">
+      <label languagecode="1046" description="Nome" />
+    </steplabels>
+    <steplabels id="{fb05ee06-9c5e-4c7d-9b9c-d73847e0e032}">
+      <label languagecode="1046" description="Análise Legal" />
+    </steplabels>
+    <steplabels id="{e4f42500-caac-4f56-990c-0db0ee3325f4}">
+      <label languagecode="1046" description="Nome" />
+    </steplabels>
+    <steplabels id="{215e4427-d8ff-404e-b0a7-b1df95703e3f}">
+      <label languagecode="1046" description="Go/No-Go" />
+    </steplabels>
+    <steplabels id="{d6bc679e-12ed-4648-beee-ed9c92d96588}">
+      <label languagecode="1046" description="Nome" />
+    </steplabels>
+    <steplabels id="{74352a9f-b2e6-4f5b-93a8-243ce97b65f3}">
+      <label languagecode="1046" description="Habilitação" />
+    </steplabels>
+    <steplabels id="{72e4ebbc-6779-4121-a344-fcd718138472}">
+      <label languagecode="1046" description="Nome" />
+    </steplabels>
+    <steplabels id="{14c6a261-8785-4109-86a5-efcf87ada492}">
+      <label languagecode="1046" description="Proposta Técnica" />
+    </steplabels>
+    <steplabels id="{3a9b872a-b047-49c5-8c52-c68ee6ca22fb}">
+      <label languagecode="1046" description="Nome" />
+    </steplabels>
+    <steplabels id="{1d027133-209c-4823-bf27-dbba86508ecd}">
+      <label languagecode="1046" description="Proposta Comercial" />
+    </steplabels>
+    <steplabels id="{f207646d-b8df-49bc-a088-4cb1289acf12}">
+      <label languagecode="1046" description="Nome" />
+    </steplabels>
+    <steplabels id="{00c13b1a-6a71-41bd-bd69-7a27d02aaf00}">
+      <label languagecode="1046" description="Pregão/Lances" />
+    </steplabels>
+    <steplabels id="{2cb59b4c-a108-453e-95af-1fed606a713d}">
+      <label languagecode="1046" description="Nome" />
+    </steplabels>
+    <steplabels id="{9edf74c0-c66f-4aef-804c-8883fedf6fc0}">
+      <label languagecode="1046" description="Adjudicação" />
+    </steplabels>
+    <steplabels id="{a14d96b0-49e2-4369-ab6b-048e0112a6f9}">
+      <label languagecode="1046" description="Nome" />
+    </steplabels>
+    <steplabels id="{2caa3ffa-3625-4d98-a278-14a62d152278}">
+      <label languagecode="1046" description="Contrato" />
+    </steplabels>
+    <steplabels id="{34ca98c0-2246-43f1-bbde-687877512f49}">
+      <label languagecode="1046" description="Nome" />
+    </steplabels>
+  </labels>
+</Workflow>

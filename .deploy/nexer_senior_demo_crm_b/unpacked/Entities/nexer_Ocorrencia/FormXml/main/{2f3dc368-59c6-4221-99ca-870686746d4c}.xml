@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{2f3dc368-59c6-4221-99ca-870686746d4c}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form showImage="true" shownavigationbar="true" maxWidth="1920" headerdensity="HighWithControls">
+      <tabs>
+        <tab name="tab_main" verticallayout="true" id="{acd9d2cc-a84d-4647-97e5-5b2224434ecd}" IsUserDefined="1" locklevel="0" expanded="true" showlabel="true" labelid="{f82927ad-c30f-4684-a34b-b6a271266ce1}">
+          <labels>
+            <label description="Ocorrência Senior" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="tipo_e_descrição" showlabel="true" showbar="false" id="{9e455178-bced-4e94-be43-79ee022486b5}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{c3d1215b-e194-4697-b3d6-90bd8e45ed12}">
+                  <labels>
+                    <label description="Tipo e Descrição" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b1a1a171-0bf3-4f5d-a25b-169f0a0a7695}" showlabel="true" locklevel="0" labelid="{ffcde527-7c34-45a6-99c4-4c75db9a2dce}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                          <label description="Nome" languagecode="1033" />
+                        </labels>
+                        <control id="nexer_nome" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nexer_nome" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7d9d2925-1a0a-490d-8acd-02c8b3633894}" showlabel="true" locklevel="0" labelid="{aac9963f-b930-4f46-a15a-49a9f19b5a6a}">
+                        <labels>
+                          <label description="Tipo" languagecode="1046" />
+                          <label description="Tipo" languagecode="1033" />
+                        </labels>
+                        <control id="nexer_tipo" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="nexer_tipo" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c102fbb7-6bb3-4a41-b372-ac9cbaf8a50c}" showlabel="true" locklevel="0" labelid="{88e77bc3-e3a7-4714-a9bf-725d7d6c0e59}">
+                        <labels>
+                          <label description="Descrição" languagecode="1046" />
+                          <label description="Descrição" languagecode="1033" />
+                        </labels>
+                        <control id="nexer_descricao" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="nexer_descricao" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{39bd7dc2-3bf2-4126-bfc5-941d3f678252}" showlabel="true" locklevel="0" labelid="{fd378644-cbbb-4a91-943d-9e48c4aee416}">
+                        <labels>
+                          <label description="Status" languagecode="1046" />
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="nexer_status" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="nexer_status" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="vínculo" showlabel="true" showbar="false" id="{66e16937-a74e-45ad-9366-e137a6fac3ff}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{b3260eb4-7e17-4131-b43a-cbf116d13ad3}">
+                  <labels>
+                    <label description="Vínculo" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9104f572-4b09-4ea4-81dc-60b5f8c9caf5}" showlabel="true" locklevel="0" labelid="{be438e61-4ede-4ffe-aa9f-4d9760d9a4fa}">
+                        <labels>
+                          <label description="Conta" languagecode="1046" />
+                          <label description="Conta" languagecode="1033" />
+                        </labels>
+                        <control id="nexer_account" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="nexer_account" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c207573c-54af-48ac-ad1d-ca1338bf0ccc}" showlabel="true" locklevel="0" labelid="{fcba1408-018c-418b-b2eb-01c96ee08efa}">
+                        <labels>
+                          <label description="Oportunidade" languagecode="1046" />
+                          <label description="Oportunidade" languagecode="1033" />
+                        </labels>
+                        <control id="nexer_opportunity" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="nexer_opportunity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{529bbb33-86b7-46cc-a977-abe75737006a}" showlabel="true" locklevel="0" labelid="{1fd1ca0b-aa83-42b5-9cde-9e7158b78aef}">
+                        <labels>
+                          <label description="Proprietário" languagecode="1046" />
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Propietario" languagecode="3082" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="timeline" showlabel="true" showbar="false" id="{437ea222-82a0-4ac8-b130-436de4b73e9c}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{bad5887b-de1f-4b86-a379-5263d20494e4}">
+                  <labels>
+                    <label description="Timeline" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" rowspan="12" auto="false" id="{d96d7ad4-7158-4a2d-82a0-e8314a757e65}">
+                        <labels>
+                          <label description="Anotações" languagecode="1046" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}">
+                          <parameters>
+                            <DefaultTabId>NotesTab</DefaultTabId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="nexer_form_ocorrencia_main" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Um formulário para esta entidade." languagecode="1046" />
+    </Descriptions>
+  </systemform>
+</forms>

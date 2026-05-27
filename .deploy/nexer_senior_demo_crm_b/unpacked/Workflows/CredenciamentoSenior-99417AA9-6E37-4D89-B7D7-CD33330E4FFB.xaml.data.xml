@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{99417aa9-6e37-4d89-b7d7-cd33330e4ffb}" Name="Credenciamento Senior" Description="BPF Senior para credenciamento de canal por produto e território." xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/CredenciamentoSenior-99417AA9-6E37-4D89-B7D7-CD33330E4FFB.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>20</processorder>
+  <RunAs>1</RunAs>
+  <UniqueName>nexer_bpf_credenciamento</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ModernFlowType>0</ModernFlowType>
+  <PrimaryEntity>nexer_Credenciamento</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1046" description="Credenciamento Senior" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1046" description="BPF Senior para credenciamento de canal por produto e território." />
+  </Descriptions>
+  <labels>
+    <steplabels id="{04143923-bc72-4ce3-acd1-da494fcdb5bd}">
+      <label languagecode="1046" description="Solicitado" />
+    </steplabels>
+    <steplabels id="{edd39053-d1ef-4540-81e7-daf527dffcb5}">
+      <label languagecode="1046" description="Nome" />
+    </steplabels>
+    <steplabels id="{959e93e4-1cde-44af-bfcd-3f5be7832e27}">
+      <label languagecode="1046" description="Em Análise" />
+    </steplabels>
+    <steplabels id="{2259c0aa-199b-4f40-82e1-43e8e7334113}">
+      <label languagecode="1046" description="Nome" />
+    </steplabels>
+    <steplabels id="{949f46e7-0741-421e-a656-b04dbe8259ac}">
+      <label languagecode="1046" description="Treinamento" />
+    </steplabels>
+    <steplabels id="{b76d868c-1c94-4a23-a8b9-4602e6996d81}">
+      <label languagecode="1046" description="Nome" />
+    </steplabels>
+    <steplabels id="{1796c8b0-360a-41bd-8d5b-c66aca28eeed}">
+      <label languagecode="1046" description="Certificação" />
+    </steplabels>
+    <steplabels id="{ef087e76-ac4b-4dfc-8cd4-af295f6781d7}">
+      <label languagecode="1046" description="Nome" />
+    </steplabels>
+    <steplabels id="{2a7a46be-f749-4497-a718-68a32c6b0df6}">
+      <label languagecode="1046" description="Ativo" />
+    </steplabels>
+    <steplabels id="{1a758dec-cfdf-467c-a6ff-296d5d5a1e45}">
+      <label languagecode="1046" description="Nome" />
+    </steplabels>
+  </labels>
+</Workflow>

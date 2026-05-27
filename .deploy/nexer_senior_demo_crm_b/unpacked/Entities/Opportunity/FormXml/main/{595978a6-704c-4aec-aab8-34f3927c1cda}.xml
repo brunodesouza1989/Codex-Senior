@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{595978a6-704c-4aec-aab8-34f3927c1cda}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920" headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab name="Summary" verticallayout="true" id="{b6a005fd-5964-4427-b39b-6750e1a5fa6f}" IsUserDefined="0" expanded="true" locklevel="0" showlabel="true" labelid="{28fc7418-74a3-4e2f-aebc-e982ae43c523}" ordinalvalue="0">
+          <columns>
+            <column width="33%" id="0">
+              <sections>
+                <section name="opportunity_information" showlabel="true" showbar="false" id="{5d1cf874-b807-4158-b230-1a13c1db73ad}" columns="1" IsUserDefined="0" labelid="{131bb125-369f-4f92-9a26-0edb7af911c6}" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell colspan="1" id="{439e0732-3f3a-409d-98ba-83d3251cb64b}" labelid="{ce96c5a6-3add-4643-bad5-05cb42936347}" ordinalvalue="10001" solutionaction="Modified">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{181e7f45-3819-40c3-bdf3-1c892d53f35d}" labelid="{e9265d61-42c6-4fde-b685-72a23b1e7ad0}" ordinalvalue="10002" solutionaction="Modified">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7f5a51a0-115c-4f72-a2f3-7d963e7fa664}" labelid="{3d65c6d8-6611-4beb-8d76-f2e4a92ff8bd}" ordinalvalue="10003" solutionaction="Modified">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4c69d917-e84e-4c9d-ba14-f7bb5bc0a51f}" labelid="{709311bc-97f8-432f-adfe-29712dc5e3eb}" ordinalvalue="10005" solutionaction="Modified">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b0e21400-f671-46d7-a9c3-1a6c61e4ef1c}" labelid="{1ef88019-72c0-4375-abe4-8485ed550849}" ordinalvalue="10006" solutionaction="Modified">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f9bdae13-ecd5-4eb7-b71f-f14b9619f7c5}" labelid="{4aa34dea-e286-4067-9331-644cffae72fe}" ordinalvalue="10007" solutionaction="Modified">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2cee855d-be6b-786d-e781-8ccbd1858cb5}" showlabel="true" locklevel="0" rowspan="5" labelid="{9cbd63be-6283-47b1-85f9-97999225d35c}" ordinalvalue="10008" solutionaction="Modified">
+                        <labels>
+                          <label description="Descrição" languagecode="1046" solutionaction="Added" />
+                          <label description="Description" languagecode="1033" solutionaction="Added" />
+                          <label description="Descripción" languagecode="3082" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ca02e3a9-2eb8-57de-1c50-4c01e7112a51}" showlabel="true" locklevel="0" visible="false" ordinalvalue="10010" solutionaction="Modified">
+                        <labels>
+                          <label description="Tipo" languagecode="1046" solutionaction="Added" />
+                          <label description="Type" languagecode="1033" solutionaction="Added" />
+                          <label description="Tipo" languagecode="3082" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e823eff1-7b1e-4998-9ad5-24e1519f5ebb}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000" solutionaction="Added">
+                        <labels>
+                          <label description="Unidade de Negócios" languagecode="1046" />
+                          <label description="Owning Business Unit" languagecode="1033" />
+                          <label description="Unidad de negocio propietaria" languagecode="3082" />
+                        </labels>
+                        <control id="owningbusinessunit" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="owningbusinessunit" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2a3bcbd2-1807-45f9-8c0c-2bea92858415}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="Desconto da Oportunidade (%)" languagecode="1046" />
+                          <label description="Opportunity Discount (%)" languagecode="1033" />
+                          <label description="Descuento de oportunidad (%)" languagecode="3082" />
+                        </labels>
+                        <control id="discountpercentage" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="discountpercentage" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{706c2f7a-a696-4c80-8fde-097d5488de9c}" locklevel="0" rowspan="1" colspan="1" ordinalvalue="10009" solutionaction="Added">
+                        <labels>
+                          <label description="Melhor dia de pagamento" languagecode="1046" />
+                        </labels>
+                        <control id="new_melhordiadepagamento" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="new_melhordiadepagamento" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Opportunity_details" showlabel="true" showbar="false" id="{f961b0a9-2637-4fd3-a4d7-8e55b5246727}" layout="varwidth" columns="1" celllabelposition="Top" IsUserDefined="0" labelid="{8f30132c-618f-4f52-a695-d0cf17097229}" locklevel="0" labelwidth="130" celllabelalignment="Left" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{74794dae-95cf-413e-9472-699e76e1e1a0}" rowspan="3" labelid="{7c6c7e98-31c3-4641-bfc9-b6ac596b46d5}" ordinalvalue="10001">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ee5d4aa4-e0b5-4822-ba14-49c1c8430a86}" rowspan="3" labelid="{dd3c437a-fa80-4a31-b51a-28e89981e526}" ordinalvalue="10002">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6862197e-b146-47ce-afc2-3f02b06ca0c4}" rowspan="3" labelid="{6f7739e4-0022-40f5-9a49-7b16c7b4b488}" ordinalvalue="10003">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="42%" id="1">
+              <sections>
+                <section name="Summary_CadenceWidget" showlabel="false" showbar="false" id="{5f51dd3b-babd-4782-bfcf-464e69e6b140}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{0e3a2bb3-3be6-472f-b069-e4ef2e9c720e}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{c1a474de-28ee-43eb-856b-2317d49d50e4}" showlabel="false" colspan="1" rowspan="6" labelid="{21e3f4e1-68b9-4ac1-a318-a5e5a5417052}" ordinalvalue="10001" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{a15f0c23-561e-4f01-865a-e081bef00540}" colspan="1" rowspan="1" ordinalvalue="10000" solutionaction="Added">
+                        <labels>
+                          <label description="New resumo do registro" languagecode="1046" />
+                        </labels>
+                        <control id="cc_1761405135637" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" isunbound="true" isrequired="false" uniqueid="{EF75BC97-EA43-432E-A660-C94BC2C3FB75}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="25%" id="2">
+              <sections>
+                <section name="Summary_section_6" showlabel="false" showbar="false" locklevel="0" id="{ea3bb0a6-b9dc-1b0e-5e7d-74a380ee79a3}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" ordinalvalue="1">
+                  <labels>
+                    <label description="Asistente" languagecode="3082" solutionaction="Modified" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9D5B59C2-3DF3-4437-AC5D-3A6E36866000}" showlabel="false" rowspan="6" auto="false" colspan="1" labelid="{d2605d6e-c6a8-401d-86d0-a16306ff0939}" ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Social_pane" showlabel="false" showbar="false" locklevel="0" id="{c03918d8-d714-7b95-3083-443db3e303c8}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" ordinalvalue="3">
+                  <labels>
+                    <label description="SOCIAL PANE" languagecode="1033" solutionaction="Modified" />
+                    <label description="PAINEL SOCIAL" languagecode="1046" solutionaction="Modified" />
+                    <label description="PANEL DE REDES SOCIALES" languagecode="3082" solutionaction="Modified" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{798de0be-acfe-4480-b3f7-69312505588a}" colspan="1" auto="false" rowspan="9" showlabel="true" labelid="{b5ce7a71-abc8-4a82-9632-ecf4e6ad9801}" ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{92822c63-42c0-4b31-8cb5-8ce123553796}" colspan="1" auto="false" rowspan="9" showlabel="true" labelid="{b884bd94-eba1-4ca1-98ec-7e875faa2db6}" ordinalvalue="10002">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{05a38f4d-1649-4741-84b6-d6de2db78048}" colspan="1" auto="false" rowspan="9" showlabel="true" labelid="{111a8456-e615-4ec1-9146-ef8e11ca18d5}" ordinalvalue="10004">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="RELATIONSHIP_ANALYTICS_TAB" id="{31a48967-f56a-424a-9b89-c413154f6318}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" visible="false" ordinalvalue="2" solutionaction="Modified" />
+        <tab name="RAV2" id="{d46008c4-4893-8896-8348-e98c567dd3a6}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" visible="false" ordinalvalue="3" solutionaction="Modified" />
+        <tab name="QUOTES" verticallayout="true" id="{af8380da-5492-4a69-8a36-b1beff121e95}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" labelid="{8cf6a0d7-7ce9-44f0-9e2b-b3b2e9cf54e8}" ordinalvalue="4" solutionaction="Modified">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="opportunityquotes" showlabel="false" showbar="false" id="{40e2e47e-716a-4fe8-9fc0-e0341303c7a3}" height="auto" IsUserDefined="0" layout="varheight" columns="11" labelid="{1741538b-6878-4414-9f4f-618665110e6d}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell colspan="2" rowspan="4" showlabel="false" auto="true" id="{dcb63b8d-f689-44b1-a009-292bff328340}" labelid="{fa5960fa-76f0-4183-aef1-8c390fe9f403}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Cartões de Ação" languagecode="1046" solutionaction="Added" />
+                          <label description="Action Cards" languagecode="1033" solutionaction="Added" />
+                          <label description="Tarjetas de acción" languagecode="3082" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Product_Line_Items" verticallayout="true" id="{79548060-31f7-4646-8c08-0296ecd4113b}" expanded="false" IsUserDefined="0" locklevel="0" showlabel="true" ordinalvalue="5" solutionaction="Modified">
+          <labels>
+            <label description="Products" languagecode="1033" solutionaction="Modified" />
+            <label description="Itens de linha do produto" languagecode="1046" solutionaction="Modified" />
+            <label description="Productos" languagecode="3082" solutionaction="Modified" />
+          </labels>
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="opportunityproducts" showlabel="false" showbar="false" id="{2b1ed7f7-3ebb-42f3-809f-94eba9f94fb2}" height="auto" IsUserDefined="0" layout="varheight" columns="11" labelid="{83f1841e-2c65-4fa9-a535-67b07ac72a47}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{ba131dc7-aa7c-4d8b-9c94-421ed8a7ddaf}" labelid="{7808ef46-771f-4562-853f-9bb6df3ead9c}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0B8DF861-AE32-4C79-9C4E-2ECAA9F74712}" labelid="{56da8845-fdc7-45aa-9756-01268b2ce424}" ordinalvalue="10002">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell colspan="2" rowspan="4" showlabel="false" auto="true" id="{22177595-7784-43da-9af2-50e9115b956e}" labelid="{a2eb1c8d-cf9b-4841-a3bf-f8f6bb3cdb15}" ordinalvalue="10004">
+                        <labels>
+                          <label description="Cartões de Ação" languagecode="1046" solutionaction="Added" />
+                          <label description="Action Cards" languagecode="1033" solutionaction="Added" />
+                          <label description="Tarjetas de acción" languagecode="3082" solutionaction="Added" />
+                        </labels>
+                        <control id="opportunityproductsGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                          <parameters>
+                            <ViewId solutionaction="Modified">{F690DC37-348A-EE11-8179-000D3A578F39}</ViewId>
+                            <ViewIds solutionaction="Added">{C9AA8500-1B5C-E611-8113-00155DB93108},{01010DE7-749E-4FE6-8037-ACA560A4FCBE},{E175DFBF-8EAE-4AF2-9DD2-68C43C14D40F},{D85FB95C-FE58-E611-810C-00155DB93107},{F690DC37-348A-EE11-8179-000D3A578F39},{F2469229-1A70-EA11-A81E-000D3AAC76E1},{78E240EA-A962-406D-9EF9-C6C00260DBEB}</ViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="totals" showlabel="false" showbar="false" locklevel="0" id="{736e5dc8-6758-42ee-8e28-812ec6f75abd}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{089b1f4f-e602-43b6-b23d-ddcd02c745aa}" ordinalvalue="3">
+                  <rows>
+                    <row>
+                      <cell id="{91C4D5D8-FDBC-4F1A-8A91-753A1AE4E376}" labelid="{573470d2-f5e1-4955-aba0-ced5e7e31e12}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{EFE4D5AB-D23D-4C88-A906-4646F3B28B45}" labelid="{8bd06724-cf7f-4684-a5c5-e89a3d3d9e54}" ordinalvalue="10001">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6BD9F746-A850-4D84-8716-748AA91EC1BC}" labelid="{c75bb4d2-a99e-42d6-b303-18611cb35bcf}" ordinalvalue="10002">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{75F85D03-7267-4C05-B5DE-B00C49595864}" labelid="{e33dd148-38e2-412e-b110-227c396db602}" showlabel="true" locklevel="0" ordinalvalue="10003">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{E91D45ED-89A7-48A2-8B9E-B16EF4DE2815}" labelid="{e220dc78-2639-484a-8453-faa55f3ab9e9}" showlabel="true" locklevel="0" ordinalvalue="10004">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{E59C312B-32A1-4441-9E54-4F4292E8E60C}" labelid="{0ef0218c-843d-432f-af3a-a871cb46a879}" showlabel="true" locklevel="0" ordinalvalue="10005">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{D96BA356-1581-46E0-937C-49033D55E3A2}" labelid="{85ca8821-987d-43ad-9da0-f8877c4e7396}" ordinalvalue="10006">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_easy" id="85ae16ce-62b0-4341-b31a-7490525b0a1a" IsUserDefined="0" locklevel="0" showlabel="true" contenttype="singleComponent" ordinalvalue="1" solutionaction="Added">
+          <labels>
+            <label description="Easy" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="easy" id="c0bb5e8a-a66a-439b-a801-e43c3cd1bf91" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="0">
+                  <labels>
+                    <label description="Easy" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell rowspan="12" id="{baabb208-f9d0-42c3-9c77-86bf089d4267}" showlabel="false" colspan="1" auto="true" ordinalvalue="10000">
+                        <labels>
+                          <label description="Easy" languagecode="1046" />
+                        </labels>
+                        <control id="WebResource_new_1" classid="{9FDF5F91-88B1-47F4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>nexer_easy</Url>
+                            <PassParameters>false</PassParameters>
+                            <Security>false</Security>
+                            <Scrolling>auto</Scrolling>
+                            <Border>false</Border>
+                            <ShowOnMobileClient>true</ShowOnMobileClient>
+                            <WebResourceId>{1dbdb547-e9b0-f011-bbd3-7c1e521431f2}</WebResourceId>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false" active="false" />
+                        </events>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{ee909091-5a89-403e-bf82-f34512080f08}" celllabelposition="Top" columns="1111" labelwidth="115">
+        <rows>
+          <row>
+            <cell id="{c732ebed-a891-9698-8b65-1ce7a5605bd2}" showlabel="true" locklevel="0" ordinalvalue="10000">
+              <labels />
+            </cell>
+            <cell id="{e8813fe3-3ad9-4afd-94c2-52e8d1627a59}" labelid="{066f0cbf-737e-4ed6-8684-e02fac47667b}" ordinalvalue="20001">
+              <labels />
+            </cell>
+            <cell id="{4343680f-7e56-4968-90fe-814e52f6e2a7}" labelid="{f0278f82-7735-4dda-8ee9-0576e755aef9}" ordinalvalue="30002">
+              <labels />
+            </cell>
+            <cell id="{d9002ebe-3d57-445d-8fb7-459cfb40f437}" labelid="{803cbc7e-a1c2-4390-a684-fcaf6ea41572}" ordinalvalue="40003">
+              <labels />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <controlDescriptions>
+        <controlDescription forControl="{EF75BC97-EA43-432E-A660-C94BC2C3FB75}" solutionaction="Added">
+          <customControl formFactor="2" name="msdyn_Sales.Controls.CopilotSummaryWidget">
+            <parameters />
+          </customControl>
+          <customControl formFactor="1" name="msdyn_Sales.Controls.CopilotSummaryWidget">
+            <parameters />
+          </customControl>
+          <customControl formFactor="0" name="msdyn_Sales.Controls.CopilotSummaryWidget">
+            <parameters />
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <footer id="{f7366341-95c3-424e-8ae4-d8c209a89433}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows />
+      </footer>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="AI for Sales" languagecode="1033" />
+      <LocalizedName description="Sales Insights" languagecode="1046" />
+      <LocalizedName description="IA para Sales" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Updated default Opportunity form" languagecode="1033" />
+      <Description description="Formulário Oportunidade padrão atualizado" languagecode="1046" />
+      <Description description="Formulario predeterminado de oportunidad actualizado" languagecode="3082" />
+    </Descriptions>
+  </systemform>
+</forms>

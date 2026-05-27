@@ -16,14 +16,14 @@
                     <row>
                       <cell id="{90317617-38db-4734-aef8-4bb4e8cb9012}" ordinalvalue="10000">
                         <labels>
-                          <label description="Saudação" languagecode="1046" solutionaction="Modified" />
+                          <label description="Saudação" languagecode="1046" solutionaction="Added" />
                           <label description="Salutation" languagecode="1033" solutionaction="Added" />
                           <label description="Saludo" languagecode="3082" solutionaction="Added" />
                         </labels>
                       </cell>
                       <cell id="{f3eec8ff-7b5a-43af-92c4-1a41adaf4b50}" ordinalvalue="20001">
                         <labels>
-                          <label description="Telefone Comercial" languagecode="1046" solutionaction="Modified" />
+                          <label description="Telefone Comercial" languagecode="1046" solutionaction="Added" />
                           <label description="Business Phone" languagecode="1033" solutionaction="Added" />
                           <label description="Teléfono del trabajo" languagecode="3082" solutionaction="Added" />
                         </labels>
@@ -32,14 +32,14 @@
                     <row>
                       <cell id="{478c8803-2686-4d10-8cf0-e6e5b3b6007f}" ordinalvalue="10002">
                         <labels>
-                          <label description="Nome" languagecode="1046" solutionaction="Modified" />
+                          <label description="Nome" languagecode="1046" solutionaction="Added" />
                           <label description="First Name" languagecode="1033" solutionaction="Added" />
                           <label description="Nombre de pila" languagecode="3082" solutionaction="Added" />
                         </labels>
                       </cell>
                       <cell id="{0304f83d-bb05-4e72-bf12-c9bfa8a8e152}" ordinalvalue="20003">
                         <labels>
-                          <label description="Telefone Residencial" languagecode="1046" solutionaction="Modified" />
+                          <label description="Telefone Residencial" languagecode="1046" solutionaction="Added" />
                           <label description="Home Phone" languagecode="1033" solutionaction="Added" />
                           <label description="Teléfono particular" languagecode="3082" solutionaction="Added" />
                         </labels>
@@ -48,14 +48,14 @@
                     <row>
                       <cell id="{8097efd5-8af7-4944-b7a5-42ece196e23d}" ordinalvalue="10004">
                         <labels>
-                          <label description="Segundo Nome" languagecode="1046" solutionaction="Modified" />
+                          <label description="Segundo Nome" languagecode="1046" solutionaction="Added" />
                           <label description="Middle Name" languagecode="1033" solutionaction="Added" />
                           <label description="Segundo nombre" languagecode="3082" solutionaction="Added" />
                         </labels>
                       </cell>
                       <cell id="{70d9cd8f-142b-4a88-bf82-4d2bc2972140}" ordinalvalue="20005">
                         <labels>
-                          <label description="Celular" languagecode="1046" solutionaction="Modified" />
+                          <label description="Celular" languagecode="1046" solutionaction="Added" />
                           <label description="Mobile Phone" languagecode="1033" solutionaction="Added" />
                           <label description="Teléfono móvil" languagecode="3082" solutionaction="Added" />
                         </labels>
@@ -64,14 +64,14 @@
                     <row>
                       <cell id="{4fde05d9-89b1-4acf-a98f-13159f1bdcc8}" ordinalvalue="10006">
                         <labels>
-                          <label description="Sobrenome" languagecode="1046" solutionaction="Modified" />
+                          <label description="Sobrenome" languagecode="1046" solutionaction="Added" />
                           <label description="Last Name" languagecode="1033" solutionaction="Added" />
                           <label description="Apellidos" languagecode="3082" solutionaction="Added" />
                         </labels>
                       </cell>
                       <cell id="{068c2954-dfdf-4d68-a9da-f70e3feb3e63}" ordinalvalue="20007">
                         <labels>
-                          <label description="Fax" languagecode="1046" solutionaction="Modified" />
+                          <label description="Fax" languagecode="1046" solutionaction="Added" />
                           <label description="Fax" languagecode="1033" solutionaction="Added" />
                           <label description="Fax" languagecode="3082" solutionaction="Added" />
                         </labels>
@@ -80,14 +80,14 @@
                     <row>
                       <cell id="{921eaba2-6044-405e-8354-c3c5dbe3e97f}" ordinalvalue="10008">
                         <labels>
-                          <label description="Cargo" languagecode="1046" solutionaction="Modified" />
+                          <label description="Cargo" languagecode="1046" solutionaction="Added" />
                           <label description="Job Title" languagecode="1033" solutionaction="Added" />
                           <label description="Puesto" languagecode="3082" solutionaction="Added" />
                         </labels>
                       </cell>
                       <cell id="{38d7b950-436b-412f-a71b-ae4187e60c14}" ordinalvalue="20009">
                         <labels>
-                          <label description="Email" languagecode="1046" solutionaction="Modified" />
+                          <label description="Email" languagecode="1046" solutionaction="Added" />
                           <label description="Email" languagecode="1033" solutionaction="Added" />
                           <label description="Correo electrónico" languagecode="3082" solutionaction="Added" />
                         </labels>
@@ -96,7 +96,7 @@
                     <row>
                       <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{1afed90e-5ba2-4868-b33f-e4ffe086596b}" ordinalvalue="10010">
                         <labels>
-                          <label description="Nome da Empresa" languagecode="1046" solutionaction="Modified" />
+                          <label description="Nome da Empresa" languagecode="1046" solutionaction="Added" />
                           <label description="Company Name" languagecode="1033" solutionaction="Added" />
                           <label description="Nombre de la compañía" languagecode="3082" solutionaction="Added" />
                         </labels>
@@ -165,7 +165,7 @@
                     <row>
                       <cell colspan="2" showlabel="false" rowspan="5" auto="true" id="{c0a08372-d225-411f-87e4-14554329507a}" ordinalvalue="10000">
                         <labels>
-                          <label description="Descrição" languagecode="1046" solutionaction="Modified" />
+                          <label description="Descrição" languagecode="1046" solutionaction="Added" />
                           <label description="Description" languagecode="1033" solutionaction="Added" />
                           <label description="Descripción" languagecode="3082" solutionaction="Added" />
                         </labels>
@@ -186,14 +186,14 @@
                     <row>
                       <cell id="{c21cf98d-7d3a-4e4c-815c-5fd6de4b89d7}" ordinalvalue="10000">
                         <labels>
-                          <label description="Departamento" languagecode="1046" solutionaction="Modified" />
+                          <label description="Departamento" languagecode="1046" solutionaction="Added" />
                           <label description="Department" languagecode="1033" solutionaction="Added" />
                           <label description="Departamento" languagecode="3082" solutionaction="Added" />
                         </labels>
                       </cell>
                       <cell id="{c545928a-8081-4b80-a21e-8a3c405dd0b0}" ordinalvalue="20001">
                         <labels>
-                          <label description="Função" languagecode="1046" solutionaction="Modified" />
+                          <label description="Função" languagecode="1046" solutionaction="Added" />
                           <label description="Role" languagecode="1033" solutionaction="Added" />
                           <label description="Rol" languagecode="3082" solutionaction="Added" />
                         </labels>
@@ -202,14 +202,14 @@
                     <row>
                       <cell id="{452ca48e-8c7b-4a96-81f7-387d0c9b033c}" ordinalvalue="10002">
                         <labels>
-                          <label description="Gerente" languagecode="1046" solutionaction="Modified" />
+                          <label description="Gerente" languagecode="1046" solutionaction="Added" />
                           <label description="Manager" languagecode="1033" solutionaction="Added" />
                           <label description="Administrador" languagecode="3082" solutionaction="Added" />
                         </labels>
                       </cell>
                       <cell id="{80128d81-f664-47c0-b348-d176679224b9}" ordinalvalue="20003">
                         <labels>
-                          <label description="Assistente" languagecode="1046" solutionaction="Modified" />
+                          <label description="Assistente" languagecode="1046" solutionaction="Added" />
                           <label description="Assistant" languagecode="1033" solutionaction="Added" />
                           <label description="Ayudante" languagecode="3082" solutionaction="Added" />
                         </labels>
@@ -218,14 +218,14 @@
                     <row>
                       <cell id="{d336a999-cdf1-4109-bcbe-db27ec0b7e72}" ordinalvalue="10004">
                         <labels>
-                          <label description="Telefone do Gerente" languagecode="1046" solutionaction="Modified" />
+                          <label description="Telefone do Gerente" languagecode="1046" solutionaction="Added" />
                           <label description="Manager Phone" languagecode="1033" solutionaction="Added" />
                           <label description="Teléfono del jefe" languagecode="3082" solutionaction="Added" />
                         </labels>
                       </cell>
                       <cell id="{cb2ae5b6-2919-439e-ab41-327d880272a8}" ordinalvalue="20005">
                         <labels>
-                          <label description="Telefone do Assistente" languagecode="1046" solutionaction="Modified" />
+                          <label description="Telefone do Assistente" languagecode="1046" solutionaction="Added" />
                           <label description="Assistant Phone" languagecode="1033" solutionaction="Added" />
                           <label description="Teléfono del ayudante" languagecode="3082" solutionaction="Added" />
                         </labels>
@@ -238,14 +238,14 @@
                     <row>
                       <cell id="{9748b178-14ab-49af-8985-c02de8892720}" ordinalvalue="10000">
                         <labels>
-                          <label description="Sexo" languagecode="1046" solutionaction="Modified" />
+                          <label description="Sexo" languagecode="1046" solutionaction="Added" />
                           <label description="Gender" languagecode="1033" solutionaction="Added" />
                           <label description="Sexo" languagecode="3082" solutionaction="Added" />
                         </labels>
                       </cell>
                       <cell id="{b2adc634-723e-4e87-b8f1-b62e3cf1fad1}" ordinalvalue="20001">
                         <labels>
-                          <label description="Aniversário" languagecode="1046" solutionaction="Modified" />
+                          <label description="Aniversário" languagecode="1046" solutionaction="Added" />
                           <label description="Birthday" languagecode="1033" solutionaction="Added" />
                           <label description="Cumpleaños" languagecode="3082" solutionaction="Added" />
                         </labels>
@@ -254,14 +254,14 @@
                     <row>
                       <cell id="{acac3dbc-a956-459f-9dba-8c3f5ce3777a}" ordinalvalue="10002">
                         <labels>
-                          <label description="Estado Civil" languagecode="1046" solutionaction="Modified" />
+                          <label description="Estado Civil" languagecode="1046" solutionaction="Added" />
                           <label description="Marital Status" languagecode="1033" solutionaction="Added" />
                           <label description="Estado civil" languagecode="3082" solutionaction="Added" />
                         </labels>
                       </cell>
                       <cell id="{4435fdd5-a586-436e-882c-58b516484ae1}" ordinalvalue="20003">
                         <labels>
-                          <label description="Datas Especiais" languagecode="1046" solutionaction="Modified" />
+                          <label description="Datas Especiais" languagecode="1046" solutionaction="Added" />
                           <label description="Anniversary" languagecode="1033" solutionaction="Added" />
                           <label description="Aniversario" languagecode="3082" solutionaction="Added" />
                         </labels>
@@ -270,7 +270,7 @@
                     <row>
                       <cell id="{4bd24018-9343-41e8-b119-66c87186ef1c}" ordinalvalue="10004">
                         <labels>
-                          <label description="Nome do Cônjuge/Companheiro(a)" languagecode="1046" solutionaction="Modified" />
+                          <label description="Nome do Cônjuge/Companheiro(a)" languagecode="1046" solutionaction="Added" />
                           <label description="Spouse/Partner Name" languagecode="1033" solutionaction="Added" />
                           <label description="Nombre del cónyuge o pareja" languagecode="3082" solutionaction="Added" />
                         </labels>
@@ -308,7 +308,7 @@
                     <row>
                       <cell id="{2329843a-6ab4-4431-8a2b-101f3272e104}" ordinalvalue="10000">
                         <labels>
-                          <label description="Proprietário" languagecode="1046" solutionaction="Modified" />
+                          <label description="Proprietário" languagecode="1046" solutionaction="Added" />
                           <label description="Owner" languagecode="1033" solutionaction="Added" />
                           <label description="Propietario" languagecode="3082" solutionaction="Added" />
                         </labels>
@@ -321,14 +321,14 @@
                     <row>
                       <cell id="{d9a0c6e4-2016-48cd-b0c1-a6a03e9d47c6}" ordinalvalue="10000">
                         <labels>
-                          <label description="Moeda" languagecode="1046" solutionaction="Modified" />
+                          <label description="Moeda" languagecode="1046" solutionaction="Added" />
                           <label description="Currency" languagecode="1033" solutionaction="Added" />
                           <label description="Divisa" languagecode="3082" solutionaction="Added" />
                         </labels>
                       </cell>
                       <cell id="{cf9708ff-df37-4fda-86c3-79896dbeaa2c}" ordinalvalue="20001">
                         <labels>
-                          <label description="Condições de Pagamento" languagecode="1046" solutionaction="Modified" />
+                          <label description="Condições de Pagamento" languagecode="1046" solutionaction="Added" />
                           <label description="Payment Terms" languagecode="1033" solutionaction="Added" />
                           <label description="Condiciones de pago" languagecode="3082" solutionaction="Added" />
                         </labels>
@@ -337,18 +337,26 @@
                     <row>
                       <cell id="{200a7ca9-4a7e-4462-8f22-9a13ce27bd46}" ordinalvalue="10002">
                         <labels>
-                          <label description="Limite de Crédito" languagecode="1046" solutionaction="Modified" />
+                          <label description="Limite de Crédito" languagecode="1046" solutionaction="Added" />
                           <label description="Credit Limit" languagecode="1033" solutionaction="Added" />
                           <label description="Límite del crédito" languagecode="3082" solutionaction="Added" />
                         </labels>
                       </cell>
                     </row>
                     <row>
-                      <cell id="{86ed48db-8fdc-4880-aa78-1532af6060ee}" ordinalvalue="10003">
+                      <cell id="{86ed48db-8fdc-4880-aa78-1532af6060ee}" ordinalvalue="10004" solutionaction="Modified">
                         <labels>
-                          <label description="Suspensão de Crédito" languagecode="1046" solutionaction="Modified" />
+                          <label description="Suspensão de Crédito" languagecode="1046" solutionaction="Added" />
                           <label description="Credit Hold" languagecode="1033" solutionaction="Added" />
                           <label description="Suspensión de crédito" languagecode="3082" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                      <cell id="{cefb2966-525d-46c3-a248-764db1148978}" ordinalvalue="20003" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{05dae3e6-cd64-4420-bd0c-cabcd2949031}" ordinalvalue="20005" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1046" />
                         </labels>
                       </cell>
                     </row>
@@ -456,21 +464,21 @@
           <row>
             <cell id="{b0074c9c-4bdb-9521-0b2a-468199980643}" ordinalvalue="10000">
               <labels>
-                <label description="Email" languagecode="1046" solutionaction="Modified" />
+                <label description="Email" languagecode="1046" solutionaction="Added" />
                 <label description="Email" languagecode="1033" solutionaction="Added" />
                 <label description="Correo electrónico" languagecode="3082" solutionaction="Added" />
               </labels>
             </cell>
             <cell id="{9c4cd12a-3da3-d3cc-b902-6ee03bd43729}" ordinalvalue="20001">
               <labels>
-                <label description="Forma Preferencial de Contato" languagecode="1046" solutionaction="Modified" />
+                <label description="Forma Preferencial de Contato" languagecode="1046" solutionaction="Added" />
                 <label description="Preferred Method of Contact" languagecode="1033" solutionaction="Added" />
                 <label description="Método de contacto preferido" languagecode="3082" solutionaction="Added" />
               </labels>
             </cell>
             <cell id="{6eb10c6b-c25e-a2ea-b4c1-b3d4a075d081}" ordinalvalue="30002">
               <labels>
-                <label description="Proprietário" languagecode="1046" solutionaction="Modified" />
+                <label description="Proprietário" languagecode="1046" solutionaction="Added" />
                 <label description="Owner" languagecode="1033" solutionaction="Added" />
                 <label description="Propietario" languagecode="3082" solutionaction="Added" />
               </labels>

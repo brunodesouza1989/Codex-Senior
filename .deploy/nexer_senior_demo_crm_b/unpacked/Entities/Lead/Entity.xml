@@ -254,6 +254,43 @@
             <Description description="Seleccione el origen de marketing principal que llevó al cliente potencial a ponerse en contacto con usted." languagecode="3082" />
           </Descriptions>
         </attribute>
+        <attribute PhysicalName="msdynci_lookupfield_customerprofile">
+          <Type>lookup</Type>
+          <Name>msdynci_lookupfield_customerprofile</Name>
+          <LogicalName>msdynci_lookupfield_customerprofile</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Customer Profile" languagecode="1033" />
+            <displayname description="Customer Profile" languagecode="1046" />
+          </displaynames>
+        </attribute>
         <attribute PhysicalName="new_Interesse">
           <Type>picklist</Type>
           <Name>new_interesse</Name>
@@ -370,6 +407,90 @@
             <Description description="" languagecode="1046" />
           </Descriptions>
         </attribute>
+        <attribute PhysicalName="nexer_Etapa">
+          <Type>picklist</Type>
+          <Name>nexer_etapa</Name>
+          <LogicalName>nexer_etapa</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <optionset Name="nexer_lead_nexer_etapa">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Etapa" languagecode="1046" />
+              <displayname description="Etapa" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Etapa" languagecode="1046" />
+              <Description description="Etapa" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="253360000" ExternalValue="" IsHidden="0">
+                <labels>
+                  <label description="Entrada" languagecode="1046" />
+                  <label description="Entrada" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="253360001" ExternalValue="" IsHidden="0">
+                <labels>
+                  <label description="Filtro 1" languagecode="1046" />
+                  <label description="Filtro 1" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="253360002" ExternalValue="" IsHidden="0">
+                <labels>
+                  <label description="Filtro 2" languagecode="1046" />
+                  <label description="Filtro 2" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="253360003" ExternalValue="" IsHidden="0">
+                <labels>
+                  <label description="Agendado" languagecode="1046" />
+                  <label description="Agendado" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="253360004" ExternalValue="" IsHidden="0">
+                <labels>
+                  <label description="Qualificado" languagecode="1046" />
+                  <label description="Qualificado" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Etapa" languagecode="1046" />
+            <displayname description="Etapa" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Etapa" languagecode="1046" />
+            <Description description="Etapa" languagecode="1033" />
+          </Descriptions>
+        </attribute>
         <attribute PhysicalName="nexer_InteresseDoCliente">
           <Type>picklist</Type>
           <Name>nexer_interessedocliente</Name>
@@ -400,6 +521,7 @@
           <IsFilterable>0</IsFilterable>
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>-1</AppDefaultValue>
           <optionset Name="new_lead_nexer_interessedocliente">
             <OptionSetType>picklist</OptionSetType>
             <IntroducedVersion>1.0</IntroducedVersion>
@@ -503,6 +625,48 @@
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1046" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="nexer_ScoreSqa">
+          <Type>decimal</Type>
+          <Name>nexer_scoresqa</Name>
+          <LogicalName>nexer_scoresqa</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>disabled</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <MinValue>0</MinValue>
+          <MaxValue>100</MaxValue>
+          <Accuracy>2</Accuracy>
+          <displaynames>
+            <displayname description="Score SQA" languagecode="1046" />
+            <displayname description="Score SQA" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Score SQA" languagecode="1046" />
+            <Description description="Score SQA" languagecode="1033" />
           </Descriptions>
         </attribute>
       </attributes>

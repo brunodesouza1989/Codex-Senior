@@ -2,7 +2,7 @@
 
 Date: 2026-05-26
 
-Status: ready-for-implementation
+Status: deployed
 
 ## User Story
 
@@ -44,3 +44,20 @@ So that a narrativa pareca Senior e nao uma base generica.
 - Names and fields use Senior business language.
 - Data is clearly fictitious and safe for presales demo.
 
+## 2026-05-27 Deployment Result
+
+Created through:
+
+- `C:\Users\Bruno Andrade\Documents\Senior\.deploy\nexer_senior_demo_crm_b\scripts\Create-SeniorDemoData-WebApi.ps1`
+
+Records created/validated:
+
+- Account: `Indústrias Modelo Sul`
+- Contacts:
+  - `Marina Klein`
+  - `Rafael Borges`
+- Lead: `Smart Lead - Evento HCM Senior - Indústrias Modelo Sul`
+- Opportunity: `Projeto HCM Senior - Rollout Nacional`
+- Task: `Preparar proposta CPQ/GPS e validação ETN - Demo Senior`
+
+The opportunity includes ETN, CPQ/GPS, ERP Sapiens and discount approval simulation statuses.

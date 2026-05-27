@@ -2,7 +2,7 @@
 
 Date: 2026-05-26
 
-Status: ready-for-implementation
+Status: partially-deployed-xaml-blocked
 
 ## User Story
 
@@ -54,3 +54,24 @@ So that a demo mostre venda complexa com governanca.
 - Discount approval status is visible in the approval stage.
 - No new model-driven app or sitemap is created.
 
+## 2026-05-27 Implementation Result
+
+- Created BPF workflow `Oportunidade Senior Privado`.
+- Workflow id: `7231fce8-9e59-f111-bec7-000d3a18ea46`.
+- Primary entity: `opportunity`.
+- State/status: active.
+- Added workflow to solution and confirmed it exports/unpacks under Workflows.
+- Created Senior process stage metadata records for:
+  - Qualificação
+  - Desenvolvimento
+  - Proposta
+  - Negociação
+  - Aprovação de Desconto
+  - Contrato e Assinatura
+  - Fechamento
+
+## Technical Constraint
+
+Dataverse accepted `clientdata` patching but rejected direct XAML replacement with generic `0x80040216`. When activated, the platform regenerates/retains XAML from the source template. This means the workflow component is deployed and active, but the full visual stage replacement still needs a supported designer path or a more complete XAML generation path.
+
+Decision: keep the BPF workflow in the solution as a partial deliverable, avoid unsafe XML guessing, and proceed with demo data/forms/views that carry the end-to-end narrative.

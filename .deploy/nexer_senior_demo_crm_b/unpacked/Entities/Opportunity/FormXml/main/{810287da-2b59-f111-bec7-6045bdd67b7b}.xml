@@ -12,7 +12,7 @@
         <data id="statecode" datafieldname="statecode" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
       </hiddencontrols>
       <tabs>
-        <tab name="senior_opportunity_summary" verticallayout="true" id="{8b3ee245-2bcb-47ef-ab6d-6f22d5e1cfb3}" IsUserDefined="1" locklevel="0" expanded="true" showlabel="true" labelid="{1a7c4526-b026-41a1-8fef-92d5354ab357}">
+        <tab name="senior_opportunity_summary" verticallayout="true" id="{6cdb62c0-3f14-4225-b211-bd96f7341ddb}" IsUserDefined="1" locklevel="0" expanded="true" showlabel="true" labelid="{0274b021-ea70-4079-b50b-b446575a7d03}">
           <labels>
             <label description="Senior Opportunity" languagecode="1033" />
             <label description="Oportunidade Senior" languagecode="1046" />
@@ -21,7 +21,7 @@
           <columns>
             <column width="33%">
               <sections>
-                <section name="senior_opp_resumo" showlabel="true" showbar="false" id="{2280a685-10da-485b-8aa8-7b4d0921d1d0}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{17bf5631-5819-400f-a43c-1f6955032c2d}">
+                <section name="senior_opp_resumo" showlabel="true" showbar="false" id="{cbf4a655-d714-483b-b649-8376b47249e7}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{8ba3873a-aea9-47a6-8032-99388232c742}">
                   <labels>
                     <label description="Resumo Da Oportunidade" languagecode="1033" />
                     <label description="Resumo Da Oportunidade" languagecode="1046" />
@@ -29,7 +29,7 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{d64dafee-d85d-4bc2-b9c9-e6d291a33462}" showlabel="true" locklevel="0" labelid="{f25afbb2-912a-41f2-90d0-2fa9284c8b7c}">
+                      <cell id="{8344ffe1-6d1c-495d-9c8a-48a237fd8323}" showlabel="true" locklevel="0" labelid="{cf068fde-6022-4911-89ad-fb81251b9bc4}">
                         <labels>
                           <label description="Oportunidade" languagecode="1046" />
                           <label description="Oportunidade" languagecode="1033" />
@@ -39,7 +39,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{96d75d55-9e31-4f96-b2ab-bb60a919656d}" showlabel="true" locklevel="0" labelid="{9913d9e5-2cc1-411a-a2b0-dc47778f242f}">
+                      <cell id="{3b07572f-6a4f-46c4-be42-33921a8a7da0}" showlabel="true" locklevel="0" labelid="{f20acd71-b943-4723-9309-569a9146db5e}">
                         <labels>
                           <label description="Cliente" languagecode="1046" />
                           <label description="Cliente" languagecode="1033" />
@@ -49,7 +49,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{e6e0239a-effb-4219-a59e-6a1b2c9f1a95}" showlabel="true" locklevel="0" labelid="{0c257576-1f81-450d-8843-3606317a1f62}">
+                      <cell id="{e6f8791d-e403-45fe-a893-46241f25e154}" showlabel="true" locklevel="0" labelid="{5b4df271-10cf-4cd6-8adb-b954d6e222e6}">
                         <labels>
                           <label description="Fase" languagecode="1046" />
                           <label description="Fase" languagecode="1033" />
@@ -59,18 +59,18 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{46582462-2eec-4194-9897-11076cbe9f0d}" showlabel="true" locklevel="0" labelid="{db7fc740-993c-477e-bbc0-494a9e9dc830}">
+                      <cell id="{84cf2668-1467-49bc-962c-552609fe2abc}" showlabel="true" locklevel="0" labelid="{7dcd0bea-aa74-4071-98dd-231b17efb368}">
                         <labels>
-                          <label description="Responsavel" languagecode="1046" />
-                          <label description="Responsavel" languagecode="1033" />
-                          <label description="Responsavel" languagecode="3082" />
+                          <label description="Responsável" languagecode="1046" />
+                          <label description="Responsável" languagecode="1033" />
+                          <label description="Responsável" languagecode="3082" />
                         </labels>
                         <control id="senior_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
                       </cell>
                     </row>
                   </rows>
                 </section>
-                <section name="senior_opp_valor" showlabel="true" showbar="false" id="{13f0ca03-1e40-4034-ab6f-98a4ad90b10e}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{183c541e-03e4-4d38-bcd8-dd1141db0ffd}">
+                <section name="senior_opp_valor" showlabel="true" showbar="false" id="{153dd952-d059-4f9d-9f11-edde8771e809}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{3bbbb7f5-3bdb-4317-8de3-c1408449e084}">
                   <labels>
                     <label description="Valor E Forecast" languagecode="1033" />
                     <label description="Valor E Forecast" languagecode="1046" />
@@ -78,7 +78,7 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{2b49152c-dde8-447c-9523-2a324d67ab6e}" showlabel="true" locklevel="0" labelid="{bbe6fa0c-796a-47d9-a725-26f5a187595e}">
+                      <cell id="{01158b28-2629-4b2f-bba2-07ae4195639d}" showlabel="true" locklevel="0" labelid="{2e01f5f2-d691-4ca3-b00b-0980ab7caffb}">
                         <labels>
                           <label description="Valor Estimado" languagecode="1046" />
                           <label description="Valor Estimado" languagecode="1033" />
@@ -88,7 +88,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{8b1cae48-26af-4a73-bbda-4e7d96388c36}" showlabel="true" locklevel="0" labelid="{13da4c3d-5a72-4c66-8da5-0a16b203b005}">
+                      <cell id="{c641d323-f5c3-44ca-b2e0-7cf87a5d0d20}" showlabel="true" locklevel="0" labelid="{836bc9d1-98e5-4eb0-bb3d-c06706ffd65b}">
                         <labels>
                           <label description="Probabilidade" languagecode="1046" />
                           <label description="Probabilidade" languagecode="1033" />
@@ -98,7 +98,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{08994608-c7a3-474d-a524-5473f6e0a874}" showlabel="true" locklevel="0" labelid="{a029bd70-b925-459b-a703-b828847998a4}">
+                      <cell id="{54b40374-b4c6-454a-bc3e-c109f12baaa6}" showlabel="true" locklevel="0" labelid="{b8f91cfa-3aeb-4575-baf5-5f61839959e5}">
                         <labels>
                           <label description="Data Prevista" languagecode="1046" />
                           <label description="Data Prevista" languagecode="1033" />
@@ -108,7 +108,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{851626e3-1f1a-4163-aca0-b0e89ff150f0}" showlabel="true" locklevel="0" labelid="{65a817c3-fce0-46fb-9aa9-ac0edb8c2f11}">
+                      <cell id="{dd4a4c32-a1bd-4974-8f84-f1cc92082590}" showlabel="true" locklevel="0" labelid="{da14019b-ba1d-487a-bbfd-f404cd0ebc47}">
                         <labels>
                           <label description="Desconto (%)" languagecode="1046" />
                           <label description="Desconto (%)" languagecode="1033" />
@@ -118,7 +118,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{75ca4eb1-1e02-4542-bc71-22aba296189c}" showlabel="true" locklevel="0" labelid="{09897ca5-2769-480e-9093-8ae54b66d6d9}">
+                      <cell id="{b135e434-3643-432f-96fd-4cbb5f5ddb10}" showlabel="true" locklevel="0" labelid="{7c3cd1df-d4e2-406b-b72b-84b27b73d657}">
                         <labels>
                           <label description="Desconto" languagecode="1046" />
                           <label description="Desconto" languagecode="1033" />
@@ -133,15 +133,15 @@
             </column>
             <column width="34%">
               <sections>
-                <section name="senior_opp_solucao" showlabel="true" showbar="false" id="{08a16922-dfcd-460b-951b-b8b62115dbd0}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{9661a683-a8fd-40ca-871f-6a12a8f57b79}">
+                <section name="senior_opp_solucao" showlabel="true" showbar="false" id="{3a47bc01-3d48-4c8c-a9e0-5f8b040dfea6}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{e6cf5cab-183b-4ea2-94cf-c0ec60d0bef7}">
                   <labels>
-                    <label description="Solucao E Risco" languagecode="1033" />
-                    <label description="Solucao E Risco" languagecode="1046" />
-                    <label description="Solucao E Risco" languagecode="3082" />
+                    <label description="Solução E Risco" languagecode="1033" />
+                    <label description="Solução E Risco" languagecode="1046" />
+                    <label description="Solução E Risco" languagecode="3082" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{5cb47108-83f6-4d3f-b6ab-a8d0275330b8}" showlabel="true" locklevel="0" labelid="{1fe17f5e-8fad-4eb7-be9b-ab6dc771f592}">
+                      <cell id="{c6656421-8a8e-4285-898b-23ba937c8688}" showlabel="true" locklevel="0" labelid="{ea05efef-0425-4c2b-bbc1-38539e0e24c9}">
                         <labels>
                           <label description="Necessidade" languagecode="1046" />
                           <label description="Necessidade" languagecode="1033" />
@@ -151,31 +151,31 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{9bf2b460-3ab3-49a7-bc76-ad764c6b6279}" showlabel="true" locklevel="0" labelid="{0251781a-3476-434b-ada4-9ed7142369ff}">
+                      <cell id="{2fea8e16-40a3-4250-98a2-0481587387de}" showlabel="true" locklevel="0" labelid="{a3b0ef83-5b96-4a45-b400-15ccc23e5333}">
                         <labels>
-                          <label description="Produto/Solucao" languagecode="1046" />
-                          <label description="Produto/Solucao" languagecode="1033" />
-                          <label description="Produto/Solucao" languagecode="3082" />
+                          <label description="Produto/Solução" languagecode="1046" />
+                          <label description="Produto/Solução" languagecode="1033" />
+                          <label description="Produto/Solução" languagecode="3082" />
                         </labels>
                         <control id="senior_proposedsolution" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="proposedsolution" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{2fe94532-d50c-4cf3-9ab9-b522999d891b}" showlabel="true" locklevel="0" labelid="{45853af2-a5d8-40ef-b63c-791942b826de}">
+                      <cell id="{d18d0e97-10fb-46e0-9c72-1ee86f4e8630}" showlabel="true" locklevel="0" labelid="{3ca03fc7-4730-4b38-8b1c-f8cea29b8af7}">
                         <labels>
-                          <label description="Situacao Atual / Risco" languagecode="1046" />
-                          <label description="Situacao Atual / Risco" languagecode="1033" />
-                          <label description="Situacao Atual / Risco" languagecode="3082" />
+                          <label description="Situação Atual / Risco" languagecode="1046" />
+                          <label description="Situação Atual / Risco" languagecode="1033" />
+                          <label description="Situação Atual / Risco" languagecode="3082" />
                         </labels>
                         <control id="senior_currentsituation" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="currentsituation" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{7d3e0782-c1a3-41ee-b651-7264449b49ce}" showlabel="true" locklevel="0" labelid="{dd14c7d5-7b3c-4e72-bf7e-2b7fc25dffa7}">
+                      <cell id="{aafb57ed-b429-44a8-ae98-fda193038b73}" showlabel="true" locklevel="0" labelid="{38c349d5-b403-4008-b88a-44434dc4cfec}">
                         <labels>
-                          <label description="Proxima Acao" languagecode="1046" />
-                          <label description="Proxima Acao" languagecode="1033" />
-                          <label description="Proxima Acao" languagecode="3082" />
+                          <label description="Próxima Ação" languagecode="1046" />
+                          <label description="Próxima Ação" languagecode="1033" />
+                          <label description="Próxima Ação" languagecode="3082" />
                         </labels>
                         <control id="senior_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="description" disabled="false" />
                       </cell>
@@ -186,15 +186,15 @@
             </column>
             <column width="33%">
               <sections>
-                <section name="senior_opp_governanca" showlabel="true" showbar="false" id="{df37d21c-43fc-4ea7-be46-6b9c9f8ca2fd}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{3b67cb03-70f6-4c11-b4bf-ff5e68a6d7db}">
+                <section name="senior_opp_governanca" showlabel="true" showbar="false" id="{be8aea39-78be-459d-a22e-de0907a4d9c0}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{187bec6b-eda9-49eb-8212-06e44aba0aca}">
                   <labels>
-                    <label description="Governanca E Integracoes" languagecode="1033" />
-                    <label description="Governanca E Integracoes" languagecode="1046" />
-                    <label description="Governanca E Integracoes" languagecode="3082" />
+                    <label description="Governança E Integrações" languagecode="1033" />
+                    <label description="Governança E Integrações" languagecode="1046" />
+                    <label description="Governança E Integrações" languagecode="3082" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{ae4d3365-84e8-4131-b9fd-eef50a616e1c}" showlabel="true" locklevel="0" labelid="{7227a8af-2f58-4df4-9c27-9cd10233fa9d}">
+                      <cell id="{87470b95-c2c5-4100-a065-8beb8ace5ae1}" showlabel="true" locklevel="0" labelid="{0622170c-a64d-4927-aa99-f6297e1d87e5}">
                         <labels>
                           <label description="Processo De Compra" languagecode="1046" />
                           <label description="Processo De Compra" languagecode="1033" />
@@ -204,7 +204,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{2adec539-fff9-4266-9232-3ee12a999e7e}" showlabel="true" locklevel="0" labelid="{56a0ad06-325c-4d27-93e3-039337f0b9c0}">
+                      <cell id="{89375d7d-53c7-4d3a-9ef5-68ad061551b2}" showlabel="true" locklevel="0" labelid="{22bca518-f198-41e0-b15b-8766cd8450ad}">
                         <labels>
                           <label description="Prazo De Compra" languagecode="1046" />
                           <label description="Prazo De Compra" languagecode="1033" />
@@ -214,7 +214,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{4459451b-dadb-4750-9076-d367563f86fe}" showlabel="true" locklevel="0" labelid="{f62450b4-d8cf-4115-a606-395e517d9727}">
+                      <cell id="{8c05cc40-327c-4d1e-8cda-5eaea7e1913e}" showlabel="true" locklevel="0" labelid="{c376e41f-c9a9-4152-a95b-9c4e5c6fe874}">
                         <labels>
                           <label description="Decisor Identificado" languagecode="1046" />
                           <label description="Decisor Identificado" languagecode="1033" />
@@ -224,17 +224,17 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{3f0cac00-b379-4bbe-a6a2-d13290c2b481}" showlabel="true" locklevel="0" labelid="{1859c989-977a-4280-8bd6-1fe93f5270cb}">
+                      <cell id="{a0c69b42-d811-43eb-b867-81373bd702a7}" showlabel="true" locklevel="0" labelid="{b6d7aa54-e013-48d6-9ae8-008e9ee4d639}">
                         <labels>
-                          <label description="Lista De Precos / CPQ" languagecode="1046" />
-                          <label description="Lista De Precos / CPQ" languagecode="1033" />
-                          <label description="Lista De Precos / CPQ" languagecode="3082" />
+                          <label description="Lista De Preços / CPQ" languagecode="1046" />
+                          <label description="Lista De Preços / CPQ" languagecode="1033" />
+                          <label description="Lista De Preços / CPQ" languagecode="3082" />
                         </labels>
                         <control id="senior_pricelevelid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="pricelevelid" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{034a2bfa-6697-47f4-b0fa-bdb3e40e1ef7}" showlabel="true" locklevel="0" labelid="{90315bd8-a10f-44af-a73b-d788a941812f}">
+                      <cell id="{4e94ac75-e09b-4574-99ef-973cedc8887d}" showlabel="true" locklevel="0" labelid="{d3173460-9fdd-413c-bb20-f7494cef375b}">
                         <labels>
                           <label description="Status ETN" languagecode="1046" />
                           <label description="Status ETN" languagecode="1033" />
@@ -244,7 +244,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{599b3d40-d6f6-4298-b0ab-9b48f5a825e0}" showlabel="true" locklevel="0" labelid="{a720690d-ca6c-4e43-854c-8069cb3edf41}">
+                      <cell id="{b3717654-c66f-4080-81a3-11dd95f7611c}" showlabel="true" locklevel="0" labelid="{fb47e7e3-deb5-4095-974f-25aaa8f7c15f}">
                         <labels>
                           <label description="Status CPQ/GPS" languagecode="1046" />
                           <label description="Status CPQ/GPS" languagecode="1033" />
@@ -254,7 +254,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{f7a28f15-1d5f-4ea2-96ee-7bd74564936c}" showlabel="true" locklevel="0" labelid="{e94d06d0-9fbf-4bf9-b6ca-a26a8d0c00de}">
+                      <cell id="{c458c54b-d9e2-4bbd-8715-fab1533538fc}" showlabel="true" locklevel="0" labelid="{7f0eefb7-2cda-4605-9cb1-27e157b1c75c}">
                         <labels>
                           <label description="Status ERP Sapiens" languagecode="1046" />
                           <label description="Status ERP Sapiens" languagecode="1033" />
@@ -264,17 +264,17 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{a62d66b6-005e-4f3e-90ef-4b6798265883}" showlabel="true" locklevel="0" labelid="{75460663-c169-4952-9218-52dd9259f5a8}">
+                      <cell id="{54345b96-38ce-4cad-be07-65d40a06b52c}" showlabel="true" locklevel="0" labelid="{f130f381-44c4-484d-b4ab-d0067444c2bc}">
                         <labels>
-                          <label description="Status Aprovacao Desconto" languagecode="1046" />
-                          <label description="Status Aprovacao Desconto" languagecode="1033" />
-                          <label description="Status Aprovacao Desconto" languagecode="3082" />
+                          <label description="Status Aprovação Desconto" languagecode="1046" />
+                          <label description="Status Aprovação Desconto" languagecode="1033" />
+                          <label description="Status Aprovação Desconto" languagecode="3082" />
                         </labels>
                         <control id="senior_nexer_statusaprovacaodesconto" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="nexer_statusaprovacaodesconto" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{8934608f-1c02-4b20-94d7-5329f46a8f70}" showlabel="true" locklevel="0" labelid="{b83b9a27-151a-48f6-a538-08915b841b1f}">
+                      <cell id="{bc409b0c-e068-405b-b9ca-fe0571c644de}" showlabel="true" locklevel="0" labelid="{42c6cf8b-d719-4caa-b61b-973349f6aa0d}">
                         <labels>
                           <label description="Justificativa Desconto" languagecode="1046" />
                           <label description="Justificativa Desconto" languagecode="1033" />
@@ -284,26 +284,26 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{9a7cea75-efde-4bbe-b596-bb8d7ad978e2}" showlabel="true" locklevel="0" labelid="{7faf7812-9623-4211-93d0-c365b972df05}">
+                      <cell id="{ace8b4a9-a866-43d7-8c73-40e6e25bc912}" showlabel="true" locklevel="0" labelid="{620e41bc-3063-4b43-81d4-59774e3a7858}">
                         <labels>
-                          <label description="Data Aprovacao Desconto" languagecode="1046" />
-                          <label description="Data Aprovacao Desconto" languagecode="1033" />
-                          <label description="Data Aprovacao Desconto" languagecode="3082" />
+                          <label description="Data Aprovação Desconto" languagecode="1046" />
+                          <label description="Data Aprovação Desconto" languagecode="1033" />
+                          <label description="Data Aprovação Desconto" languagecode="3082" />
                         </labels>
                         <control id="senior_nexer_dataaprovacaodesconto" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="nexer_dataaprovacaodesconto" disabled="false" />
                       </cell>
                     </row>
                   </rows>
                 </section>
-                <section name="senior_opp_interacoes" showlabel="true" showbar="false" id="{591028c5-e7e5-4d81-b67b-7041e95f6c27}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{793d1d49-dc99-401f-bbaf-dc1f74ae58b6}">
+                <section name="senior_opp_interacoes" showlabel="true" showbar="false" id="{846f690c-225c-4d02-8a76-105e9f904324}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{1a98b0a7-0056-4e88-8aec-ee83ee0775b5}">
                   <labels>
-                    <label description="Interacoes E Pendencias" languagecode="1033" />
-                    <label description="Interacoes E Pendencias" languagecode="1046" />
-                    <label description="Interacoes E Pendencias" languagecode="3082" />
+                    <label description="Interações E Pendências" languagecode="1033" />
+                    <label description="Interações E Pendências" languagecode="1046" />
+                    <label description="Interações E Pendências" languagecode="3082" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{fdb20724-33d3-4dbe-9f30-a48f2c82d381}" showlabel="false" rowspan="10" colspan="1" auto="false" labelid="{f7838755-bafe-4948-b126-3b19a3d3cca4}">
+                      <cell id="{12c3923c-20b4-4076-bcf5-0d179656600f}" showlabel="false" rowspan="10" colspan="1" auto="false" labelid="{1fb7d8c4-8614-4f45-b85f-ee41d8d39efb}">
                         <labels>
                           <label description="Timeline" languagecode="1033" />
                           <label description="Timeline" languagecode="1046" />

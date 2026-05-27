@@ -443,3 +443,43 @@ Result:
 - FR26 opportunity views are deployed.
 - Story 5.1 field mapping moved to deployed minimal governance fields.
 - `Oportunidade Senior` now supports ETN, CPQ/GPS, ERP Sapiens and discount approval simulation in-form.
+
+## 2026-05-27 - Labels, Opportunity BPF Progress, Demo Data And Export
+
+Objective: continue closing the epic backlog with autonomy, correcting visible Portuguese labels and progressing remaining MVP stories.
+
+Actions:
+
+- Corrected Portuguese labels with accents in scripts and Dataverse metadata/form labels.
+- Converted affected PowerShell scripts to UTF-8 BOM to avoid Windows PowerShell 5.1 mojibake.
+- Updated Opportunity metadata labels/options:
+  - `Status Aprovação Desconto`
+  - `Data Aprovação Desconto`
+  - `Não Solicitada`
+  - `Não Iniciado`
+  - `Concluído`
+  - `Não Acionada`
+  - `Concluída`
+- Re-published Lead, Account, Contact and Opportunity form layouts with accented labels.
+- Created BPF workflow:
+  - Name: `Oportunidade Senior Privado`
+  - Workflow id: `7231fce8-9e59-f111-bec7-000d3a18ea46`
+  - Primary entity: `opportunity`
+  - State/status: active
+- Created Senior process stage metadata records for Opportunity BPF.
+- Direct XAML replacement for the Opportunity BPF remains blocked by Dataverse generic validation error `0x80040216`; clientdata-only patch is accepted but activation preserves/regenerates template XAML.
+- Created demo data through Web API:
+  - Account: `Indústrias Modelo Sul`
+  - Contacts: `Marina Klein`, `Rafael Borges`
+  - Lead: `Smart Lead - Evento HCM Senior - Indústrias Modelo Sul`
+  - Opportunity: `Projeto HCM Senior - Rollout Nacional`
+  - Task: `Preparar proposta CPQ/GPS e validação ETN - Demo Senior`
+- Exported and unpacked solution:
+  - `C:\Users\Bruno Andrade\Documents\Senior\.deploy\nexer_senior_demo_crm_b\exports\nexer_senior_demo_crm_b_epics_progress_20260527.zip`
+
+Result:
+
+- Labels are corrected for visible form/metadata usage.
+- Story 6.1 demo data is deployed.
+- Story 4.3 is partially deployed with workflow active but full visual stage replacement blocked.
+- Dashboards remain blocked for safe authoring because exported interaction-centric dashboard XML depends on chart/view components that should be generated together or authored once in Maker Portal.

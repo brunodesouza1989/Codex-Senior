@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{7231fce8-9e59-f111-bec7-000d3a18ea46}" Name="Oportunidade Senior Privado" Description="BPF Senior para oportunidade privada: Qualificação, Desenvolvimento, Proposta, Negociação, Aprovação de Desconto, Contrato e Assinatura, Fechamento." xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/OportunidadeSeniorPrivado-7231FCE8-9E59-F111-BEC7-000D3A18EA46.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>1</processorder>
+  <processroleassignment>&lt;DisplayConditions&gt;&lt;Everyone /&gt;&lt;/DisplayConditions&gt;</processroleassignment>
+  <RunAs>1</RunAs>
+  <UniqueName>OportunidadeSeniorPrivado7431fce89e59f111bec7000d3a18ea46</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>8.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>1</BusinessProcessType>
+  <FormId>{a769690f-c29a-4495-8f06-1349f81de627}</FormId>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <ModernFlowType>0</ModernFlowType>
+  <PrimaryEntity>Opportunity</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1046" description="Oportunidade Senior Privado" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1046" description="BPF Senior para oportunidade privada: Qualificação, Desenvolvimento, Proposta, Negociação, Aprovação de Desconto, Contrato e Assinatura, Fechamento." />
+  </Descriptions>
+  <labels>
+    <steplabels id="{23d2b546-71c3-4245-8fb3-1addbeda5fc6}">
+      <label languagecode="1033" description="Review Key Information And Easily Make Contact On Your Opportunity" />
+      <label languagecode="1046" description="Examinar Informações Principais e Contatar Facilmente Sua Oportunidade" />
+      <label languagecode="3082" description="Revisar la información clave y crear un contacto fácilmente en la oportunidad" />
+    </steplabels>
+    <steplabels id="{2c49e1d0-adff-4a9d-90de-c9f19a129887}" />
+    <steplabels id="{0bebccc4-f90b-4a86-b567-f4ae824ca562}" />
+    <steplabels id="{b9b040ba-a780-2eab-7803-20e89a695b82}" />
+    <steplabels id="{9d7b4a0e-e7b0-a27a-50c8-a1bd1bb24bc3}" />
+    <steplabels id="{48104340-a649-1b90-7918-569c75b16980}" />
+    <steplabels id="{abd01977-585e-bcab-262a-88d1cad00134}" />
+    <steplabels id="{e27a7cb4-1206-9125-ce64-ecdee5743be8}" />
+    <steplabels id="{6c0abbcc-55c2-4266-ba25-c5ff362699a5}" />
+    <steplabels id="{02158ebe-a6e3-48cc-9b7f-e6cb0c37d1a6}" />
+    <steplabels id="{00b2d740-5290-3595-a8d9-d69e47340ccb}" />
+    <steplabels id="{6c589e40-c8bc-db17-ae9a-1a0010ac14c2}" />
+    <steplabels id="{9c330abe-6d41-ba26-a256-bc6337692dc5}" />
+    <steplabels id="{ca567c70-7426-0765-511d-9512d357be82}" />
+  </labels>
+</Workflow>

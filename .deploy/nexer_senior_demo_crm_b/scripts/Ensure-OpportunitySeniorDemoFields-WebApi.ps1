@@ -1,4 +1,4 @@
-param(
+﻿param(
     [string]$Url = "https://nexereabrpresales.crm.dynamics.com",
     [string]$SolutionUniqueName = "nexer_senior_demo_crm_b"
 )
@@ -159,29 +159,29 @@ function Ensure-DateTime {
 $script:AccessToken = Get-PacDataverseToken -ResourceUrl $Url
 
 $approvalOptions = @(
-    (New-Option -Value 253360000 -Label "Nao Solicitada"),
+    (New-Option -Value 253360000 -Label "Não Solicitada"),
     (New-Option -Value 253360001 -Label "Pendente"),
     (New-Option -Value 253360002 -Label "Aprovada"),
     (New-Option -Value 253360003 -Label "Rejeitada"),
     (New-Option -Value 253360004 -Label "Escalada")
 )
 $integrationOptions = @(
-    (New-Option -Value 253360000 -Label "Nao Iniciado"),
+    (New-Option -Value 253360000 -Label "Não Iniciado"),
     (New-Option -Value 253360001 -Label "Enviado"),
     (New-Option -Value 253360002 -Label "Processando"),
-    (New-Option -Value 253360003 -Label "Concluido"),
+    (New-Option -Value 253360003 -Label "Concluído"),
     (New-Option -Value 253360004 -Label "Erro Simulado")
 )
 $etnOptions = @(
-    (New-Option -Value 253360000 -Label "Nao Acionada"),
+    (New-Option -Value 253360000 -Label "Não Acionada"),
     (New-Option -Value 253360001 -Label "Pendente"),
     (New-Option -Value 253360002 -Label "Em Atendimento"),
-    (New-Option -Value 253360003 -Label "Concluida")
+    (New-Option -Value 253360003 -Label "Concluída")
 )
 
-Ensure-Picklist -SchemaName "nexer_StatusAprovacaoDesconto" -DisplayName "Status Aprovacao Desconto" -Options $approvalOptions
+Ensure-Picklist -SchemaName "nexer_StatusAprovacaoDesconto" -DisplayName "Status Aprovação Desconto" -Options $approvalOptions
 Ensure-Memo -SchemaName "nexer_JustificativaDesconto" -DisplayName "Justificativa Desconto"
-Ensure-DateTime -SchemaName "nexer_DataAprovacaoDesconto" -DisplayName "Data Aprovacao Desconto"
+Ensure-DateTime -SchemaName "nexer_DataAprovacaoDesconto" -DisplayName "Data Aprovação Desconto"
 Ensure-Picklist -SchemaName "nexer_StatusCPQGPS" -DisplayName "Status CPQ/GPS" -Options $integrationOptions
 Ensure-Picklist -SchemaName "nexer_StatusERPSapiens" -DisplayName "Status ERP Sapiens" -Options $integrationOptions
 Ensure-Picklist -SchemaName "nexer_StatusETN" -DisplayName "Status ETN" -Options $etnOptions

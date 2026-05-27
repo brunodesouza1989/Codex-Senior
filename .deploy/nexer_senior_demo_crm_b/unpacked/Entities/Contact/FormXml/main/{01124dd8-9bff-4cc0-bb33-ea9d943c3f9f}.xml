@@ -61,7 +61,7 @@
                     <row>
                       <cell id="{c95289cb-6a08-4beb-aa5b-1177ef90ad59}" locklevel="0" colspan="2" rowspan="1" ordinalvalue="10011">
                         <labels>
-                          <label description="Idioma Preferido" languagecode="1046" solutionaction="Modified" />
+                          <label description="Idioma Preferido" languagecode="1046" solutionaction="Added" />
                           <label description="Preferred Language" languagecode="1033" solutionaction="Added" />
                           <label description="Idioma preferido" languagecode="3082" solutionaction="Added" />
                         </labels>

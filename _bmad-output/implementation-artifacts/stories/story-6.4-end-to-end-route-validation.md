@@ -2,7 +2,7 @@
 
 Date: 2026-05-26
 
-Status: ready-for-validation
+Status: partially-ready
 
 ## User Story
 
@@ -32,3 +32,19 @@ So that a apresentacao seja fluida e confiavel.
 - Any manual demo step is documented as simulation.
 - Final package is exported/unpacked and versioned after validation.
 
+## 2026-05-27 Status
+
+Partially ready:
+
+- Sales Hub native premise remains intact.
+- Lead form/BPF/views are deployed.
+- Account, Contact and Opportunity Senior forms are deployed.
+- Opportunity views and governance fields are deployed.
+- Demo data for the narrative is deployed.
+- Final export/unpack was generated:
+  - `C:\Users\Bruno Andrade\Documents\Senior\.deploy\nexer_senior_demo_crm_b\exports\nexer_senior_demo_crm_b_epics_progress_20260527.zip`
+
+Remaining validation gaps:
+
+- Full visual replacement for `Oportunidade Senior Privado` BPF stages.
+- Operational and executive dashboards.

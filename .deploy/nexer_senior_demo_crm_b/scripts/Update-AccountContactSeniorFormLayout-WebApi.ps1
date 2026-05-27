@@ -1,4 +1,4 @@
-param(
+﻿param(
     [string]$Url = "https://nexereabrpresales.crm.dynamics.com",
     [Parameter(Mandatory = $true)]
     [ValidateSet("account", "contact", "opportunity")]
@@ -133,16 +133,16 @@ function New-AccountTabXml {
         (New-CellXml -Field "industrycode" -LabelPt "Setor" -Kind "picklist"),
         (New-CellXml -Field "revenue" -LabelPt "Receita Anual" -Kind "money"),
         (New-CellXml -Field "numberofemployees" -LabelPt "Colaboradores" -Kind "integer"),
-        (New-CellXml -Field "accountclassificationcode" -LabelPt "Classificacao" -Kind "picklist"),
+        (New-CellXml -Field "accountclassificationcode" -LabelPt "Classificação" -Kind "picklist"),
         (New-CellXml -Field "accountratingcode" -LabelPt "Rating" -Kind "picklist")
     )
     $relacionamento = New-SectionXml -Name "senior_radar_relacionamento" -Label "Relacionamento" -Rows @(
         (New-CellXml -Field "primarycontactid" -LabelPt "Contato Principal" -Kind "lookup"),
         (New-CellXml -Field "parentaccountid" -LabelPt "Conta Pai" -Kind "lookup"),
-        (New-CellXml -Field "ownerid" -LabelPt "Proprietario" -Kind "lookup"),
-        (New-CellXml -Field "description" -LabelPt "Proxima Acao / Observacoes" -Kind "memo")
+        (New-CellXml -Field "ownerid" -LabelPt "Proprietário" -Kind "lookup"),
+        (New-CellXml -Field "description" -LabelPt "Próxima Ação / Observações" -Kind "memo")
     )
-    $timeline = New-SectionXml -Name "senior_radar_proxima_acao" -Label "Pendencias E Interacoes" -Rows @((New-TimelineCellXml))
+    $timeline = New-SectionXml -Name "senior_radar_proxima_acao" -Label "Pendências E Interações" -Rows @((New-TimelineCellXml))
     return @"
 <tab name="senior_account_radar" verticallayout="true" id="$tabId" IsUserDefined="1" locklevel="0" expanded="true" showlabel="true" labelid="$labelId">
   $(New-LabelsXml -Pt "Radar Da Conta" -En "Account Radar" -Es "Radar De Cuenta")
@@ -162,20 +162,20 @@ function New-ContactTabXml {
         (New-CellXml -Field "fullname" -LabelPt "Nome Completo"),
         (New-CellXml -Field "jobtitle" -LabelPt "Cargo"),
         (New-CellXml -Field "parentcustomerid" -LabelPt "Conta" -Kind "lookup"),
-        (New-CellXml -Field "ownerid" -LabelPt "Proprietario" -Kind "lookup")
+        (New-CellXml -Field "ownerid" -LabelPt "Proprietário" -Kind "lookup")
     )
-    $influencia = New-SectionXml -Name "senior_contact_influencia" -Label "Papel E Influencia" -Rows @(
+    $influencia = New-SectionXml -Name "senior_contact_influencia" -Label "Papel E Influência" -Rows @(
         (New-CellXml -Field "accountrolecode" -LabelPt "Papel Na Conta" -Kind "picklist"),
         (New-CellXml -Field "preferredcontactmethodcode" -LabelPt "Canal Preferido" -Kind "picklist"),
         (New-CellXml -Field "preferredsystemuserid" -LabelPt "Responsavel Preferencial" -Kind "lookup"),
-        (New-CellXml -Field "description" -LabelPt "Contexto / Influencia" -Kind "memo")
+        (New-CellXml -Field "description" -LabelPt "Contexto / Influência" -Kind "memo")
     )
     $contato = New-SectionXml -Name "senior_contact_canais" -Label "Canais" -Rows @(
         (New-CellXml -Field "emailaddress1" -LabelPt "Email" -Kind "email"),
         (New-CellXml -Field "telephone1" -LabelPt "Telefone"),
         (New-CellXml -Field "mobilephone" -LabelPt "Celular")
     )
-    $timeline = New-SectionXml -Name "senior_contact_interacoes" -Label "Ultima Interacao E Proxima Acao" -Rows @((New-TimelineCellXml))
+    $timeline = New-SectionXml -Name "senior_contact_interacoes" -Label "Última Interação E Próxima Ação" -Rows @((New-TimelineCellXml))
     return @"
 <tab name="senior_contact_context" verticallayout="true" id="$tabId" IsUserDefined="1" locklevel="0" expanded="true" showlabel="true" labelid="$labelId">
   $(New-LabelsXml -Pt "Contexto Senior" -En "Senior Context" -Es "Contexto Senior")
@@ -195,7 +195,7 @@ function New-OpportunityTabXml {
         (New-CellXml -Field "name" -LabelPt "Oportunidade"),
         (New-CellXml -Field "customerid" -LabelPt "Cliente" -Kind "lookup"),
         (New-CellXml -Field "salesstagecode" -LabelPt "Fase" -Kind "picklist"),
-        (New-CellXml -Field "ownerid" -LabelPt "Responsavel" -Kind "lookup")
+        (New-CellXml -Field "ownerid" -LabelPt "Responsável" -Kind "lookup")
     )
     $valor = New-SectionXml -Name "senior_opp_valor" -Label "Valor E Forecast" -Rows @(
         (New-CellXml -Field "estimatedvalue" -LabelPt "Valor Estimado" -Kind "money"),
@@ -204,25 +204,25 @@ function New-OpportunityTabXml {
         (New-CellXml -Field "discountpercentage" -LabelPt "Desconto (%)" -Kind "decimal"),
         (New-CellXml -Field "discountamount" -LabelPt "Desconto" -Kind "money")
     )
-    $solucao = New-SectionXml -Name "senior_opp_solucao" -Label "Solucao E Risco" -Rows @(
+    $solucao = New-SectionXml -Name "senior_opp_solucao" -Label "Solução E Risco" -Rows @(
         (New-CellXml -Field "customerneed" -LabelPt "Necessidade" -Kind "memo"),
-        (New-CellXml -Field "proposedsolution" -LabelPt "Produto/Solucao" -Kind "memo"),
-        (New-CellXml -Field "currentsituation" -LabelPt "Situacao Atual / Risco" -Kind "memo"),
-        (New-CellXml -Field "description" -LabelPt "Proxima Acao" -Kind "memo")
+        (New-CellXml -Field "proposedsolution" -LabelPt "Produto/Solução" -Kind "memo"),
+        (New-CellXml -Field "currentsituation" -LabelPt "Situação Atual / Risco" -Kind "memo"),
+        (New-CellXml -Field "description" -LabelPt "Próxima Ação" -Kind "memo")
     )
-    $governanca = New-SectionXml -Name "senior_opp_governanca" -Label "Governanca E Integracoes" -Rows @(
+    $governanca = New-SectionXml -Name "senior_opp_governanca" -Label "Governança E Integrações" -Rows @(
         (New-CellXml -Field "purchaseprocess" -LabelPt "Processo De Compra" -Kind "picklist"),
         (New-CellXml -Field "purchasetimeframe" -LabelPt "Prazo De Compra" -Kind "picklist"),
         (New-CellXml -Field "decisionmaker" -LabelPt "Decisor Identificado" -Kind "boolean"),
-        (New-CellXml -Field "pricelevelid" -LabelPt "Lista De Precos / CPQ" -Kind "lookup"),
+        (New-CellXml -Field "pricelevelid" -LabelPt "Lista De Preços / CPQ" -Kind "lookup"),
         (New-CellXml -Field "nexer_statusetn" -LabelPt "Status ETN" -Kind "picklist"),
         (New-CellXml -Field "nexer_statuscpqgps" -LabelPt "Status CPQ/GPS" -Kind "picklist"),
         (New-CellXml -Field "nexer_statuserpsapiens" -LabelPt "Status ERP Sapiens" -Kind "picklist"),
-        (New-CellXml -Field "nexer_statusaprovacaodesconto" -LabelPt "Status Aprovacao Desconto" -Kind "picklist"),
+        (New-CellXml -Field "nexer_statusaprovacaodesconto" -LabelPt "Status Aprovação Desconto" -Kind "picklist"),
         (New-CellXml -Field "nexer_justificativadesconto" -LabelPt "Justificativa Desconto" -Kind "memo"),
-        (New-CellXml -Field "nexer_dataaprovacaodesconto" -LabelPt "Data Aprovacao Desconto" -Kind "datetime")
+        (New-CellXml -Field "nexer_dataaprovacaodesconto" -LabelPt "Data Aprovação Desconto" -Kind "datetime")
     )
-    $timeline = New-SectionXml -Name "senior_opp_interacoes" -Label "Interacoes E Pendencias" -Rows @((New-TimelineCellXml))
+    $timeline = New-SectionXml -Name "senior_opp_interacoes" -Label "Interações E Pendências" -Rows @((New-TimelineCellXml))
     return @"
 <tab name="senior_opportunity_summary" verticallayout="true" id="$tabId" IsUserDefined="1" locklevel="0" expanded="true" showlabel="true" labelid="$labelId">
   $(New-LabelsXml -Pt "Oportunidade Senior" -En "Senior Opportunity" -Es "Oportunidad Senior")

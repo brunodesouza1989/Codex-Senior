@@ -2,7 +2,7 @@
 
 Date: 2026-05-26
 
-Status: ready-for-implementation
+Status: blocked-for-safe-dashboard-authoring
 
 ## User Story
 
@@ -36,3 +36,14 @@ So that eu acompanhe fluidez e gargalos.
 - Dashboard can be opened from native Sales Hub dashboard area.
 - It uses deployed views/charts and does not require external integration.
 
+## 2026-05-27 Status
+
+Not deployed automatically.
+
+Reason: exported dashboards in this environment use interaction-centric dashboard XML tightly coupled to chart ids, view ids and native dashboard structure. Creating a blank or cloned dashboard would be misleading for the demo. Recommended safe path is to create charts/dashboard once through Maker Portal or build a dedicated chart+dashboard generator that creates all referenced visualizations first.
+
+Available inputs are ready:
+
+- Lead stage views from Story 2.4.
+- Opportunity views from Story 4.5.
+- Demo records from Story 6.1.

@@ -1,4 +1,4 @@
-param(
+﻿param(
     [string]$Url = "https://nexereabrpresales.crm.dynamics.com",
     [string]$FormId = "c8e4eb26-8558-f111-bec7-7c1e526b609d",
     [string]$FormName = "Cliente Potencial Senior"
@@ -159,8 +159,8 @@ function New-SeniorTabXml {
     $tabId = New-Id
     $labelId = New-Id
 
-    $identificacao = New-SectionXml -Name "senior_identificacao" -Label "Identificacao" -Rows @(
-        (New-CellXml -Field "subject" -LabelPt "Topico"),
+    $identificacao = New-SectionXml -Name "senior_identificacao" -Label "Identificação" -Rows @(
+        (New-CellXml -Field "subject" -LabelPt "Tópico"),
         (New-CellXml -Field "firstname" -LabelPt "Nome"),
         (New-CellXml -Field "lastname" -LabelPt "Sobrenome"),
         (New-CellXml -Field "companyname" -LabelPt "Empresa"),
@@ -173,25 +173,25 @@ function New-SeniorTabXml {
         (New-CellXml -Field "mobilephone" -LabelPt "Celular")
     )
 
-    $qualificacao = New-SectionXml -Name "senior_qualificacao_comercial" -Label "Qualificacao Comercial" -Rows @(
+    $qualificacao = New-SectionXml -Name "senior_qualificacao_comercial" -Label "Qualificação Comercial" -Rows @(
         (New-CellXml -Field "leadsourcecode" -LabelPt "Origem" -Kind "picklist"),
         (New-CellXml -Field "industrycode" -LabelPt "Segmento" -Kind "picklist"),
         (New-CellXml -Field "revenue" -LabelPt "Potencial Financeiro" -Kind "money"),
         (New-CellXml -Field "numberofemployees" -LabelPt "Porte" -Kind "integer"),
-        (New-CellXml -Field "budgetamount" -LabelPt "Orcamento" -Kind "money"),
-        (New-CellXml -Field "budgetstatus" -LabelPt "Status Do Orcamento" -Kind "picklist"),
+        (New-CellXml -Field "budgetamount" -LabelPt "Orçamento" -Kind "money"),
+        (New-CellXml -Field "budgetstatus" -LabelPt "Status Do Orçamento" -Kind "picklist"),
         (New-CellXml -Field "prioritycode" -LabelPt "Prioridade" -Kind "picklist"),
-        (New-CellXml -Field "leadqualitycode" -LabelPt "Aderencia Senior" -Kind "picklist")
+        (New-CellXml -Field "leadqualitycode" -LabelPt "Aderência Senior" -Kind "picklist")
     )
 
-    $checklist = New-SectionXml -Name "senior_checklist_qualificacao" -Label "Checklist De Qualificacao" -Rows @(
+    $checklist = New-SectionXml -Name "senior_checklist_qualificacao" -Label "Checklist De Qualificação" -Rows @(
         (New-CellXml -Field "nexer_interessedocliente" -LabelPt "Linha Senior" -Kind "picklist"),
-        (New-CellXml -Field "purchaseprocess" -LabelPt "Decisor/Comite" -Kind "picklist"),
+        (New-CellXml -Field "purchaseprocess" -LabelPt "Decisor/Comitê" -Kind "picklist"),
         (New-CellXml -Field "purchasetimeframe" -LabelPt "Prazo" -Kind "picklist"),
         (New-CellXml -Field "qualificationcomments" -LabelPt "Dor e Necessidade" -Kind "memo")
     )
 
-    $timeline = New-SectionXml -Name "senior_proxima_acao" -Label "Proxima Acao" -Rows @(
+    $timeline = New-SectionXml -Name "senior_proxima_acao" -Label "Próxima Ação" -Rows @(
         (New-TimelineCellXml)
     )
 

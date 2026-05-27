@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{1af2fc40-9b9b-4101-98a3-a92202b83de3}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form showImage="true" shownavigationbar="true" maxWidth="1920" headerdensity="HighWithControls">
+      <tabs>
+        <tab name="tab_main" verticallayout="true" id="{d1d693b4-574c-4e1f-b460-7ce806edc1d5}" IsUserDefined="1" locklevel="0" expanded="true" showlabel="true" labelid="{95f315d0-9790-4daa-851b-8fd2d00393fd}">
+          <labels>
+            <label description="Ticket Zendesk" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="resumo_do_ticket" showlabel="true" showbar="false" id="{c03a273e-5666-4cb3-acd0-4ad7050cf6bf}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{dd833db5-0d5a-4ab0-b20c-64fab1d63877}">
+                  <labels>
+                    <label description="Resumo do Ticket" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a0afd392-e5ad-4c7b-9a65-9c6fba4681c1}" showlabel="true" locklevel="0" labelid="{f34ff18a-452f-476e-9f84-44bcde1147cf}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                          <label description="Nome" languagecode="1033" />
+                        </labels>
+                        <control id="nexer_nome" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nexer_nome" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4342599d-7968-4185-86c0-1e4d539dbc3b}" showlabel="true" locklevel="0" labelid="{291a4935-77a5-4674-9c88-795a7a009e6b}">
+                        <labels>
+                          <label description="ID Zendesk" languagecode="1046" />
+                          <label description="ID Zendesk" languagecode="1033" />
+                        </labels>
+                        <control id="nexer_zendeskid" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nexer_zendeskid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fd4ddd24-97b1-4f6e-8602-6f88df1e4651}" showlabel="true" locklevel="0" labelid="{4021905d-4756-411c-988c-f3ca5905d0d3}">
+                        <labels>
+                          <label description="Status" languagecode="1046" />
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="nexer_status" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="nexer_status" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1eca240b-65e8-4b51-84dd-c30578c8e8e2}" showlabel="true" locklevel="0" labelid="{95522200-4798-4c39-8031-9de316056350}">
+                        <labels>
+                          <label description="Link Zendesk" languagecode="1046" />
+                          <label description="Link Zendesk" languagecode="1033" />
+                        </labels>
+                        <control id="nexer_deeplink" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nexer_deeplink" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="cliente" showlabel="true" showbar="false" id="{6cdd7653-166f-400c-8639-e04885708f29}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{53744994-84d0-4b1e-bc79-ec595a54b70b}">
+                  <labels>
+                    <label description="Cliente" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5c79c4d8-540d-4690-86d1-5313c389ccb9}" showlabel="true" locklevel="0" labelid="{b290833b-56e9-45cb-a0a5-ddef3ebe71b5}">
+                        <labels>
+                          <label description="Conta" languagecode="1046" />
+                          <label description="Conta" languagecode="1033" />
+                        </labels>
+                        <control id="nexer_account" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="nexer_account" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fde0dea3-8ef7-4134-a3e5-fdb2997b2e54}" showlabel="true" locklevel="0" labelid="{0405d973-de37-4b1a-8797-e250107e43f2}">
+                        <labels>
+                          <label description="Contato" languagecode="1046" />
+                          <label description="Contato" languagecode="1033" />
+                        </labels>
+                        <control id="nexer_contact" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="nexer_contact" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c345d3bd-4178-44c6-8964-4c0e10fe2718}" showlabel="true" locklevel="0" labelid="{eea7ec4c-4340-43b9-9034-9f04a01f2a98}">
+                        <labels>
+                          <label description="Proprietário" languagecode="1046" />
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Propietario" languagecode="3082" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="timeline" showlabel="true" showbar="false" id="{d2a507f7-49d4-4721-99a9-2ea51a1b1d98}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{6855a5ba-c111-44bb-a5ae-ffc7c68f4959}">
+                  <labels>
+                    <label description="Timeline" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" rowspan="12" auto="false" id="{27829d62-bc57-4d00-9c56-5d700258b3ae}">
+                        <labels>
+                          <label description="Anotações" languagecode="1046" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}">
+                          <parameters>
+                            <DefaultTabId>NotesTab</DefaultTabId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="nexer_form_zendeskticket_main" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Um formulário para esta entidade." languagecode="1046" />
+    </Descriptions>
+  </systemform>
+</forms>

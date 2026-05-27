@@ -13,7 +13,7 @@
         <data id="address2_addressid" datafieldname="address2_addressid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
       </hiddencontrols>
       <tabs>
-        <tab name="senior_contact_context" verticallayout="true" id="{601563ec-46ca-43d9-bfe7-bc52ec57c034}" IsUserDefined="1" locklevel="0" expanded="true" showlabel="true" labelid="{51f25463-7f84-448b-82b4-d89290708ce6}">
+        <tab name="senior_contact_context" verticallayout="true" id="{6022988e-77c4-4dca-90f3-b936bf0385cf}" IsUserDefined="1" locklevel="0" expanded="true" showlabel="true" labelid="{fc844642-e959-459c-a665-03992a30d683}">
           <labels>
             <label description="Senior Context" languagecode="1033" />
             <label description="Contexto Senior" languagecode="1046" />
@@ -22,7 +22,7 @@
           <columns>
             <column width="33%">
               <sections>
-                <section name="senior_contact_perfil" showlabel="true" showbar="false" id="{353d6c00-6767-447a-94ab-74b702db4891}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{bea44795-df10-4fee-8a58-866c5e0333db}">
+                <section name="senior_contact_perfil" showlabel="true" showbar="false" id="{5e870156-e91d-4e5e-83e6-58a38477f122}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{13fce2ee-7521-4a1e-bdee-ea9b3e89cbaa}">
                   <labels>
                     <label description="Perfil Do Contato" languagecode="1033" />
                     <label description="Perfil Do Contato" languagecode="1046" />
@@ -30,7 +30,7 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{641c2591-c806-49d1-8392-37a83238d543}" showlabel="true" locklevel="0" labelid="{c579a5c3-d2b5-4c76-ac96-88aebe1a8f35}">
+                      <cell id="{deae6261-2871-477a-868d-9cd63887f553}" showlabel="true" locklevel="0" labelid="{116c845f-9358-4472-a34a-1e2b0c927eed}">
                         <labels>
                           <label description="Nome Completo" languagecode="1046" />
                           <label description="Nome Completo" languagecode="1033" />
@@ -40,7 +40,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{448a3d26-06a1-4510-ae19-3a2639d3f932}" showlabel="true" locklevel="0" labelid="{f4c372f2-9898-41ba-891c-e899908af2d3}">
+                      <cell id="{9121d1d3-76c7-487b-84e8-bebf1f9b5467}" showlabel="true" locklevel="0" labelid="{37c1fda4-829b-4fff-86ad-b0064ad38c02}">
                         <labels>
                           <label description="Cargo" languagecode="1046" />
                           <label description="Cargo" languagecode="1033" />
@@ -50,7 +50,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{43867f31-6891-4734-b82d-94789a0da541}" showlabel="true" locklevel="0" labelid="{ff8fbe07-3da9-4ee0-8484-eae4b9048609}">
+                      <cell id="{619fc587-70f8-4d51-8ddb-20dffeaa0474}" showlabel="true" locklevel="0" labelid="{f0953955-9fe6-413a-968a-33dd32e3ca4c}">
                         <labels>
                           <label description="Conta" languagecode="1046" />
                           <label description="Conta" languagecode="1033" />
@@ -60,11 +60,11 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{1ab8edfe-b143-4814-8061-311b8e8a2078}" showlabel="true" locklevel="0" labelid="{7f6540bf-2c01-4a75-b588-f6bc8242c4a7}">
+                      <cell id="{2fb7e73c-6b33-4187-a202-6a91fb87d6e2}" showlabel="true" locklevel="0" labelid="{dd776f5e-dc0e-4695-8acf-63b2e0f61ee4}">
                         <labels>
-                          <label description="Proprietario" languagecode="1046" />
-                          <label description="Proprietario" languagecode="1033" />
-                          <label description="Proprietario" languagecode="3082" />
+                          <label description="Proprietário" languagecode="1046" />
+                          <label description="Proprietário" languagecode="1033" />
+                          <label description="Proprietário" languagecode="3082" />
                         </labels>
                         <control id="senior_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
                       </cell>
@@ -75,15 +75,15 @@
             </column>
             <column width="34%">
               <sections>
-                <section name="senior_contact_influencia" showlabel="true" showbar="false" id="{687b96db-29c7-433d-9646-55787e4b6997}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{4e17a112-2edf-4636-a615-9fbfbd9ccc75}">
+                <section name="senior_contact_influencia" showlabel="true" showbar="false" id="{1db757d2-e811-41d6-a0bf-e39f35ffbe73}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{1f02fcb4-43c9-44ca-815b-7d6e13836699}">
                   <labels>
-                    <label description="Papel E Influencia" languagecode="1033" />
-                    <label description="Papel E Influencia" languagecode="1046" />
-                    <label description="Papel E Influencia" languagecode="3082" />
+                    <label description="Papel E Influência" languagecode="1033" />
+                    <label description="Papel E Influência" languagecode="1046" />
+                    <label description="Papel E Influência" languagecode="3082" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{0b0212ce-c734-43bc-bcb1-d83f830046c8}" showlabel="true" locklevel="0" labelid="{49aa890a-ce39-4ff3-9a4c-5165e1eef60f}">
+                      <cell id="{4841d5dd-a584-4d68-9f95-18ca8b62ce07}" showlabel="true" locklevel="0" labelid="{3ae77484-8736-4b5a-9d8c-f08ef281803c}">
                         <labels>
                           <label description="Papel Na Conta" languagecode="1046" />
                           <label description="Papel Na Conta" languagecode="1033" />
@@ -93,7 +93,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{21ec35e9-dfd9-4e2d-b20c-ddb53ef4a222}" showlabel="true" locklevel="0" labelid="{f06eb5cf-a8c6-4763-8743-bb1644a7ebc1}">
+                      <cell id="{5add73d4-593a-471a-ba5e-c741ef17c0dd}" showlabel="true" locklevel="0" labelid="{38008df0-a2e5-4208-b25f-9129e28d4d64}">
                         <labels>
                           <label description="Canal Preferido" languagecode="1046" />
                           <label description="Canal Preferido" languagecode="1033" />
@@ -103,7 +103,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{fc0be8fa-2a67-45a1-95f2-7206370b9211}" showlabel="true" locklevel="0" labelid="{9b30c01b-2002-446c-928a-4e4cd99c34c5}">
+                      <cell id="{294479e8-de43-453b-b29f-2b947aff0aed}" showlabel="true" locklevel="0" labelid="{78166a09-14a1-4e21-b155-357e65eb6247}">
                         <labels>
                           <label description="Responsavel Preferencial" languagecode="1046" />
                           <label description="Responsavel Preferencial" languagecode="1033" />
@@ -113,18 +113,18 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{8c7db583-a76c-451e-b9d5-8138f61af268}" showlabel="true" locklevel="0" labelid="{7deb3e7f-86d8-4bef-828d-64eb82c89adc}">
+                      <cell id="{030eae1f-313b-4bd1-b6f4-c313321e8394}" showlabel="true" locklevel="0" labelid="{d7ab9fd5-1692-41db-b675-4945dcdfeb2b}">
                         <labels>
-                          <label description="Contexto / Influencia" languagecode="1046" />
-                          <label description="Contexto / Influencia" languagecode="1033" />
-                          <label description="Contexto / Influencia" languagecode="3082" />
+                          <label description="Contexto / Influência" languagecode="1046" />
+                          <label description="Contexto / Influência" languagecode="1033" />
+                          <label description="Contexto / Influência" languagecode="3082" />
                         </labels>
                         <control id="senior_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="description" disabled="false" />
                       </cell>
                     </row>
                   </rows>
                 </section>
-                <section name="senior_contact_canais" showlabel="true" showbar="false" id="{cd2f259b-c240-4e2b-8da7-153bb5bb4239}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{20dfcd7b-3f26-4234-95bd-18ac7388ff8b}">
+                <section name="senior_contact_canais" showlabel="true" showbar="false" id="{1775525c-83dc-41fe-8f0c-8bd1984543d8}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{b683823d-a7b4-48e7-b120-550cb1fb0e5d}">
                   <labels>
                     <label description="Canais" languagecode="1033" />
                     <label description="Canais" languagecode="1046" />
@@ -132,7 +132,7 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{123a64da-a95f-4a5c-a5ef-a2c379f3a0be}" showlabel="true" locklevel="0" labelid="{523176b1-cf75-4f93-b35f-29ce29c69e28}">
+                      <cell id="{9403250e-caf3-4795-819d-44f2071bf985}" showlabel="true" locklevel="0" labelid="{833c547c-1da6-4edc-b5c4-26c38be7a6bb}">
                         <labels>
                           <label description="Email" languagecode="1046" />
                           <label description="Email" languagecode="1033" />
@@ -142,7 +142,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{b9bfa990-ae5d-48b4-adcf-8b610e28d559}" showlabel="true" locklevel="0" labelid="{443d02d1-32af-4dcb-ac77-a02327eed5f8}">
+                      <cell id="{e8c5d2be-5463-45dd-9909-a2794eef11dd}" showlabel="true" locklevel="0" labelid="{210bfee3-85ef-4917-b381-f50033403ea0}">
                         <labels>
                           <label description="Telefone" languagecode="1046" />
                           <label description="Telefone" languagecode="1033" />
@@ -152,7 +152,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{8464ef4e-62b4-4d27-a9b2-7777060fc7e9}" showlabel="true" locklevel="0" labelid="{9b222031-2840-486e-a4d7-18a2a40fdfcd}">
+                      <cell id="{db142436-0192-4982-8289-06db57fa528e}" showlabel="true" locklevel="0" labelid="{71f2e17c-751e-4b6d-8df3-9da5ffb92274}">
                         <labels>
                           <label description="Celular" languagecode="1046" />
                           <label description="Celular" languagecode="1033" />
@@ -167,15 +167,15 @@
             </column>
             <column width="33%">
               <sections>
-                <section name="senior_contact_interacoes" showlabel="true" showbar="false" id="{3edeec7f-a5ab-4f5c-abd1-3076ebd19993}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{f0eb37fa-03a2-4f45-ae90-6e5f7943e230}">
+                <section name="senior_contact_interacoes" showlabel="true" showbar="false" id="{08687f09-ce84-44c1-b228-5d84d20e44f9}" IsUserDefined="1" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{36997e9a-9d6b-49f3-8427-aa5294495377}">
                   <labels>
-                    <label description="Ultima Interacao E Proxima Acao" languagecode="1033" />
-                    <label description="Ultima Interacao E Proxima Acao" languagecode="1046" />
-                    <label description="Ultima Interacao E Proxima Acao" languagecode="3082" />
+                    <label description="Última Interação E Próxima Ação" languagecode="1033" />
+                    <label description="Última Interação E Próxima Ação" languagecode="1046" />
+                    <label description="Última Interação E Próxima Ação" languagecode="3082" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{9b8d2ca8-8068-430a-8d84-5c7c496122e2}" showlabel="false" rowspan="10" colspan="1" auto="false" labelid="{23690d69-ef94-4767-8963-2a9819762aeb}">
+                      <cell id="{528cafc2-329f-4a56-901e-89eacc37376d}" showlabel="false" rowspan="10" colspan="1" auto="false" labelid="{d9c87c1a-56bf-470b-844d-4652af0ddc95}">
                         <labels>
                           <label description="Timeline" languagecode="1033" />
                           <label description="Timeline" languagecode="1046" />

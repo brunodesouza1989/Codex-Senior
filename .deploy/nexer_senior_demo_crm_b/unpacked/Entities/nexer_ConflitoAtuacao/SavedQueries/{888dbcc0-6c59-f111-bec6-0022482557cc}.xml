@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{888dbcc0-6c59-f111-bec6-0022482557cc}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="nexer_nome" select="1" icon="1" preview="1">
+        <row name="result" id="nexer_conflitoatuacaoid">
+          <cell name="nexer_nome" width="150" />
+          <cell name="nexer_account" width="150" />
+          <cell name="nexer_user" width="150" />
+          <cell name="nexer_canal" width="150" />
+          <cell name="nexer_status" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="nexer_conflitoatuacao">
+          <attribute name="nexer_nome" />
+          <attribute name="nexer_account" />
+          <attribute name="nexer_user" />
+          <attribute name="nexer_canal" />
+          <attribute name="nexer_status" />
+          <filter>
+            <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="nexer_status" operator="ne" value="253360002" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Conflitos de Atuação Abertos" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Conflitos de Atuação Abertos" languagecode="1046" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

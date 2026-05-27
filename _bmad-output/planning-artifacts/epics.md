@@ -171,9 +171,9 @@ Last updated: 2026-05-26
 | Epic 1 - Fundacao Governada No Sales Hub | done | Solution, PAC flow, Sales Hub guardrails and native-field-first premise are established. |
 | Epic 2 - Qualificacao De Leads Senior | done | Lead mapping, `Cliente Potencial Senior`, `Lead Senior` BPF and stage views are deployed. |
 | Epic 3 - Conta 360 E Relacionamento | mostly done | Account/Contact mapping and forms are documented/deployed; demo data remains needed for full Radar narrative. |
-| Epic 4 - Oportunidade Senior E Pipeline Privado | partially done | Opportunity mapping/form/views and ETN/CPQ status fields are deployed; Opportunity BPF remains next build item. |
-| Epic 5 - Governanca De Desconto E Fechamento Demonstravel | partially done | Governance fields and form area are deployed; approval behavior and close journey need demo data/validation. |
-| Epic 6 - Dashboards, Dados De Demo E Validacao Do Roteiro | ready | Stories are specified; implementation remains to create demo records, dashboards and end-to-end validation. |
+| Epic 4 - Oportunidade Senior E Pipeline Privado | partially done | Opportunity mapping/form/views and ETN/CPQ status fields are deployed; Opportunity BPF workflow exists but full XAML stage replacement is blocked by Dataverse validation. |
+| Epic 5 - Governanca De Desconto E Fechamento Demonstravel | mostly done | Governance fields, form area and demo data are deployed; close journey still needs live validation. |
+| Epic 6 - Dashboards, Dados De Demo E Validacao Do Roteiro | partially done | Demo data is deployed; dashboards are blocked for safe chart/dashboard authoring. |
 
 ## Story Status Matrix
 
@@ -191,24 +191,23 @@ Last updated: 2026-05-26
 | 3.3 Criar Formulario Contato Senior | deployed | `story-3.3-contact-form-build.md` |
 | 4.1 Mapear Campos Nativos De Oportunidade | done | `story-4.1-opportunity-field-mapping.md` |
 | 4.2 Criar Formulario Oportunidade Senior | deployed | `story-4.2-opportunity-form-build.md` |
-| 4.3 Criar BPF Oportunidade Senior Privado | ready-for-implementation | `story-4.3-opportunity-bpf-build.md` |
+| 4.3 Criar BPF Oportunidade Senior Privado | partially-deployed-xaml-blocked | `story-4.3-opportunity-bpf-build.md` |
 | 4.4 Simular ETN E CPQ/GPS Na Oportunidade | partially-deployed | `story-4.4-opportunity-etn-cpq-simulation.md` |
 | 4.5 Criar Views De Oportunidades Senior | deployed | `story-4.5-opportunity-views.md` |
 | 5.1 Mapear Campos Nativos Para Desconto E Fechamento | deployed | `story-5.1-discount-close-field-mapping.md` |
 | 5.2 Criar Experiencia De Solicitacao De Desconto | partially-deployed | `story-5.2-discount-request-experience.md` |
 | 5.3 Demonstrar Fechamento Da Jornada Privada | ready-for-demo-data | `story-5.3-private-journey-close.md` |
-| 6.1 Criar Dados Demonstrativos Criveis | ready-for-implementation | `story-6.1-demo-data.md` |
-| 6.2 Criar Dashboard Operacional | ready-for-implementation | `story-6.2-operational-dashboard.md` |
-| 6.3 Criar Dashboard Executivo | ready-for-implementation | `story-6.3-executive-dashboard.md` |
-| 6.4 Validar Roteiro Ponta A Ponta | ready-for-validation | `story-6.4-end-to-end-route-validation.md` |
+| 6.1 Criar Dados Demonstrativos Criveis | deployed | `story-6.1-demo-data.md` |
+| 6.2 Criar Dashboard Operacional | blocked-for-safe-dashboard-authoring | `story-6.2-operational-dashboard.md` |
+| 6.3 Criar Dashboard Executivo | blocked-for-safe-dashboard-authoring | `story-6.3-executive-dashboard.md` |
+| 6.4 Validar Roteiro Ponta A Ponta | partially-ready | `story-6.4-end-to-end-route-validation.md` |
 
 ## Recommended Execution Order
 
-1. Story 4.3 - create `Oportunidade Senior Privado` BPF using the proven Web API pattern from `Lead Senior`.
-2. Story 6.1 - create demo data for a credible end-to-end route.
-3. Stories 6.2 and 6.3 - create operational and executive dashboards using deployed views/charts.
-4. Stories 5.2 and 5.3 - validate discount request/approval and close narrative against the demo data.
-5. Story 6.4 - run the complete Sales Hub route and export/unpack the final package.
+1. Resolve Story 4.3 full BPF stage rendering through Maker Portal designer or a stronger XAML generator.
+2. Create charts and dashboards for Stories 6.2 and 6.3 using the deployed views and demo data.
+3. Run Story 6.4 complete Sales Hub validation.
+4. Export/unpack the final package after dashboard and BPF validation.
 
 ## Epic 1: Fundacao Governada No Sales Hub
 

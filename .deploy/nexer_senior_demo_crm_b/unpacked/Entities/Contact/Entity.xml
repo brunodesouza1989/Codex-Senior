@@ -5,12 +5,18 @@
     <entity Name="Contact">
       <LocalizedNames>
         <LocalizedName description="Contato" languagecode="1046" />
+        <LocalizedName description="Contact" languagecode="1033" />
+        <LocalizedName description="Contact" languagecode="3082" />
       </LocalizedNames>
       <LocalizedCollectionNames>
         <LocalizedCollectionName description="Contatos" languagecode="1046" />
+        <LocalizedCollectionName description="Contacts" languagecode="1033" />
+        <LocalizedCollectionName description="Contacts" languagecode="3082" />
       </LocalizedCollectionNames>
       <Descriptions>
         <Description description="Pessoa com a qual uma unidade de negócios tem um relacionamento, como cliente, fornecedor e colega." languagecode="1046" />
+        <Description description="Person with whom a business unit has a relationship, such as customer, supplier, and colleague." languagecode="1033" />
+        <Description description="Person with whom a business unit has a relationship, such as customer, supplier, and colleague." languagecode="3082" />
       </Descriptions>
       <attributes>
         <attribute PhysicalName="msdyn_segmentid">
@@ -19,6 +25,7 @@
           <LogicalName>msdyn_segmentid</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
           <ValidForCreateApi>1</ValidForCreateApi>
@@ -147,6 +154,7 @@
           <LogicalName>msdynci_lookupfield_customerprofile</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
           <ValidForCreateApi>1</ValidForCreateApi>
@@ -183,6 +191,7 @@
           <LogicalName>nexer_corretorresponsavel</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
           <ValidForCreateApi>1</ValidForCreateApi>

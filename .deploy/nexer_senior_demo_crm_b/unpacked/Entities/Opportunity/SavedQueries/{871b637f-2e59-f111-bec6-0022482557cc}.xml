@@ -57,10 +57,10 @@
     </fetchxml>
     <IntroducedVersion>1.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="Senior 360 | Oportunidades - Desconto e aprovacao" languagecode="1046" />
+      <LocalizedName description="Senior 360 | Oportunidades - Desconto e Aprovação" languagecode="1046" />
     </LocalizedNames>
     <Descriptions>
-      <Description description="Oportunidades abertas com desconto informado para acompanhamento de aprovacao." languagecode="1046" />
+      <Description description="Oportunidades abertas com desconto informado para acompanhamento de aprovação." languagecode="1046" />
     </Descriptions>
   </savedquery>
 </savedqueries>

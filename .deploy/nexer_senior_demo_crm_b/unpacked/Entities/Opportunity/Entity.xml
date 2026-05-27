@@ -127,6 +127,43 @@
             <Description description="Escriba el importe de ingresos esperado para indicar la venta potencial o el valor de la oportunidad para previsión de ingresos. Este campo puede rellenarlo el sistema o ser editable, según la selección del campo Ingresos." languagecode="3082" />
           </Descriptions>
         </attribute>
+        <attribute PhysicalName="msdynci_lookupfield_customerprofile">
+          <Type>lookup</Type>
+          <Name>msdynci_lookupfield_customerprofile</Name>
+          <LogicalName>msdynci_lookupfield_customerprofile</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Customer Profile" languagecode="1033" />
+            <displayname description="Customer Profile" languagecode="1046" />
+          </displaynames>
+        </attribute>
         <attribute PhysicalName="msdynmkt_JourneyActionId">
           <Type>nvarchar</Type>
           <Name>msdynmkt_journeyactionid</Name>
@@ -243,6 +280,7 @@
           <LogicalName>new_alerta_iot</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
           <ValidForCreateApi>1</ValidForCreateApi>
@@ -281,6 +319,7 @@
           <LogicalName>new_ativo</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
           <ValidForCreateApi>1</ValidForCreateApi>
@@ -429,12 +468,53 @@
             <Description description="" languagecode="1046" />
           </Descriptions>
         </attribute>
+        <attribute PhysicalName="nexer_CanalResponsavel">
+          <Type>lookup</Type>
+          <Name>nexer_canalresponsavel</Name>
+          <LogicalName>nexer_canalresponsavel</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Canal responsável" languagecode="1046" />
+            <displayname description="Canal responsável" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Canal responsável" languagecode="1046" />
+            <Description description="Canal responsável" languagecode="1033" />
+          </Descriptions>
+        </attribute>
         <attribute PhysicalName="nexer_conta_avo">
           <Type>lookup</Type>
           <Name>nexer_conta_avo</Name>
           <LogicalName>nexer_conta_avo</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
           <ValidForCreateApi>1</ValidForCreateApi>
@@ -473,6 +553,7 @@
           <LogicalName>nexer_conta_pai</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
           <ValidForCreateApi>1</ValidForCreateApi>
@@ -539,8 +620,78 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="Data Aprovacao Desconto" languagecode="1046" />
+            <displayname description="Data Aprovação Desconto" languagecode="1046" />
           </displaynames>
+          <Descriptions>
+            <Description description="Data Aprovação Desconto" languagecode="1046" />
+            <Description description="Data Aprovação Desconto" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="nexer_Funil">
+          <Type>picklist</Type>
+          <Name>nexer_funil</Name>
+          <LogicalName>nexer_funil</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <optionset Name="nexer_opportunity_nexer_funil">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Funil" languagecode="1046" />
+              <displayname description="Funil" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Funil" languagecode="1046" />
+              <Description description="Funil" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="253360000" ExternalValue="" IsHidden="0">
+                <labels>
+                  <label description="Privado" languagecode="1046" />
+                  <label description="Privado" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="253360001" ExternalValue="" IsHidden="0">
+                <labels>
+                  <label description="Governo" languagecode="1046" />
+                  <label description="Governo" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Funil" languagecode="1046" />
+            <displayname description="Funil" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Funil" languagecode="1046" />
+            <Description description="Funil" languagecode="1033" />
+          </Descriptions>
         </attribute>
         <attribute PhysicalName="nexer_JustificativaDesconto">
           <Type>ntext</Type>
@@ -578,12 +729,55 @@
             <displayname description="Justificativa Desconto" languagecode="1046" />
           </displaynames>
         </attribute>
+        <attribute PhysicalName="nexer_PercentualDesconto">
+          <Type>decimal</Type>
+          <Name>nexer_percentualdesconto</Name>
+          <LogicalName>nexer_percentualdesconto</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>disabled</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <MinValue>0</MinValue>
+          <MaxValue>100</MaxValue>
+          <Accuracy>2</Accuracy>
+          <displaynames>
+            <displayname description="Percentual de desconto" languagecode="1046" />
+            <displayname description="Percentual de desconto" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Percentual de desconto" languagecode="1046" />
+            <Description description="Percentual de desconto" languagecode="1033" />
+          </Descriptions>
+        </attribute>
         <attribute PhysicalName="nexer_projeto">
           <Type>lookup</Type>
           <Name>nexer_projeto</Name>
           <LogicalName>nexer_projeto</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
           <ValidForCreateApi>1</ValidForCreateApi>
@@ -646,17 +840,18 @@
           <IsFilterable>0</IsFilterable>
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>-1</AppDefaultValue>
           <optionset Name="new_opportunity_nexer_statusaprovacaodesconto">
             <OptionSetType>picklist</OptionSetType>
             <IntroducedVersion>1.0</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
-              <displayname description="Status Aprovacao Desconto" languagecode="1046" />
+              <displayname description="Status AprovaÃ§Ã£o Desconto" languagecode="1046" />
             </displaynames>
             <options>
               <option value="253360000" ExternalValue="" IsHidden="0">
                 <labels>
-                  <label description="Nao Solicitada" languagecode="1046" />
+                  <label description="Não Solicitada" languagecode="1046" />
                 </labels>
               </option>
               <option value="253360001" ExternalValue="" IsHidden="0">
@@ -682,8 +877,12 @@
             </options>
           </optionset>
           <displaynames>
-            <displayname description="Status Aprovacao Desconto" languagecode="1046" />
+            <displayname description="Status Aprovação Desconto" languagecode="1046" />
           </displaynames>
+          <Descriptions>
+            <Description description="Status Aprovação Desconto" languagecode="1046" />
+            <Description description="Status Aprovação Desconto" languagecode="1033" />
+          </Descriptions>
         </attribute>
         <attribute PhysicalName="nexer_StatusCPQGPS">
           <Type>picklist</Type>
@@ -715,6 +914,7 @@
           <IsFilterable>0</IsFilterable>
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>-1</AppDefaultValue>
           <optionset Name="new_opportunity_nexer_statuscpqgps">
             <OptionSetType>picklist</OptionSetType>
             <IntroducedVersion>1.0</IntroducedVersion>
@@ -725,7 +925,7 @@
             <options>
               <option value="253360000" ExternalValue="" IsHidden="0">
                 <labels>
-                  <label description="Nao Iniciado" languagecode="1046" />
+                  <label description="Não Iniciado" languagecode="1046" />
                 </labels>
               </option>
               <option value="253360001" ExternalValue="" IsHidden="0">
@@ -740,7 +940,7 @@
               </option>
               <option value="253360003" ExternalValue="" IsHidden="0">
                 <labels>
-                  <label description="Concluido" languagecode="1046" />
+                  <label description="Concluído" languagecode="1046" />
                 </labels>
               </option>
               <option value="253360004" ExternalValue="" IsHidden="0">
@@ -784,6 +984,7 @@
           <IsFilterable>0</IsFilterable>
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>-1</AppDefaultValue>
           <optionset Name="new_opportunity_nexer_statuserpsapiens">
             <OptionSetType>picklist</OptionSetType>
             <IntroducedVersion>1.0</IntroducedVersion>
@@ -794,7 +995,7 @@
             <options>
               <option value="253360000" ExternalValue="" IsHidden="0">
                 <labels>
-                  <label description="Nao Iniciado" languagecode="1046" />
+                  <label description="Não Iniciado" languagecode="1046" />
                 </labels>
               </option>
               <option value="253360001" ExternalValue="" IsHidden="0">
@@ -809,7 +1010,7 @@
               </option>
               <option value="253360003" ExternalValue="" IsHidden="0">
                 <labels>
-                  <label description="Concluido" languagecode="1046" />
+                  <label description="Concluído" languagecode="1046" />
                 </labels>
               </option>
               <option value="253360004" ExternalValue="" IsHidden="0">
@@ -853,6 +1054,7 @@
           <IsFilterable>0</IsFilterable>
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>-1</AppDefaultValue>
           <optionset Name="new_opportunity_nexer_statusetn">
             <OptionSetType>picklist</OptionSetType>
             <IntroducedVersion>1.0</IntroducedVersion>
@@ -863,7 +1065,7 @@
             <options>
               <option value="253360000" ExternalValue="" IsHidden="0">
                 <labels>
-                  <label description="Nao Acionada" languagecode="1046" />
+                  <label description="Não Acionada" languagecode="1046" />
                 </labels>
               </option>
               <option value="253360001" ExternalValue="" IsHidden="0">
@@ -878,7 +1080,7 @@
               </option>
               <option value="253360003" ExternalValue="" IsHidden="0">
                 <labels>
-                  <label description="Concluida" languagecode="1046" />
+                  <label description="Concluída" languagecode="1046" />
                 </labels>
               </option>
             </options>
@@ -886,6 +1088,78 @@
           <displaynames>
             <displayname description="Status ETN" languagecode="1046" />
           </displaynames>
+        </attribute>
+        <attribute PhysicalName="nexer_TipoVenda">
+          <Type>picklist</Type>
+          <Name>nexer_tipovenda</Name>
+          <LogicalName>nexer_tipovenda</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <optionset Name="nexer_opportunity_nexer_tipovenda">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Tipo de venda" languagecode="1046" />
+              <displayname description="Tipo de venda" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Tipo de venda" languagecode="1046" />
+              <Description description="Tipo de venda" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="253360000" ExternalValue="" IsHidden="0">
+                <labels>
+                  <label description="Privado" languagecode="1046" />
+                  <label description="Privado" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="253360001" ExternalValue="" IsHidden="0">
+                <labels>
+                  <label description="Governo" languagecode="1046" />
+                  <label description="Governo" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="253360002" ExternalValue="" IsHidden="0">
+                <labels>
+                  <label description="Canal" languagecode="1046" />
+                  <label description="Canal" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Tipo de venda" languagecode="1046" />
+            <displayname description="Tipo de venda" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Tipo de venda" languagecode="1046" />
+            <Description description="Tipo de venda" languagecode="1033" />
+          </Descriptions>
         </attribute>
         <attribute PhysicalName="nexer_Valoradquirido">
           <Type>money</Type>

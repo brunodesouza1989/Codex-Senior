@@ -2,7 +2,7 @@
 
 Date: 2026-05-26
 
-Status: ready-for-implementation
+Status: blocked-for-safe-dashboard-authoring
 
 ## User Story
 
@@ -37,3 +37,6 @@ So that eu avalie previsibilidade e riscos.
 - Dashboard answers pipeline, forecast, risk and governance questions.
 - It uses native Opportunity data and existing custom status fields only where justified.
 
+## 2026-05-27 Status
+
+Not deployed automatically for the same reason as Story 6.2: dashboard XML requires valid visualization dependencies. The opportunity data, views and governance fields are deployed, so the remaining task is dashboard/chart composition rather than data model or form work.

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{8b40298b-6c59-f111-bec7-6045bdd670dd}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="nexer_nome" select="1" icon="1" preview="1">
+        <row name="result" id="nexer_ocorrenciaid">
+          <cell name="nexer_nome" width="150" />
+          <cell name="nexer_tipo" width="150" />
+          <cell name="nexer_status" width="150" />
+          <cell name="nexer_account" width="150" />
+          <cell name="nexer_opportunity" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="nexer_ocorrencia">
+          <attribute name="nexer_nome" />
+          <attribute name="nexer_tipo" />
+          <attribute name="nexer_status" />
+          <attribute name="nexer_account" />
+          <attribute name="nexer_opportunity" />
+          <filter>
+            <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="nexer_tipo" operator="eq" value="253360000" />
+            <condition attribute="nexer_status" operator="ne" value="253360002" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Acionamentos ETN - Pendentes" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Acionamentos ETN - Pendentes" languagecode="1046" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>
